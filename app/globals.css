@@ -1,26 +1,382 @@
-@import "tailwindcss";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --black-color: #333;
+  --content-width: 970px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f0;
+  color: var(--black-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+img,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+.site-shell {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+/* HEADER */
+
+.site-header {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 28px 0 18px;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color: var(--black-color);
+}
+
+/* PUB */
+
+.ad-slot {
+  padding: 10px 0 10px;
+}
+
+.ad-slot-inner {
+  width: 970px;
+  max-width: 100%;
+  min-height: 250px;
+  margin: 0 auto;
+  background: #efe3aa;
+  border: 1px solid #d8cf9f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ad-slot-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* PROCHAIN CONCERT */
+
+.next-concert {
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 18px 0;
+  margin: 0 0 32px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.next-concert p {
+  margin: 0 0 6px;
+}
+
+.next-concert p:last-child {
+  margin-bottom: 0;
+}
+
+/* PAGE CHANSON */
+
+.song-page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.song-header-block {
+  margin-bottom: 18px;
+}
+
+.song-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.song-title-row h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.song-nav-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #e8e8e8;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.song-season {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.song-content h1 {
+  margin: 0 0 18px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+/* VIDEO */
+
+.song-video {
+  margin-bottom: 14px;
+}
+
+.song-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #000;
+  display: block;
+}
+
+/* PAROLES */
+
+.lyrics-box {
+  background: #ebebea;
+  border-radius: 14px;
+  padding: 24px 28px;
+  margin-bottom: 36px;
+}
+
+.lyrics-box pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* CONCERTS */
+
+.concerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.concert-card {
+  border-radius: 12px;
+  padding: 20px 20px 20px;
+  position: relative;
+  overflow: hidden;
+  background: #ecebea;
+}
+
+.concert-top-row {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  column-gap: 16px;
+  align-items: start;
+}
+
+.concert-icon-col {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.concert-icon {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.concert-main-col h2 {
+  margin: 0 0 12px;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.concert-main-col h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.concert-location {
+  margin: 0 0 10px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.concert-booking {
+  margin: 0 0 4px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* UPCOMING */
+.concert-upcoming {
+  background: #D6EFD8;
+  box-shadow:
+    inset 8px 0 0 #80AF81,
+    inset 0 -8px 0 #80AF81
+}
+
+/* PAST */
+.concert-past {
+  background: #ecebea;
+  box-shadow:
+    inset 8px 0 0 #bdbdbd,
+    inset 0 -8px 0 #bdbdbd;
+}
+
+/* CANCELLED */
+.concert-cancelled {
+  background: #fdecec;
+  box-shadow:
+    inset 8px 0 0 #e05a5a,
+    inset 0 -8px 0 #e05a5a;
+  text-decoration: line-through;
+}
+
+@media (max-width: 640px) {}
+
+/* FOOTER */
+
+.site-footer {
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  max-width: 970px;
+  margin: 0 auto;
+  /* padding: 0 24px 36px; */
+}
+
+.social-row {
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-row a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+}
+
+.copyright {
+  padding: 14px 18px;
+  font-size: 17px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .main-nav {
+    gap: 28px;
+    font-size: 22px;
+  }
+
+  .song-title-row h1 {
+    font-size: 26px;
+  }
+
+  .concerts-intro h1 {
+    font-size: 24px;
+  }
+
+  .concert-card h3 {
+    font-size: 24px;
+  }
+
+  .concert-location,
+  .concert-booking {
+    font-size: 20px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (max-width: 640px) {
+
+  .site-shell,
+  .site-footer {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 0 20px 40px;
+  }
+
+  .main-nav {
+    gap: 18px;
+    font-size: 18px;
+  }
+
+  .ad-slot-inner {
+    min-height: 140px;
+  }
+
+  .song-title-row {
+    gap: 10px;
+  }
+
+  .song-nav-button {
+    min-width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .lyrics-box {
+    padding: 18px 18px;
+  }
+
+  .lyrics-box pre {
+    font-size: 16px;
+  }
+
+  .concert-card {
+    padding: 20px 18px 18px;
+  }
+
+  .concert-icon {
+    font-size: 22px;
+  }
+
+  .concert-card h3 {
+    font-size: 22px;
+  }
+
+  .concert-location,
+  .concert-booking {
+    font-size: 18px;
+  }
 }

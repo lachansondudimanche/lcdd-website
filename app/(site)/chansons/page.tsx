@@ -11,10 +11,10 @@ export default async function ChansonsPage() {
             <ul>
                 {chansons.map((chanson: any) => (
                     <li key={chanson.id}>
+                        {chanson.seasonName ? `${chanson.seasonName} — ` : ""}
                         <Link href={`/chansons/${chanson.slug}`}>
                             {chanson.title}
                         </Link>
-                        {chanson.season ? ` — ${chanson.season}` : ""}
                     </li>
                 ))}
             </ul>
