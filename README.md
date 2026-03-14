@@ -1,11 +1,46 @@
 # lcdd-website
 Site Web de La Chanson du Dimanche
 
-## Pour installer le site sur ordi :
-1. Ouvrir le terminal
-2. Se mettre dans le répertoire de son choix
-3. Taper "git clone https://github.com/lachansondudimanche/lcdd-website.git" dans le terminal
-4. Attendre que le site soit clôné sur l'ordi
-5. Taper "npm run dev" dans le terminal pour lancer le serveur local Next.js
-6. Ouvrir son navigateur web (Chrome, Firefox ou Safari...)
-7. Taper "http://localhost:3000/" dans la barre d'adresse du navigateur web
+## Installation du site en local
+
+1. Ouvrir le **Terminal**.
+
+2. Se placer dans le répertoire de son choix, par exemple :
+
+```bash
+cd Desktop
+```
+
+3. Cloner le dépôt GitHub :
+
+```bash
+git clone https://github.com/lachansondudimanche/lcdd-website.git
+```
+
+4. Entrer dans le dossier du projet :
+
+```bash
+cd lcdd-website
+```
+
+5. Installer les dépendances :
+
+```bash
+npm install
+```
+
+6. Lancer le serveur local Next.js :
+
+```bash
+npm run dev
+```
+
+7. Ouvrir un navigateur web (Chrome, Firefox, Safari…).
+
+8. Aller à l’adresse suivante :
+
+```
+http://localhost:3000/
+```
+
+Le site fonctionne maintenant en local.
