@@ -1,6 +1,7 @@
 # lcdd-website
 Site Web de La Chanson du Dimanche
-Pour installer le site sur ordi :
+
+## Pour installer le site sur ordi :
 1. Ouvrir le terminal
 2. Se mettre dans le répertoire de son choix
 3. Taper "git clone https://github.com/lachansondudimanche/lcdd-website.git" dans le terminal
