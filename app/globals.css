@@ -142,7 +142,7 @@ iframe {
 .songs-season-summary {
   list-style: none;
   cursor: pointer;
-  padding: 18px 20px;
+  padding: 14px 20px;
   /* display: flex;
   align-items: center;
   justify-content: space-between;*/
@@ -196,7 +196,7 @@ iframe {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .songs-item {
@@ -272,19 +272,20 @@ iframe {
 .song-play-icon {
   display: inline-block;
   transform: translateX(1px);
+  font-size: 11px;
 }
 
 .song-play-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  font-size: 12px;
   background: #dcdcdc;
   /* plus foncé que la box */
   text-decoration: none;
-  font-size: 14px;
   flex-shrink: 0;
 }
 
