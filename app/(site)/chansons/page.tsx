@@ -7,7 +7,7 @@ type Chanson = {
     title: string;
     seasonName?: string;
     seasonOrder?: number | null;
-    order?: number | null;
+    episode?: number | null;
 };
 
 export default async function ChansonsPage() {
@@ -48,8 +48,8 @@ export default async function ChansonsPage() {
             ...group,
             songs: group.songs.sort(
                 (a, b) =>
-                    (a.order ?? 999) - (b.order ?? 999) ||
-                    a.title.localeCompare(b.title)
+                    (a.episode ?? 999) - (b.episode ?? 999) ||
+                    a.title.localeCompare(b.title, "fr")
             ),
         }));
 

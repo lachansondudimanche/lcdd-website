@@ -7,7 +7,6 @@ type Concert = {
     dateLabel: string;
     city: string;
     department: string;
-    venue: string;
     bookingUrl: string;
     status: string;
     order: number | null;

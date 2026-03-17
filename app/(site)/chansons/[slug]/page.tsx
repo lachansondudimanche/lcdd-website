@@ -8,10 +8,11 @@ type Chanson = {
     slug: string;
     title: string;
     seasonName: string;
+    seasonOrder?: number | null;
+    episode?: number | null;
     lyrics: string;
     youtubeUrl: string;
     spotifyUrl: string;
-    order: number | null;
 };
 
 export async function generateStaticParams() {
@@ -30,7 +31,9 @@ export default async function ChansonPage({
     params: Promise<{ slug: string }>;
 }) {
     const { slug } = await params;
-    const chansons: Chanson[] = await getChansons();
+    const toutesLesChansons: Chanson[] = await getChansons();
+
+    const chansons = toutesLesChansons.filter((chanson) => chanson.slug);
 
     const index = chansons.findIndex((item) => item.slug === slug);
 
