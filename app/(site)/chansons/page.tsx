@@ -1,23 +1,96 @@
 import Link from "next/link";
 import { getChansons } from "@/lib/airtable";
 
+type Chanson = {
+    id: string;
+    slug: string;
+    title: string;
+    seasonName?: string;
+    seasonOrder?: number | null;
+    order?: number | null;
+};
+
 export default async function ChansonsPage() {
-    const chansons = await getChansons();
+    const chansons: Chanson[] = await getChansons();
+
+    const chansonsAvecSlug = chansons.filter((chanson) => chanson.slug);
+
+    const groupesParSaison = Object.values(
+        chansonsAvecSlug.reduce((acc, chanson) => {
+            const seasonName = chanson.seasonName?.trim() || "Autres chansons";
+
+            if (!acc[seasonName]) {
+                acc[seasonName] = {
+                    seasonName,
+                    seasonOrder: chanson.seasonOrder ?? 999,
+                    songs: [],
+                };
+            }
+
+            acc[seasonName].songs.push(chanson);
+
+            return acc;
+        }, {} as Record<
+            string,
+            {
+                seasonName: string;
+                seasonOrder: number;
+                songs: Chanson[];
+            }
+        >)
+    )
+        .sort(
+            (a, b) =>
+                a.seasonOrder - b.seasonOrder ||
+                a.seasonName.localeCompare(b.seasonName)
+        )
+        .map((group) => ({
+            ...group,
+            songs: group.songs.sort(
+                (a, b) =>
+                    (a.order ?? 999) - (b.order ?? 999) ||
+                    a.title.localeCompare(b.title)
+            ),
+        }));
 
     return (
-        <main>
-            <h1>Chansons</h1>
+        <main className="songs-page">
+            <section className="songs-intro">
+                <h1>Chansons</h1>
+            </section>
 
-            <ul>
-                {chansons.map((chanson: any) => (
-                    <li key={chanson.id}>
-                        {chanson.seasonName ? `${chanson.seasonName} — ` : ""}
-                        <Link href={`/chansons/${chanson.slug}`}>
-                            {chanson.title}
-                        </Link>
-                    </li>
+            <section className="songs-seasons-list">
+                {groupesParSaison.map((group) => (
+                    <details key={group.seasonName} className="songs-season-block" open>
+                        <summary className="songs-season-summary">
+                            <span className="songs-season-title">{group.seasonName}</span>
+                            <span className="songs-season-count">
+                                {group.songs.length} chanson{group.songs.length > 1 ? "s" : ""}
+                            </span>
+                        </summary>
+
+                        <ul className="songs-list">
+                            {group.songs.map((chanson) => (
+                                <li key={chanson.id} className="songs-item">
+                                    <Link
+                                        href={`/chansons/${chanson.slug}`}
+                                        className="song-play-button"
+                                    >
+                                        <span className="song-play-icon">▶</span>
+                                    </Link>
+
+                                    <Link
+                                        href={`/chansons/${chanson.slug}`}
+                                        className="songs-link"
+                                    >
+                                        {chanson.title}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </details>
                 ))}
-            </ul>
+            </section>
         </main>
     );
 }

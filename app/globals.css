@@ -21,6 +21,13 @@ a {
   text-decoration: underline;
 }
 
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #666;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 img,
 iframe {
   display: block;
@@ -102,6 +109,116 @@ iframe {
   margin-bottom: 0;
 }
 
+/* PAGE CHANSONS */
+
+.songs-page {
+  max-width: var(--content-width);
+  margin: 0 auto 24px;
+}
+
+.songs-intro {
+  margin-bottom: 20px;
+}
+
+.songs-intro h1 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.songs-seasons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.songs-season-block {
+  background: #ecebea;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.songs-season-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  column-gap: 12px;
+  /* gap: 16px; */
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.songs-season-summary::-webkit-details-marker {
+  display: none;
+}
+
+.songs-season-summary::before {
+  grid-column: 1;
+  content: "▸";
+  font-size: 18px;
+  margin-right: 10px;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.songs-season-block[open] .songs-season-summary::before {
+  content: "▾";
+}
+
+.songs-season-title {
+  grid-column: 2;
+  justify-self: start;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.songs-season-count {
+  grid-column: 3;
+  justify-self: end;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  white-space: nowrap;
+}
+
+.songs-list {
+  margin: 0;
+  padding: 0 20px 18px 56px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.songs-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.songs-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--black-color);
+}
+
+.songs-link:hover {
+  text-decoration: underline;
+}
+
 /* PAGE CHANSON */
 
 .song-page {
@@ -152,6 +269,29 @@ iframe {
   line-height: 1.2;
 }
 
+.song-play-icon {
+  display: inline-block;
+  transform: translateX(1px);
+}
+
+.song-play-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #dcdcdc;
+  /* plus foncé que la box */
+  text-decoration: none;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.song-play-button:hover {
+  background: #cfcfcf;
+}
+
 /* VIDEO */
 
 .song-video {
@@ -181,6 +321,7 @@ iframe {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.8;
+  overflow-wrap: break-word;
 }
 
 /* CONCERTS */
@@ -273,16 +414,19 @@ iframe {
   text-decoration: line-through;
 }
 
-@media (max-width: 640px) {}
+.songs-season-title,
+.songs-link,
+.concert-main-col {
+  min-width: 0;
+}
 
 /* FOOTER */
 
 .site-footer {
   border-top: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
-  max-width: 970px;
+  max-width: var(--content-width);
   margin: 0px auto;
-  /* padding: 0 24px 36px; */
 }
 
 .social-row {
@@ -313,6 +457,18 @@ iframe {
     font-size: 22px;
   }
 
+  .songs-intro h1 {
+    font-size: 28px;
+  }
+
+  .songs-season-summary {
+    font-size: 22px;
+  }
+
+  .songs-link {
+    font-size: 17px;
+  }
+
   .song-title-row h1 {
     font-size: 26px;
   }
@@ -329,11 +485,14 @@ iframe {
 
 @media (max-width: 640px) {
 
-  .site-shell,
+  .site-shell {
+    max-width: var(--content-width);
+    padding: 0 20px 40px;
+  }
+
   .site-footer {
     max-width: var(--content-width);
     margin: 0 auto;
-    padding: 0 20px 40px;
   }
 
   .main-nav {
@@ -343,6 +502,28 @@ iframe {
 
   .ad-slot-inner {
     min-height: 140px;
+  }
+
+  .songs-intro h1 {
+    font-size: 26px;
+  }
+
+  .songs-season-summary {
+    padding: 16px 16px;
+    font-size: 20px;
+  }
+
+  .songs-season-count {
+    font-size: 14px;
+  }
+
+  .songs-list {
+    padding: 0 16px 16px 38px;
+    gap: 8px;
+  }
+
+  .songs-link {
+    font-size: 16px;
   }
 
   .song-title-row {
@@ -355,6 +536,12 @@ iframe {
     font-size: 18px;
   }
 
+  .song-play-button {
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+  }
+
   .lyrics-box {
     padding: 18px 18px;
   }
@@ -363,15 +550,15 @@ iframe {
     font-size: 16px;
   }
 
+  .concert-main-col h3 {
+    font-size: 22px;
+  }
+
   .concert-card {
     padding: 20px 18px 18px;
   }
 
   .concert-icon {
-    font-size: 22px;
-  }
-
-  .concert-card h3 {
     font-size: 22px;
   }
 
