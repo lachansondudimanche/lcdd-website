@@ -252,7 +252,7 @@ iframe {
   min-width: 36px;
   height: 36px;
   border-radius: 8px;
-  background: #e8e8e8;
+  background: #dcdcdc;
   text-decoration: none;
   font-size: 20px;
 }
@@ -421,6 +421,74 @@ iframe {
   min-width: 0;
 }
 
+/* PAGE BOUTIQUE */
+
+.shop-page {
+  max-width: var(--content-width);
+  margin: 0 auto 24px;
+}
+
+.shop-intro {
+  margin-bottom: 20px;
+}
+
+.shop-intro h1 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.shop-content {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 20px;
+}
+
+.shop-text {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.shop-kofi-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 24px;
+}
+
+.shop-kofi-logo-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.shop-kofi-logo {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+}
+
+.shop-support-link {
+  margin: 0 0 18px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.shop-box {
+  background: #ecebea;
+  border-radius: 12px;
+  padding: 24px 28px;
+}
+
+.shop-box p {
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.shop-box p:last-child {
+  margin-bottom: 0;
+}
+
 /* FOOTER */
 
 .site-footer {
@@ -481,6 +549,10 @@ iframe {
   .concert-location,
   .concert-booking {
     font-size: 20px;
+  }
+
+  .shop-intro h1 {
+    font-size: 28px;
   }
 }
 
@@ -566,5 +638,23 @@ iframe {
   .concert-location,
   .concert-booking {
     font-size: 18px;
+  }
+
+    .shop-intro h1 {
+    font-size: 26px;
+  }
+
+  .shop-text,
+  .shop-support-link,
+  .shop-box p {
+    font-size: 16px;
+  }
+
+  .shop-box {
+    padding: 18px 18px;
+  }
+
+  .shop-kofi-logo {
+    width: 170px;
   }
 }
