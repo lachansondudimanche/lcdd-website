@@ -1,3 +1,5 @@
+export const revalidate = 3600;
+
 import { getConcerts } from "@/lib/airtable";
 
 type Concert = {

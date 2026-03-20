@@ -1,3 +1,5 @@
+export const revalidate = 3600;
+
 export default function BoutiquePage() {
     return (
         <main className="shop-page">
@@ -40,9 +42,13 @@ export default function BoutiquePage() {
 
             <div className="shop-box">
                 <p>2 € — Merci 🎩</p>
-                <p>10 € — La Pêche éternelle 🍑</p>
+                <p>10 € — La Pêche 🍑</p>
                 <p>25 € — Producteur.rice du dimanche 👑</p>
                 <p>50 € — Votre mot dans une chanson 🎶</p>
+                <p>100 €  — Un Joyeux anniversaire personnalisé 🥳</p>
+                <p>1000 € — Une chanson collector 🎥</p>
+                <p>10000 € — Un concert privé 🎹</p>
+                <p>1.000.000{"\u00A0"}€ — Un concert privé de luxe 🍾</p>
             </div>
             {/* </section> */}
         </main>

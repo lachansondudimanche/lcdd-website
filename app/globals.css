@@ -474,13 +474,13 @@ iframe {
 }
 
 .shop-box {
-  background: #ecebea;
+  background: #fffdfd;
   border-radius: 12px;
   padding: 24px 28px;
 }
 
 .shop-box p {
-  margin: 0 0 12px;
+  margin: 0;
   font-size: 18px;
   line-height: 1.5;
 }

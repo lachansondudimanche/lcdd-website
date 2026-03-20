@@ -1,20 +1,19 @@
+export const revalidate = 3600;
+
 import Link from "next/link";
 import SongContent from "@/components/SongContent";
-import { getChansons, getHomeFeaturedChanson } from "@/lib/airtable";
+import { getChansons } from "@/lib/airtable";
 
 export default async function HomePage() {
     const chansons = await getChansons();
-    const chanson = await getHomeFeaturedChanson();
+    const chansonsAvecSlug = chansons.filter((c) => c.slug);
+    const chanson = chansonsAvecSlug.find((c) => c.isHomeFeatured);
 
     if (!chanson) {
         return <p>Aucune chanson mise en avant pour l’accueil.</p>;
     }
 
-    const chansonsAvecSlug = chansons.filter((c) => c.slug);
-
-    const index = chansonsAvecSlug.findIndex(
-        (c) => c.slug === chanson.slug
-    );
+    const index = chansonsAvecSlug.findIndex((c) => c.slug === chanson.slug);
 
     const previousIndex =
         index === 0 ? chansonsAvecSlug.length - 1 : index - 1;
@@ -27,7 +26,6 @@ export default async function HomePage() {
 
     return (
         <main className="home-page">
-            {/* HEADER comme page chanson */}
             <section className="song-header-block">
                 <div className="song-title-row">
                     <Link
@@ -54,7 +52,6 @@ export default async function HomePage() {
                 )}
             </section>
 
-            {/* CONTENU */}
             <SongContent
                 title={chanson.title}
                 lyrics={chanson.lyrics}
