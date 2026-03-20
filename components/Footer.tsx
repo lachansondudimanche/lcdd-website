@@ -9,7 +9,6 @@ export default function Footer() {
                 <a href="#">Amazon Music</a>
                 <a href="#">YouTube</a>
             </div>
-            {/* <div className="footer-copy">©LCDD 2026</div> */}
         </footer>
     );
 }

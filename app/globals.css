@@ -62,12 +62,12 @@ iframe {
 
 .main-nav a:hover {
   text-decoration: underline;
-  color: var(--black-color);
 }
 
 /* PUB */
 
 .ad-slot {
+  border-bottom: 1px solid #d7d7d7;
   padding: 10px 0 10px;
 }
 
@@ -93,7 +93,6 @@ iframe {
 /* PROCHAIN CONCERT */
 
 .next-concert {
-  border-top: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   padding: 18px 0;
   margin: 0 0 16px;
@@ -155,6 +154,10 @@ iframe {
   font-weight: 700;
 }
 
+.songs-season-summary:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
 .songs-season-summary::-webkit-details-marker {
   display: none;
 }
@@ -205,6 +208,7 @@ iframe {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
 }
 
 .songs-link {
@@ -425,29 +429,18 @@ iframe {
 
 .shop-page {
   max-width: var(--content-width);
-  margin: 0 auto 24px;
-}
-
-.shop-intro {
-  margin-bottom: 20px;
-}
-
-.shop-intro h1 {
-  margin: 0;
-  font-size: 32px;
-  line-height: 1.2;
-  font-weight: 700;
-}
-
-.shop-content {
-  border-top: 1px solid #d7d7d7;
-  padding-top: 20px;
+  margin: 18px 0 24px;
 }
 
 .shop-text {
-  margin: 0 0 24px;
+  margin: 0 0 18px;
   font-size: 18px;
   line-height: 1.6;
+}
+
+.shop-text:hover .shop-offer {
+  background: #D6EFD8;
+  /* surlignage doux */
 }
 
 .shop-kofi-logo-wrap {
@@ -467,16 +460,27 @@ iframe {
   height: auto;
 }
 
-.shop-support-link {
-  margin: 0 0 18px;
-  font-size: 18px;
-  line-height: 1.6;
+.shop-box {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 20px 28px;
 }
 
-.shop-box {
-  background: #fffdfd;
+.shop-box-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.shop-box-link:hover .shop-box {
+  background: #D6EFD8;
+}
+
+.shop-box-link:focus-visible {
+  outline: 2px solid #666;
+  outline-offset: 3px;
   border-radius: 12px;
-  padding: 24px 28px;
 }
 
 .shop-box p {
@@ -489,13 +493,76 @@ iframe {
   margin-bottom: 0;
 }
 
+.shop-box p:hover .shop-offer {
+  background: #fff2a8;
+  /* surlignage doux */
+}
+
+.shop-offer {
+  transition: background 0.2s ease;
+  border-radius: 4px;
+  padding: 2px 4px;
+  text-decoration: none;
+}
+
+/* PAGE CONTACT */
+
+.contact-page {
+  max-width: var(--content-width);
+  margin: 18px auto 24px;
+}
+
+/* .contact-content {
+  padding-top: 18px;
+} */
+
+.contact-text {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact-email-line {
+  margin: 0 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-email-link {
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-email-link:hover {
+  text-decoration: underline;
+}
+
+.contact-image-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.contact-image {
+  max-width: 100%;
+  /* width: 320px; */
+  /* ajuste selon ton besoin */
+  height: auto;
+}
+
 /* FOOTER */
 
 .site-footer {
   border-top: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   max-width: var(--content-width);
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .social-row {
@@ -551,7 +618,7 @@ iframe {
     font-size: 20px;
   }
 
-  .shop-intro h1 {
+  .contact-email-link {
     font-size: 28px;
   }
 }
@@ -610,9 +677,9 @@ iframe {
   }
 
   .song-play-button {
-    width: 30px;
-    height: 30px;
-    font-size: 13px;
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
   }
 
   .lyrics-box {
@@ -640,12 +707,7 @@ iframe {
     font-size: 18px;
   }
 
-    .shop-intro h1 {
-    font-size: 26px;
-  }
-
   .shop-text,
-  .shop-support-link,
   .shop-box p {
     font-size: 16px;
   }
@@ -656,5 +718,18 @@ iframe {
 
   .shop-kofi-logo {
     width: 170px;
+  }
+
+  .contact-text {
+    margin-bottom: 32px;
+    font-size: 16px;
+  }
+
+  .contact-email-link {
+    font-size: 22px;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
