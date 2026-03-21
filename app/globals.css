@@ -1,14 +1,55 @@
 :root {
   --black-color: #333;
   --content-width: 970px;
+
+  /* BASE */
+  --color-bg: #f2f2f0;
+  --color-text: #333;
+  --color-muted: #666;
+
+  /* BORDERS */
+  --color-border: #d7d7d7;
+
+  /* SURFACES */
+  --color-surface: #ecebea;
+  --color-surface-light: #fafafa;
+  --color-surface-soft: #ebebea;
+
+  /* INTERACTIONS */
+  --color-hover-overlay: rgba(0, 0, 0, 0.03);
+
+  /* BUTTONS */
+  --color-button: #dcdcdc;
+  --color-button-hover: #cfcfcf;
+
+  /* STATUS */
+  --color-upcoming-bg: #D6EFD8;
+  --color-upcoming-accent: #80AF81;
+
+  --color-past-bg: #ecebea;
+  --color-past-accent: #bdbdbd;
+
+  --color-cancelled-bg: #fdecec;
+  --color-cancelled-accent: #e05a5a;
+
+  /* FOOTER / SOCIAL */
+  --color-social-bg: #f0f0ef;
+  --color-social-hover: #e4e4e2;
+
+  /* FOCUS */
+  --color-focus: #666;
+
+  /* OPTIONAL / PUB */
+  --color-ad-demo-bg: #efe3aa;
+  --color-ad-demo-border: #d8cf9f;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background: #f2f2f0;
-  color: var(--black-color);
+  background: var(--color-bg);
+  color: var(--color-text);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -23,7 +64,7 @@ a {
 
 a:focus-visible,
 summary:focus-visible {
-  outline: 2px solid #666;
+  outline: 2px solid var(--color-focus);
   outline-offset: 3px;
   border-radius: 6px;
 }
@@ -43,7 +84,7 @@ iframe {
 /* HEADER */
 
 .site-header {
-  border-bottom: 1px solid #d7d7d7;
+  border-bottom: 1px solid var(--color-border);
   padding: 28px 0 18px;
 }
 
@@ -57,7 +98,7 @@ iframe {
 
 .main-nav a {
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--color-text);
 }
 
 .main-nav a:hover {
@@ -67,7 +108,7 @@ iframe {
 /* PUB */
 
 .ad-slot {
-  border-bottom: 1px solid #d7d7d7;
+  border-bottom: 1px solid var(--color-border);
   padding: 10px 0 10px;
 }
 
@@ -76,8 +117,8 @@ iframe {
   max-width: 100%;
   min-height: 250px;
   margin: 0 auto;
-  /* background: #efe3aa;
-  border: 1px solid #d8cf9f; */
+  /* background: var(--color-ad-demo-bg);
+  border: 1px solid var(--color-ad-demo-border); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,7 +134,7 @@ iframe {
 /* PROCHAIN CONCERT */
 
 .next-concert {
-  border-bottom: 1px solid #d7d7d7;
+  border-bottom: 1px solid var(--color-border);
   padding: 18px 0;
   margin: 0 0 16px;
   font-size: 18px;
@@ -133,7 +174,7 @@ iframe {
 }
 
 .songs-season-block {
-  background: #ecebea;
+  background: var(--color-surface);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -155,7 +196,7 @@ iframe {
 }
 
 .songs-season-summary:hover {
-  background: rgba(0, 0, 0, 0.03);
+  background: var(--color-hover-overlay);
 }
 
 .songs-season-summary::-webkit-details-marker {
@@ -189,7 +230,7 @@ iframe {
   justify-self: end;
   font-size: 15px;
   font-weight: 400;
-  color: #666;
+  color: var(--color-muted);
   white-space: nowrap;
 }
 
@@ -216,7 +257,7 @@ iframe {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--black-color);
+  color: var(--color-text);
 }
 
 .songs-link:hover {
@@ -256,7 +297,7 @@ iframe {
   min-width: 36px;
   height: 36px;
   border-radius: 8px;
-  background: #dcdcdc;
+  background: var(--color-button);
   text-decoration: none;
   font-size: 20px;
 }
@@ -264,7 +305,7 @@ iframe {
 .song-season {
   margin: 0;
   font-size: 16px;
-  color: #666;
+  color: var(--color-muted);
 }
 
 .song-content h1 {
@@ -287,14 +328,14 @@ iframe {
   height: 26px;
   border-radius: 6px;
   font-size: 12px;
-  background: #dcdcdc;
+  background: var(--color-button);
   /* plus foncé que la box */
   text-decoration: none;
   flex-shrink: 0;
 }
 
 .song-play-button:hover {
-  background: #cfcfcf;
+  background: var(--color-button-hover);
 }
 
 /* VIDEO */
@@ -314,7 +355,7 @@ iframe {
 /* PAROLES */
 
 .lyrics-box {
-  background: #ebebea;
+  background: var(--color-surface-soft);
   border-radius: 14px;
   padding: 24px 28px;
   margin-bottom: 24px;
@@ -346,7 +387,7 @@ iframe {
   padding: 20px 20px 20px;
   position: relative;
   overflow: hidden;
-  background: #ecebea;
+  background: var(--color-surface);
 }
 
 .concert-top-row {
@@ -396,26 +437,26 @@ iframe {
 
 /* UPCOMING */
 .concert-upcoming {
-  background: #D6EFD8;
+  background: var(--color-upcoming-bg);
   box-shadow:
-    /* inset 7px 0 0 #80AF81, */
-    inset 0 -7px 0 #80AF81
+    /* inset 7px 0 0 var(--color-upcoming-accent), */
+    inset 0 -7px 0 var(--color-upcoming-accent)
 }
 
 /* PAST */
 .concert-past {
-  background: #ecebea;
+  background: var(--color-past-bg);
   box-shadow:
-    /* inset 7px 0 0 #bdbdbd, */
-    inset 0 -7px 0 #bdbdbd;
+    /* inset 7px 0 0 var(--color-past-accent), */
+    inset 0 -7px 0 var(--color-past-accent);
 }
 
 /* CANCELLED */
 .concert-cancelled {
-  background: #fdecec;
+  background: var(--color-cancelled-bg);
   box-shadow:
-    /* inset 7px 0 0 #e05a5a, */
-    inset 0 -7px 0 #e05a5a;
+    /* inset 7px 0 0 var(--color-cancelled-accent), */
+    inset 0 -7px 0 var(--color-cancelled-accent);
   text-decoration: line-through;
 }
 
@@ -439,7 +480,7 @@ iframe {
 }
 
 /* .shop-text:hover .shop-offer {
-  background: #D6EFD8;
+  background: var(--color-upcoming-bg);
 } */
 
 .shop-kofi-logo-wrap {
@@ -460,7 +501,7 @@ iframe {
 }
 
 .shop-box {
-  background: #fafafa;
+  background: var(--color-surface-light);
   border-radius: 12px;
   padding: 20px 28px;
 }
@@ -473,11 +514,11 @@ iframe {
 }
 
 /* .shop-box-link:hover .shop-box {
-  background: #D6EFD8;
+  background: var(--color-upcoming-bg);
 } */
 
 .shop-box-link:focus-visible {
-  outline: 2px solid #666;
+  outline: 2px solid var(--color-focus);
   outline-offset: 3px;
   border-radius: 12px;
 }
@@ -529,7 +570,7 @@ iframe {
 
 .contact-email-link {
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--color-text);
   font-size: 34px;
   line-height: 1.2;
   font-weight: 700;
@@ -558,8 +599,8 @@ iframe {
 /* FOOTER */
 
 .site-footer {
-  border-top: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   max-width: var(--content-width);
   margin: 0 auto;
 }
@@ -585,13 +626,13 @@ iframe {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: #f0f0ef;
+  background: var(--color-social-bg);
   transition: transform 0.15s ease, background 0.15s ease;
 }
 
 .social-row a:hover {
   transform: scale(1.1);
-  background: #e4e4e2;
+  background: var(--color-social-hover);
 }
 
 .footer-image {

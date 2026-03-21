@@ -38,14 +38,14 @@ export default function BoutiquePage() {
             >
 
                 <div className="shop-box">
-                    <p><span className="shop-offer">2 € — Merci 🎩</span></p>
-                    <p><span className="shop-offer">10 € — La Pêche 🍑</span></p>
-                    <p><span className="shop-offer">25 € — Producteur.rice du dimanche 👑</span></p>
-                    <p><span className="shop-offer">50 € — Votre mot dans une chanson 🎶</span></p>
-                    <p><span className="shop-offer">100 € — Un Joyeux anniversaire personnalisé 🥳</span></p>
-                    <p><span className="shop-offer">1000 € — Une chanson collector 🎥</span></p>
-                    <p><span className="shop-offer">10000 € — Un concert privé 🎹</span></p>
-                    <p><span className="shop-offer">1&nbsp;000&nbsp;000&nbsp;€ — Un concert privé de luxe 🍾</span></p>
+                    <p>2 € — <span className="shop-offer">Merci</span> 🎩</p>
+                    <p>10 € — <span className="shop-offer">La Pêche</span> 🍑</p>
+                    <p>25 € — <span className="shop-offer">Producteur.rice du dimanche</span> 👑</p>
+                    <p>50 € — <span className="shop-offer">Votre mot dans une chanson</span> 🎶</p>
+                    <p>100 € — <span className="shop-offer">Un Joyeux anniversaire personnalisé</span> 🥳</p>
+                    <p>1000 € — <span className="shop-offer">Une chanson collector</span> 🎥</p>
+                    <p>10000 € — <span className="shop-offer">Un concert privé</span> 🎹</p>
+                    <p>1&nbsp;000&nbsp;000&nbsp;€ — <span className="shop-offer">Un concert privé de luxe</span> 🍾</p>
                 </div>
             </a>
 
