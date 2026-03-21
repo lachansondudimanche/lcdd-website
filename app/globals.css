@@ -76,8 +76,8 @@ iframe {
   max-width: 100%;
   min-height: 250px;
   margin: 0 auto;
-  background: #efe3aa;
-  border: 1px solid #d8cf9f;
+  /* background: #efe3aa;
+  border: 1px solid #d8cf9f; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -398,24 +398,24 @@ iframe {
 .concert-upcoming {
   background: #D6EFD8;
   box-shadow:
-    inset 8px 0 0 #80AF81,
-    inset 0 -8px 0 #80AF81
+    /* inset 7px 0 0 #80AF81, */
+    inset 0 -7px 0 #80AF81
 }
 
 /* PAST */
 .concert-past {
   background: #ecebea;
   box-shadow:
-    inset 8px 0 0 #bdbdbd,
-    inset 0 -8px 0 #bdbdbd;
+    /* inset 7px 0 0 #bdbdbd, */
+    inset 0 -7px 0 #bdbdbd;
 }
 
 /* CANCELLED */
 .concert-cancelled {
   background: #fdecec;
   box-shadow:
-    inset 8px 0 0 #e05a5a,
-    inset 0 -8px 0 #e05a5a;
+    /* inset 7px 0 0 #e05a5a, */
+    inset 0 -7px 0 #e05a5a;
   text-decoration: line-through;
 }
 
@@ -438,10 +438,9 @@ iframe {
   line-height: 1.6;
 }
 
-.shop-text:hover .shop-offer {
+/* .shop-text:hover .shop-offer {
   background: #D6EFD8;
-  /* surlignage doux */
-}
+} */
 
 .shop-kofi-logo-wrap {
   display: flex;
@@ -473,9 +472,9 @@ iframe {
   cursor: pointer;
 }
 
-.shop-box-link:hover .shop-box {
+/* .shop-box-link:hover .shop-box {
   background: #D6EFD8;
-}
+} */
 
 .shop-box-link:focus-visible {
   outline: 2px solid #666;
@@ -494,8 +493,8 @@ iframe {
 }
 
 .shop-box p:hover .shop-offer {
-  background: #fff2a8;
-  /* surlignage doux */
+  /* background: #fff2a8; */
+  text-decoration: underline;
 }
 
 .shop-offer {
@@ -566,18 +565,39 @@ iframe {
 }
 
 .social-row {
-  padding: 18px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px 20px;
+}
+
+.social-row::-webkit-scrollbar {
+  display: none;
 }
 
 .social-row a {
-  text-decoration: none;
-  color: #555;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #f0f0ef;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.social-row a:hover {
+  transform: scale(1.1);
+  background: #e4e4e2;
+}
+
+.footer-image {
+  width: 40px;
+  height: auto;
+  /* object-fit: contain; */
 }
 
 .copyright {
@@ -642,6 +662,12 @@ iframe {
 
   .ad-slot-inner {
     min-height: 140px;
+  }
+
+  .ad-slot-inner img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .songs-intro h1 {
