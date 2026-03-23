@@ -3,14 +3,14 @@ export const revalidate = 3600;
 export default function BoutiquePage() {
     return (
         <main className="shop-page">
-            <p className="shop-text"><a
+            <p className="shop-text">
+                🎵 Si une chanson vous a
+                fait sourire, n'hésitez pas à faire passer le<a
                 href="https://ko-fi.com/lachansondudimanche"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shop-offer"
-                aria-label="Soutenir La Chanson du Dimanche sur Ko-fi">
-                ➡️ Si une chanson vous a
-                fait sourire, n'hésitez pas à faire passer le chapeau pour nous soutenir{"\u00A0"}:</a>
+                aria-label="Soutenir La Chanson du Dimanche sur Ko-fi">chapeau</a>:
             </p>
 
             <div className="shop-kofi-logo-wrap">
@@ -22,7 +22,7 @@ export default function BoutiquePage() {
                     aria-label="Soutenir La Chanson du Dimanche sur Ko-fi"
                 >
                     <img
-                        src="/images/kofi-logo.png"
+                        src="/images/chapeau.png"
                         alt="Ko-fi"
                         className="shop-kofi-logo"
                     />
