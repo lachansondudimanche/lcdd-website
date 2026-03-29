@@ -44,25 +44,32 @@ export default async function BoutiquePage() {
 
             <div className="shop-box">
                 {offers.map((offer) => (
-                    <a
-                        key={offer.id}
-                        href={offer.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="shop-row-link"
-                        aria-label={`Acheter l'offre ${offer.name}`}
-                    >
-                        <span className="shop-row-main">
+                    <div key={offer.id} className="shop-row">
+                        <a
+                            href={offer.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="shop-play-button"
+                            aria-label={`Choisir l'offre ${offer.name}`}
+                        >
+                            <span className="shop-play-icon">▶</span>
+                        </a>
+
+                        <a
+                            href={offer.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="shop-row-link"
+                            aria-label={`Choisir l'offre ${offer.name}`}
+                        >
                             <span className="shop-price">
                                 {formatPrice(Number(offer.price))}&nbsp;€
                             </span>
                             <span className="shop-separator">—</span>
                             <span className="shop-offer-name">{offer.name}</span>
                             <span className="shop-emoji">{offer.emoji}</span>
-                        </span>
-
-                        <span className="shop-row-cta">Choisir</span>
-                    </a>
+                        </a>
+                    </div>
                 ))}
             </div>
         </main>
