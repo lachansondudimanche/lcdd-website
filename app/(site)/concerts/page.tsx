@@ -1,9 +1,8 @@
 export const revalidate = 3600;
 
-import { getConcerts } from "@/lib/airtable";
+import { getConcerts } from "@/lib/site-data";
 
 type Concert = {
-    id: string;
     title: string;
     date: string;
     dateLabel: string;
@@ -11,7 +10,7 @@ type Concert = {
     department: string;
     bookingUrl: string;
     status: string;
-    order: number | null;
+    override_status?: string;
     isHighlighted: boolean;
 };
 
@@ -20,7 +19,6 @@ export default async function ConcertsPage() {
 
     return (
         <main className="concerts-page">
-
             <section className="concerts-intro">
                 <h2>La Chanson du Dimanche en concert :</h2>
             </section>
@@ -28,7 +26,7 @@ export default async function ConcertsPage() {
             <section className="concerts-list">
                 {concerts.map((concert) => (
                     <article
-                        key={concert.id}
+                        key={`${concert.title}-${concert.date}-${concert.city}`}
                         className={`concert-card concert-${concert.status.toLowerCase()}`}
                     >
                         <div className="concert-top-row">
@@ -48,7 +46,14 @@ export default async function ConcertsPage() {
 
                                 {concert.bookingUrl && (
                                     <p className="concert-booking">
-                                        ➡️ <a href={concert.bookingUrl} target="_blank">Réservez des places</a>
+                                        ➡️{" "}
+                                        <a
+                                            href={concert.bookingUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            Réservez des places
+                                        </a>
                                     </p>
                                 )}
                             </div>

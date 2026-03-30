@@ -1,0 +1,50 @@
+[
+  {
+    "offer": "Merci",
+    "emoji": "🎩",
+    "price": "€2",
+    "buy_URL": "https://buy.stripe.com/test_7sY9ATgsO3U54u30Dhgw000"
+  },
+  {
+    "offer": "La Pêche",
+    "emoji": "🍑",
+    "price": "€10",
+    "buy_URL": "https://buy.stripe.com/test_aFadR91xUgGRf8H1Hlgw001"
+  },
+  {
+    "offer": "Producteur.rice du dimanche",
+    "emoji": "👑",
+    "price": "€25",
+    "buy_URL": "https://buy.stripe.com/test_aFa28ra4q4Y93pZ2Lpgw002"
+  },
+  {
+    "offer": "Votre mot dans une chanson",
+    "emoji": "🎶",
+    "price": "€50",
+    "buy_URL": "https://buy.stripe.com/test_8x2bJ1dgCait3pZ4Txgw003"
+  },
+  {
+    "offer": "Un Joyeux anniversaire personnalisé",
+    "emoji": "🥳",
+    "price": "€100",
+    "buy_URL": "https://buy.stripe.com/test_14AeVd4K676he4D1Hlgw005"
+  },
+  {
+    "offer": "Une chanson collector",
+    "emoji": "🎥",
+    "price": "€1000",
+    "buy_URL": "https://buy.stripe.com/test_eVqdR9foK76h9On2Lpgw004"
+  },
+  {
+    "offer": "Un concert privé",
+    "emoji": "🎹",
+    "price": "€10000",
+    "buy_URL": "https://ko-fi.com/lachansondudimanche"
+  },
+  {
+    "offer": "Un concert privé de luxe",
+    "emoji": "🍾",
+    "price": "€1000000",
+    "buy_URL": "https://ko-fi.com/lachansondudimanche"
+  }
+]

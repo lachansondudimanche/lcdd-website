@@ -1,0 +1,101 @@
+[
+  {
+    "seasonName": "Saison 1",
+    "year": 2007,
+    "order": 1,
+    "songs": "Bonne Humeur,Bluetooth,Sunday Song,Comme un Lundi,Plante un arbre,Cash Money,T'as pas découvert le feu,Dancing all the night,À bas !,Tu votes,Gardien de la paix,Coca light,Bon vivant,En quête de buzz,OGMan,Roland-Garros,Bac ABCD,Piscine love",
+    "songsCount": 18,
+    "dateFirst": "2/18/2007",
+    "dateLast": "6/17/2007"
+  },
+  {
+    "seasonName": "Saison 2",
+    "year": 2008,
+    "order": 2,
+    "songs": "Back in the business,Danse de l'info,Horoscope,Allez la France !,Petit cheminot,Vite vite vite,Go Go Gringo !,Pauvres Pêcheurs,Le Beaujo en Vélib,Nicolas et Rachida,Super pouvoir d'achat,Miss France,Standing Ovation,La Marulanda",
+    "songsCount": 14,
+    "dateFirst": "9/23/2007",
+    "dateLast": "12/23/2007"
+  },
+  {
+    "seasonName": "Saison 3",
+    "year": 2009,
+    "order": 3,
+    "songs": "MMM-UI-UI-M,Au pays d'Élisabeth,Je ne ressemble pas,Les JO du péquin,Mazerfacker,I Got,Je suis un aventurier,Avancé-Collé,Réformez ma vie,Festival,8 200 200,Ô Barack,L'Euro de l'apéro,Aaaah Chiche",
+    "songsCount": 14,
+    "dateFirst": "3/23/2008",
+    "dateLast": "6/22/2008"
+  },
+  {
+    "seasonName": "Saison 4",
+    "year": 2010,
+    "order": 4,
+    "songs": "Capitaine Madoff,Enfant d'Ibiza,Jeu de Loi,Seul dans mon coin,La Gigue des gueux,La Dolce Vita,Un Ti Colon,Samoussa,Bienvenue Chez Les Chiants,Je suis une femme,Mort aux vaches,J'assume à fond,Cherche encore,Dans ma maison",
+    "songsCount": 14,
+    "dateFirst": "1/4/2009",
+    "dateLast": "4/5/2009"
+  },
+  {
+    "seasonName": "Saison 5",
+    "year": 2012,
+    "order": 5,
+    "songs": "France forte,En quinquennale,Peuple de l'argent,Blabla halal,Les CRS tous avec nous,Les Souris et les Chats,Super Chenille,Lettre à France 2,Franz-O le perruquier,Zeitgeist,SWAP,Angela,Dormirocho,Hippy End",
+    "songsCount": 14,
+    "dateFirst": "2/19/2012",
+    "dateLast": "5/20/2012"
+  },
+  {
+    "seasonName": "Saison de l'Avent",
+    "year": 2009,
+    "order": 6,
+    "songs": "Être Français,Jacques Chirac,Thierry Henry,Valeur ajoutée,C'est une Américaine,COpenhague,2010 hors service",
+    "songsCount": 7,
+    "dateFirst": "11/8/2009",
+    "dateLast": "12/20/2009"
+  },
+  {
+    "seasonName": "Coupe du Monde 2010",
+    "year": 2010,
+    "order": 7,
+    "songs": "Le Govuzela,RayMan,Chez Raymonde",
+    "songsCount": 3,
+    "dateFirst": "6/13/2010",
+    "dateLast": "6/20/2012"
+  },
+  {
+    "seasonName": "Hors Saison",
+    "year": 2008,
+    "order": 8,
+    "songs": "Jeunesse,\"Hu, Ho, et la fleur de jasmin\",Jeunesse II,Michèle dort sous la pluie,Il y a de l'écho,Luc,Dur dur d'être bien né,Jérôme Kerviel,Saint-Valentin,Matmut,Au Cinéma,Les Invincibles,Martin Kazinski",
+    "songsCount": 13,
+    "dateFirst": "1/27/2008",
+    "dateLast": "2/13/2011"
+  },
+  {
+    "seasonName": "Saison du Confinement",
+    "year": 2020,
+    "order": 9,
+    "songs": "Bonne humeur en confinement,Bluetousse,\"L'important dans tout ça, c'est la Dolce Vita\",La Chenille du confinement,Go Gringo !,\"Si t'es content, envoie 8 200 200 !\",Piscine Love à tous,Le super-pouvoir de pouvoir marcher",
+    "songsCount": 8,
+    "dateFirst": "3/22/2020",
+    "dateLast": "5/10/2020"
+  },
+  {
+    "seasonName": "Cover",
+    "year": 2007,
+    "order": 10,
+    "songs": "Au Cinéma - chorale du Collège REVERDY (Sablé sur Sarthe - Marc Leroy),Bonne Humeur - par Nawak,OGMan - par Elina,Tu Votes - par mika (et son bébé),Ô Barack - by Nana,Cherche Encore - par Yohan Moignet,Super Pouvoir d'Achat - par Claude Gelée Musique,Petit Cheminot - par La Chanson Punk du Dimanche,Super Pouvoir d'Achat - par La Chanson Punk du Dimanche,Thierry Henry - par La Chanson Punk du Dimanche,Bonne Humeur - par Barylu & Chamélia,Pouvoir d'Achat - par Vazqe,Bonne Humeur - par Jean-Michel Fayard,8 200 200 - par Javer,Miss France - par MFTLS,Piscine Love - par Javer,Pouvoir d'Achat - par chanteurdudimanche,Bonne Humeur - par Les Matous Polonais",
+    "songsCount": 18,
+    "dateFirst": "",
+    "dateLast": ""
+  },
+  {
+    "seasonName": "Spéciale Hiver",
+    "year": 2024,
+    "order": 11,
+    "songs": "Baba Bibi Bobo",
+    "songsCount": 1,
+    "dateFirst": "6/23/2024",
+    "dateLast": "6/23/2024"
+  }
+]

@@ -3,18 +3,15 @@ export const revalidate = 3600;
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SongContent from "@/components/SongContent";
-import { getChansons } from "@/lib/airtable";
+import { getChansons } from "@/lib/site-data";
 
 type Chanson = {
-    id: string;
     slug: string;
     title: string;
-    seasonName: string;
-    seasonOrder?: number | null;
-    episode?: number | null;
     lyrics: string;
     youtubeUrl: string;
     spotifyUrl: string;
+    seasonSlug?: string;
 };
 
 export async function generateStaticParams() {
@@ -33,9 +30,10 @@ export default async function ChansonPage({
     params: Promise<{ slug: string }>;
 }) {
     const { slug } = await params;
-    const toutesLesChansons: Chanson[] = await getChansons();
 
-    const chansons = toutesLesChansons.filter((chanson) => chanson.slug);
+    const chansons: Chanson[] = (await getChansons()).filter(
+        (c) => c.slug
+    );
 
     const index = chansons.findIndex((item) => item.slug === slug);
 
@@ -73,10 +71,6 @@ export default async function ChansonPage({
                         ⏭
                     </Link>
                 </div>
-
-                {chanson.seasonName && (
-                    <p className="song-season">{chanson.seasonName}</p>
-                )}
             </section>
 
             <SongContent
