@@ -646,10 +646,6 @@ iframe {
   margin: 18px auto 24px;
 }
 
-/* .contact-content {
-  padding-top: 18px;
-} */
-
 .contact-text {
   margin: 0 0 24px;
   font-size: 18px;
@@ -673,7 +669,13 @@ iframe {
   gap: 12px;
 }
 
-.contact-email-link:hover {
+/* IMPORTANT : underline uniquement sur le texte */
+.contact-email-text {
+  text-decoration: none;
+}
+
+.contact-email-link:hover .contact-email-text,
+.contact-email-link:focus-visible .contact-email-text {
   text-decoration: underline;
 }
 
@@ -685,8 +687,6 @@ iframe {
 
 .contact-image {
   max-width: 100%;
-  /* width: 320px; */
-  /* ajuste selon ton besoin */
   height: auto;
 }
 

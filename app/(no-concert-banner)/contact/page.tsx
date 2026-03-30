@@ -13,7 +13,8 @@ export default function ContactPage() {
                         className="contact-email-link"
                         aria-label="Envoyer un email à lachansondudimanche@gmail.com"
                     >
-                        ✉️ lachansondudimanche@gmail.com
+                        <span className="contact-email-icon">✉️</span>
+                        <span className="contact-email-text">lachansondudimanche@gmail.com</span>
                     </a>
                 </p>
 
