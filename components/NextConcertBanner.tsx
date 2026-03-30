@@ -1,4 +1,4 @@
-import { getHighlightedConcert } from "@/lib/airtable";
+import { getHighlightedConcert } from "@/lib/site-data";
 
 export default async function NextConcertBanner() {
     const concert = await getHighlightedConcert();
@@ -15,7 +15,14 @@ export default async function NextConcertBanner() {
 
             {concert.bookingUrl && (
                 <p>
-                    ➡️ Réservez vos places <a href={concert.bookingUrl} target="_blank">ici</a>
+                    ➡️ Réservez vos places{" "}
+                    <a
+                        href={concert.bookingUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        ici
+                    </a>
                 </p>
             )}
         </section>

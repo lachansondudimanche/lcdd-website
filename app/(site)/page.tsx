@@ -2,7 +2,7 @@ export const revalidate = 3600;
 
 import Link from "next/link";
 import SongContent from "@/components/SongContent";
-import { getChansons } from "@/lib/airtable";
+import { getChansons } from "@/lib/site-data";
 
 export default async function HomePage() {
     const chansons = await getChansons();
