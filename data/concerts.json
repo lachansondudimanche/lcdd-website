@@ -7,8 +7,7 @@
     "department": "85",
     "bookingUrl": "https://larouecool.fr/event-item/dimanche-17-mai/",
     "status": "Upcoming",
-    "override_status": "",
-    "isHighlighted": "checked"
+    "isHighlighted": true
   },
   {
     "title": "Festid'AL",
@@ -16,10 +15,7 @@
     "dateLabel": "13 juillet 2024",
     "city": "Gorron",
     "department": "53",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Poupet Déraille XXL",
@@ -27,10 +23,7 @@
     "dateLabel": "21 juillet 2023",
     "city": "Saint-Malô-du-Bois",
     "department": "85",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "LaSemo",
@@ -38,10 +31,7 @@
     "dateLabel": "10 juillet 2022",
     "city": "Enghien",
     "department": "Belgique",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Trabendo",
@@ -49,10 +39,7 @@
     "dateLabel": "22 février 2019",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival de Poupet",
@@ -60,10 +47,7 @@
     "dateLabel": "14 juillet 2018",
     "city": "Saint-Malô-du-Bois",
     "department": "85",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival Best of Live",
@@ -71,10 +55,7 @@
     "dateLabel": "9 juin 2018",
     "city": "Hoerdt",
     "department": "67",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Terres du Son",
@@ -82,10 +63,7 @@
     "dateLabel": "10 juillet 2016",
     "city": "Monts",
     "department": "37",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival Alors Chante",
@@ -93,10 +71,7 @@
     "dateLabel": "10 mai 2015",
     "city": "Montauban",
     "department": "82",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival Off Avignon",
@@ -104,10 +79,7 @@
     "dateLabel": "20 juillet 2014",
     "city": "Avignon",
     "department": "84",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Café de la Danse",
@@ -115,10 +87,7 @@
     "dateLabel": "21 mars 2014",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Les Trois Baudets",
@@ -126,10 +95,7 @@
     "dateLabel": "12 novembre 2013",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival d'Aurillac",
@@ -137,10 +103,7 @@
     "dateLabel": "22 août 2013",
     "city": "Aurillac",
     "department": "15",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival Chorus",
@@ -148,10 +111,7 @@
     "dateLabel": "7 avril 2013",
     "city": "La Défense",
     "department": "92",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Les Primeurs de Massy",
@@ -159,10 +119,7 @@
     "dateLabel": "2 novembre 2012",
     "city": "Massy",
     "department": "91",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Européen",
@@ -170,10 +127,7 @@
     "dateLabel": "15 octobre 2012",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Transbordeur",
@@ -181,10 +135,7 @@
     "dateLabel": "15 juin 2012",
     "city": "Lyon",
     "department": "69",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Splendid",
@@ -192,10 +143,7 @@
     "dateLabel": "19 mai 2012",
     "city": "Lille",
     "department": "59",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Bataclan",
@@ -203,10 +151,7 @@
     "dateLabel": "3 mai 2012",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Rock School Barbey",
@@ -214,10 +159,7 @@
     "dateLabel": "14 avril 2012",
     "city": "Bordeaux",
     "department": "33",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Forum",
@@ -225,10 +167,7 @@
     "dateLabel": "13 avril 2012",
     "city": "Vauréal",
     "department": "95",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Coopérative de Mai",
@@ -236,10 +175,7 @@
     "dateLabel": "22 mars 2012",
     "city": "Clermont-Ferrand",
     "department": "63",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Trianon",
@@ -247,10 +183,7 @@
     "dateLabel": "5 novembre 2011",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Aéronef",
@@ -258,10 +191,7 @@
     "dateLabel": "30 septembre 2011",
     "city": "Lille",
     "department": "59",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Bikini",
@@ -269,10 +199,7 @@
     "dateLabel": "24 juin 2011",
     "city": "Toulouse",
     "department": "31",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Festival Chorus",
@@ -280,10 +207,7 @@
     "dateLabel": "2 avril 2011",
     "city": "La Défense",
     "department": "92",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Cigale",
@@ -291,10 +215,7 @@
     "dateLabel": "12 mars 2011",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Maroquinerie",
@@ -302,10 +223,7 @@
     "dateLabel": "12 octobre 2010",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Cigale",
@@ -313,10 +231,7 @@
     "dateLabel": "6 octobre 2010",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Été des 6 jeudis",
@@ -324,10 +239,7 @@
     "dateLabel": "29 juillet 2010",
     "city": "Mayenne",
     "department": "53",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Glazart",
@@ -335,10 +247,7 @@
     "dateLabel": "14 juillet 2010",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Printemps de Bourges",
@@ -346,10 +255,7 @@
     "dateLabel": "17 avril 2010",
     "city": "Bourges",
     "department": "18",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Chabada",
@@ -357,10 +263,7 @@
     "dateLabel": "18 mars 2010",
     "city": "Angers",
     "department": "49",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Éphémère",
@@ -368,10 +271,7 @@
     "dateLabel": "19 décembre 2009",
     "city": "Vannes",
     "department": "56",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Clé des Champs",
@@ -379,10 +279,7 @@
     "dateLabel": "18 décembre 2009",
     "city": "Saint-Laurent-sur-Sèvre",
     "department": "85",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Élysée Montmartre",
@@ -390,10 +287,7 @@
     "dateLabel": "12 décembre 2009",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Observatoire",
@@ -401,10 +295,7 @@
     "dateLabel": "4 décembre 2009",
     "city": "Cergy-Pontoise",
     "department": "95",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Usine",
@@ -412,10 +303,7 @@
     "dateLabel": "27 novembre 2009",
     "city": "Istres",
     "department": "13",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Sax",
@@ -423,10 +311,7 @@
     "dateLabel": "13 novembre 2009",
     "city": "Achères",
     "department": "78",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Calvados Rock",
@@ -434,10 +319,7 @@
     "dateLabel": "7 août 2009",
     "city": "Bayeux",
     "department": "14",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Francofolies de Spa",
@@ -445,10 +327,7 @@
     "dateLabel": "20 juillet 2009",
     "city": "Spa",
     "department": "Belgique",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Les Francofolies",
@@ -456,10 +335,7 @@
     "dateLabel": "13 juillet 2009",
     "city": "La Rochelle",
     "department": "17",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Free Music Festival",
@@ -467,10 +343,7 @@
     "dateLabel": "3 juillet 2009",
     "city": "Montendre",
     "department": "17",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Décibulles",
@@ -478,10 +351,7 @@
     "dateLabel": "28 juin 2009",
     "city": "Neuve-Église",
     "department": "67",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Fête de la Musique",
@@ -489,10 +359,7 @@
     "dateLabel": "21 juin 2009",
     "city": "Saint-Lô",
     "department": "50",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Papillons de Nuit",
@@ -500,10 +367,7 @@
     "dateLabel": "23 mai 2009",
     "city": "Saint-Laurent-de-Cuves",
     "department": "50",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Les Nuits Botanique",
@@ -511,10 +375,7 @@
     "dateLabel": "13 mai 2009",
     "city": "Bruxelles",
     "department": "Belgique",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Bataclan",
@@ -522,10 +383,7 @@
     "dateLabel": "29 avril 2009",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Bataclan",
@@ -533,10 +391,7 @@
     "dateLabel": "28 avril 2009",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Splendid",
@@ -544,10 +399,7 @@
     "dateLabel": "24 avril 2009",
     "city": "Lille",
     "department": "59",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le 106",
@@ -555,10 +407,7 @@
     "dateLabel": "9 avril 2009",
     "city": "Rouen",
     "department": "76",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Zénith Oméga",
@@ -566,10 +415,7 @@
     "dateLabel": "3 avril 2009",
     "city": "Toulon",
     "department": "83",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Bikini",
@@ -577,10 +423,7 @@
     "dateLabel": "28 mars 2009",
     "city": "Ramonville-Saint-Agne",
     "department": "31",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Atabal",
@@ -588,10 +431,7 @@
     "dateLabel": "27 mars 2009",
     "city": "Biarritz",
     "department": "64",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Fnac Saint-Lazare",
@@ -599,10 +439,7 @@
     "dateLabel": "24 mars 2009",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "L'Ouvre-Boîte",
@@ -610,10 +447,7 @@
     "dateLabel": "7 mars 2009",
     "city": "Beauvais",
     "department": "60",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Botanique",
@@ -621,10 +455,7 @@
     "dateLabel": "6 mars 2009",
     "city": "Bruxelles",
     "department": "Belgique",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "File 7",
@@ -632,10 +463,7 @@
     "dateLabel": "28 février 2009",
     "city": "Magny-le-Hongre",
     "department": "77",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Le Forum",
@@ -643,10 +471,7 @@
     "dateLabel": "13 décembre 2008",
     "city": "Vauréal",
     "department": "95",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Cigale",
@@ -654,10 +479,7 @@
     "dateLabel": "25 novembre 2008",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Couvre Feu",
@@ -665,10 +487,7 @@
     "dateLabel": "24 août 2008",
     "city": "Corsept",
     "department": "44",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Les Transhumances",
@@ -676,10 +495,7 @@
     "dateLabel": "9 août 2008",
     "city": "La Réole",
     "department": "33",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Cap Festival",
@@ -687,10 +503,7 @@
     "dateLabel": "8 août 2008",
     "city": "Laclau",
     "department": "12",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Arènes de Vienne",
@@ -698,10 +511,7 @@
     "dateLabel": "13 juillet 2008",
     "city": "Vienne",
     "department": "38",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Terres du Son",
@@ -709,10 +519,7 @@
     "dateLabel": "12 juillet 2008",
     "city": "Saint-Pierre-des-Corps",
     "department": "37",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Solidays",
@@ -720,10 +527,7 @@
     "dateLabel": "6 juillet 2008",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "Onze Bouge",
@@ -731,10 +535,7 @@
     "dateLabel": "8 juin 2008",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Bellevilloise",
@@ -742,10 +543,7 @@
     "dateLabel": "22 novembre 2007",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   },
   {
     "title": "La Flèche d'Or",
@@ -753,9 +551,6 @@
     "dateLabel": "1 novembre 2007",
     "city": "Paris",
     "department": "75",
-    "bookingUrl": "",
-    "status": "Past",
-    "override_status": "",
-    "isHighlighted": ""
+    "status": "Past"
   }
 ]

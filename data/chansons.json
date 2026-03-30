@@ -9,8 +9,7 @@
     "spotifyUrl": "https://open.spotify.com/track/0wJtWRtWUWJpsWTwpr1H9Z",
     "slug": "bonne-humeur",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Bluetooth",
@@ -22,8 +21,7 @@
     "spotifyUrl": "",
     "slug": "bluetooth",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Sunday Song",
@@ -35,8 +33,7 @@
     "spotifyUrl": "",
     "slug": "sunday-song",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Comme un Lundi",
@@ -48,8 +45,7 @@
     "spotifyUrl": "",
     "slug": "comme-un-lundi",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Plante un arbre",
@@ -61,8 +57,7 @@
     "spotifyUrl": "",
     "slug": "plante-un-arbre",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Cash Money",
@@ -74,8 +69,7 @@
     "spotifyUrl": "",
     "slug": "cash-money",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "T'as pas découvert le feu",
@@ -87,8 +81,7 @@
     "spotifyUrl": "",
     "slug": "tas-pas-decouvert-le-feu",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Dancing all the night",
@@ -100,8 +93,7 @@
     "spotifyUrl": "",
     "slug": "dancing-all-the-night",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "À bas !",
@@ -113,8 +105,7 @@
     "spotifyUrl": "",
     "slug": "a-bas",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Tu votes",
@@ -126,8 +117,7 @@
     "spotifyUrl": "",
     "slug": "tu-votes",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Gardien de la paix",
@@ -139,8 +129,7 @@
     "spotifyUrl": "",
     "slug": "gardien-de-la-paix",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Coca light",
@@ -152,8 +141,7 @@
     "spotifyUrl": "",
     "slug": "coca-light",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Bon vivant",
@@ -165,8 +153,7 @@
     "spotifyUrl": "",
     "slug": "bon-vivant",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "En quête de buzz",
@@ -178,8 +165,7 @@
     "spotifyUrl": "",
     "slug": "en-quete-de-buzz",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "OGMan",
@@ -191,8 +177,7 @@
     "spotifyUrl": "",
     "slug": "ogman",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Roland-Garros",
@@ -204,8 +189,7 @@
     "spotifyUrl": "",
     "slug": "roland-garros",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Bac ABCD",
@@ -217,8 +201,7 @@
     "spotifyUrl": "",
     "slug": "bac-abcd",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Piscine love",
@@ -230,8 +213,7 @@
     "spotifyUrl": "",
     "slug": "piscine-love",
     "seasonName": "Saison 1",
-    "seasonOrder": 1,
-    "isHomeFeatured": ""
+    "seasonOrder": 1
   },
   {
     "title": "Back in the business",
@@ -243,8 +225,7 @@
     "spotifyUrl": "",
     "slug": "back-in-the-business",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Danse de l'info",
@@ -256,8 +237,7 @@
     "spotifyUrl": "",
     "slug": "danse-de-linfo",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Horoscope",
@@ -269,8 +249,7 @@
     "spotifyUrl": "",
     "slug": "horoscope",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Allez la France !",
@@ -282,8 +261,7 @@
     "spotifyUrl": "",
     "slug": "allez-la-france",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Petit cheminot",
@@ -295,8 +273,7 @@
     "spotifyUrl": "",
     "slug": "petit-cheminot",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Vite vite vite",
@@ -308,8 +285,7 @@
     "spotifyUrl": "",
     "slug": "vite-vite-vite",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Go Go Gringo !",
@@ -321,8 +297,7 @@
     "spotifyUrl": "",
     "slug": "go-go-gringo",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Pauvres Pêcheurs",
@@ -334,8 +309,7 @@
     "spotifyUrl": "",
     "slug": "pauvres-pecheurs",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Le Beaujo en Vélib",
@@ -347,8 +321,7 @@
     "spotifyUrl": "",
     "slug": "le-beaujo-en-velib",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Nicolas et Rachida",
@@ -360,8 +333,7 @@
     "spotifyUrl": "",
     "slug": "nicolas-et-rachida",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Super pouvoir d'achat",
@@ -373,8 +345,7 @@
     "spotifyUrl": "",
     "slug": "super-pouvoir-dachat",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Miss France",
@@ -386,8 +357,7 @@
     "spotifyUrl": "",
     "slug": "miss-france",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "Standing Ovation",
@@ -399,8 +369,7 @@
     "spotifyUrl": "",
     "slug": "standing-ovation",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "La Marulanda",
@@ -412,8 +381,7 @@
     "spotifyUrl": "",
     "slug": "la-marulanda",
     "seasonName": "Saison 2",
-    "seasonOrder": 2,
-    "isHomeFeatured": ""
+    "seasonOrder": 2
   },
   {
     "title": "MMM-UI-UI-M",
@@ -425,8 +393,7 @@
     "spotifyUrl": "",
     "slug": "mmm-ui-ui-m",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Au pays d'Élisabeth",
@@ -438,8 +405,7 @@
     "spotifyUrl": "",
     "slug": "au-pays-delisabeth",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Je ne ressemble pas",
@@ -451,8 +417,7 @@
     "spotifyUrl": "",
     "slug": "je-ne-ressemble-pas",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Les JO du péquin",
@@ -464,8 +429,7 @@
     "spotifyUrl": "",
     "slug": "les-jo-du-pequin",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Mazerfacker",
@@ -477,8 +441,7 @@
     "spotifyUrl": "",
     "slug": "mazerfacker",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "I Got",
@@ -490,8 +453,7 @@
     "spotifyUrl": "",
     "slug": "i-got",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Je suis un aventurier",
@@ -503,8 +465,7 @@
     "spotifyUrl": "",
     "slug": "je-suis-un-aventurier",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Avancé-Collé",
@@ -516,8 +477,7 @@
     "spotifyUrl": "",
     "slug": "avance-colle",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Réformez ma vie",
@@ -529,8 +489,7 @@
     "spotifyUrl": "",
     "slug": "reformez-ma-vie",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Festival",
@@ -542,8 +501,7 @@
     "spotifyUrl": "",
     "slug": "festival",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "8 200 200",
@@ -555,8 +513,7 @@
     "spotifyUrl": "",
     "slug": "8-200-200",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Ô Barack",
@@ -568,8 +525,7 @@
     "spotifyUrl": "",
     "slug": "o-barack",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "L'Euro de l'apéro",
@@ -581,8 +537,7 @@
     "spotifyUrl": "",
     "slug": "leuro-de-lapero",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Aaaah Chiche",
@@ -594,8 +549,7 @@
     "spotifyUrl": "",
     "slug": "aaaah-chiche",
     "seasonName": "Saison 3",
-    "seasonOrder": 3,
-    "isHomeFeatured": ""
+    "seasonOrder": 3
   },
   {
     "title": "Capitaine Madoff",
@@ -607,8 +561,7 @@
     "spotifyUrl": "",
     "slug": "capitaine-madoff",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Enfant d'Ibiza",
@@ -620,8 +573,7 @@
     "spotifyUrl": "",
     "slug": "enfant-dibiza",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Jeu de Loi",
@@ -633,8 +585,7 @@
     "spotifyUrl": "",
     "slug": "jeu-de-loi",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Seul dans mon coin",
@@ -646,8 +597,7 @@
     "spotifyUrl": "",
     "slug": "seul-dans-mon-coin",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "La Gigue des gueux",
@@ -659,8 +609,7 @@
     "spotifyUrl": "",
     "slug": "la-gigue-des-gueux",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "La Dolce Vita",
@@ -672,8 +621,7 @@
     "spotifyUrl": "",
     "slug": "la-dolce-vita",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Un Ti Colon",
@@ -685,8 +633,7 @@
     "spotifyUrl": "",
     "slug": "un-ti-colon",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Samoussa",
@@ -698,8 +645,7 @@
     "spotifyUrl": "",
     "slug": "samoussa",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Bienvenue Chez Les Chiants",
@@ -711,8 +657,7 @@
     "spotifyUrl": "",
     "slug": "bienvenue-chez-les-chiants",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Je suis une femme",
@@ -724,8 +669,7 @@
     "spotifyUrl": "",
     "slug": "je-suis-une-femme",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Mort aux vaches",
@@ -737,8 +681,7 @@
     "spotifyUrl": "",
     "slug": "mort-aux-vaches",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "J'assume à fond",
@@ -750,8 +693,7 @@
     "spotifyUrl": "",
     "slug": "jassume-a-fond",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Cherche encore",
@@ -763,8 +705,7 @@
     "spotifyUrl": "",
     "slug": "cherche-encore",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "Dans ma maison",
@@ -776,8 +717,7 @@
     "spotifyUrl": "",
     "slug": "dans-ma-maison",
     "seasonName": "Saison 4",
-    "seasonOrder": 4,
-    "isHomeFeatured": ""
+    "seasonOrder": 4
   },
   {
     "title": "France forte",
@@ -789,8 +729,7 @@
     "spotifyUrl": "",
     "slug": "france-forte",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "En quinquennale",
@@ -802,8 +741,7 @@
     "spotifyUrl": "",
     "slug": "en-quinquennale",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Peuple de l'argent",
@@ -815,8 +753,7 @@
     "spotifyUrl": "",
     "slug": "peuple-de-largent",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Blabla halal",
@@ -828,8 +765,7 @@
     "spotifyUrl": "",
     "slug": "blabla-halal",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Les CRS tous avec nous",
@@ -841,8 +777,7 @@
     "spotifyUrl": "",
     "slug": "les-crs-tous-avec-nous",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Les Souris et les Chats",
@@ -854,8 +789,7 @@
     "spotifyUrl": "",
     "slug": "les-souris-et-les-chats",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Super Chenille",
@@ -867,8 +801,7 @@
     "spotifyUrl": "",
     "slug": "super-chenille",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Lettre à France 2",
@@ -880,8 +813,7 @@
     "spotifyUrl": "",
     "slug": "lettre-a-france-2",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Franz-O le perruquier",
@@ -893,8 +825,7 @@
     "spotifyUrl": "",
     "slug": "franz-o-le-perruquier",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Zeitgeist",
@@ -906,8 +837,7 @@
     "spotifyUrl": "",
     "slug": "zeitgeist",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "SWAP",
@@ -919,8 +849,7 @@
     "spotifyUrl": "",
     "slug": "swap",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Angela",
@@ -932,8 +861,7 @@
     "spotifyUrl": "",
     "slug": "angela",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Dormirocho",
@@ -945,8 +873,7 @@
     "spotifyUrl": "",
     "slug": "dormirocho",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Hippy End",
@@ -958,8 +885,7 @@
     "spotifyUrl": "",
     "slug": "hippy-end",
     "seasonName": "Saison 5",
-    "seasonOrder": 5,
-    "isHomeFeatured": ""
+    "seasonOrder": 5
   },
   {
     "title": "Être Français",
@@ -971,8 +897,7 @@
     "spotifyUrl": "",
     "slug": "etre-francais",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "Jacques Chirac",
@@ -984,8 +909,7 @@
     "spotifyUrl": "",
     "slug": "jacques-chirac",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "Thierry Henry",
@@ -997,8 +921,7 @@
     "spotifyUrl": "",
     "slug": "thierry-henry",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "Valeur ajoutée",
@@ -1010,8 +933,7 @@
     "spotifyUrl": "",
     "slug": "valeur-ajoutee",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "C'est une Américaine",
@@ -1023,8 +945,7 @@
     "spotifyUrl": "",
     "slug": "cest-une-americaine",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "COpenhague",
@@ -1036,8 +957,7 @@
     "spotifyUrl": "",
     "slug": "copenhague",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "2010 hors service",
@@ -1049,8 +969,7 @@
     "spotifyUrl": "",
     "slug": "2010-hors-service",
     "seasonName": "Saison de l'Avent",
-    "seasonOrder": 6,
-    "isHomeFeatured": ""
+    "seasonOrder": 6
   },
   {
     "title": "Le Govuzela",
@@ -1062,8 +981,7 @@
     "spotifyUrl": "",
     "slug": "le-govuzela",
     "seasonName": "Coupe du Monde 2010",
-    "seasonOrder": 7,
-    "isHomeFeatured": ""
+    "seasonOrder": 7
   },
   {
     "title": "RayMan",
@@ -1075,8 +993,7 @@
     "spotifyUrl": "",
     "slug": "rayman",
     "seasonName": "Coupe du Monde 2010",
-    "seasonOrder": 7,
-    "isHomeFeatured": ""
+    "seasonOrder": 7
   },
   {
     "title": "Chez Raymonde",
@@ -1088,8 +1005,7 @@
     "spotifyUrl": "",
     "slug": "chez-raymonde",
     "seasonName": "Coupe du Monde 2010",
-    "seasonOrder": 7,
-    "isHomeFeatured": ""
+    "seasonOrder": 7
   },
   {
     "title": "Jeunesse",
@@ -1101,8 +1017,7 @@
     "spotifyUrl": "",
     "slug": "jeunesse",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Hu, Ho, et la fleur de jasmin",
@@ -1114,8 +1029,7 @@
     "spotifyUrl": "",
     "slug": "hu-ho-et-la-fleur-de-jasmin",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Jeunesse II",
@@ -1127,8 +1041,7 @@
     "spotifyUrl": "",
     "slug": "jeunesse-ii",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Michèle dort sous la pluie",
@@ -1140,8 +1053,7 @@
     "spotifyUrl": "",
     "slug": "michele-dort-sous-la-pluie",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Il y a de l'écho",
@@ -1153,8 +1065,7 @@
     "spotifyUrl": "",
     "slug": "il-y-a-de-lecho",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Luc",
@@ -1166,8 +1077,7 @@
     "spotifyUrl": "",
     "slug": "luc",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Dur dur d'être bien né",
@@ -1179,8 +1089,7 @@
     "spotifyUrl": "",
     "slug": "dur-dur-detre-bien-ne",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Jérôme Kerviel",
@@ -1192,8 +1101,7 @@
     "spotifyUrl": "",
     "slug": "jerome-kerviel",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Saint-Valentin",
@@ -1205,8 +1113,7 @@
     "spotifyUrl": "",
     "slug": "saint-valentin",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Matmut",
@@ -1218,8 +1125,7 @@
     "spotifyUrl": "",
     "slug": "matmut",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Martin Kazinski",
@@ -1231,8 +1137,7 @@
     "spotifyUrl": "",
     "slug": "martin-kazinski",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Au Cinéma",
@@ -1244,8 +1149,7 @@
     "spotifyUrl": "",
     "slug": "au-cinema",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Les Invincibles",
@@ -1257,8 +1161,7 @@
     "spotifyUrl": "",
     "slug": "les-invincibles",
     "seasonName": "Hors Saison",
-    "seasonOrder": 8,
-    "isHomeFeatured": ""
+    "seasonOrder": 8
   },
   {
     "title": "Bonne humeur en confinement",
@@ -1270,8 +1173,7 @@
     "spotifyUrl": "",
     "slug": "bonne-humeur-en-confinement",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "Bluetousse",
@@ -1283,8 +1185,7 @@
     "spotifyUrl": "",
     "slug": "bluetousse",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "L'important dans tout ça, c'est la Dolce Vita",
@@ -1296,8 +1197,7 @@
     "spotifyUrl": "",
     "slug": "limportant-dans-tout-ca-cest-la-dolce-vita",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "La Chenille du confinement",
@@ -1309,8 +1209,7 @@
     "spotifyUrl": "",
     "slug": "la-chenille-du-confinement",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "Go Gringo !",
@@ -1322,8 +1221,7 @@
     "spotifyUrl": "",
     "slug": "go-gringo",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "Si t'es content, envoie 8 200 200 !",
@@ -1335,8 +1233,7 @@
     "spotifyUrl": "",
     "slug": "si-tes-content-envoie-8-200-200",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "Piscine Love à tous",
@@ -1348,8 +1245,7 @@
     "spotifyUrl": "",
     "slug": "piscine-love-a-tous",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "Le super-pouvoir de pouvoir marcher",
@@ -1361,8 +1257,7 @@
     "spotifyUrl": "",
     "slug": "le-super-pouvoir-de-pouvoir-marcher",
     "seasonName": "Saison du Confinement",
-    "seasonOrder": 9,
-    "isHomeFeatured": ""
+    "seasonOrder": 9
   },
   {
     "title": "Au Cinéma - chorale du Collège REVERDY (Sablé sur Sarthe - Marc Leroy)",
@@ -1374,8 +1269,7 @@
     "spotifyUrl": "",
     "slug": "au-cinema-chorale-du-college-reverdy-sable-sur-sarthe-marc-leroy",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Bonne Humeur - par Nawak",
@@ -1387,8 +1281,7 @@
     "spotifyUrl": "",
     "slug": "bonne-humeur-par-nawak",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Petit Cheminot - par La Chanson Punk du Dimanche",
@@ -1400,8 +1293,7 @@
     "spotifyUrl": "",
     "slug": "petit-cheminot-par-la-chanson-punk-du-dimanche",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Super Pouvoir d'Achat - par La Chanson Punk du Dimanche",
@@ -1413,8 +1305,7 @@
     "spotifyUrl": "",
     "slug": "super-pouvoir-dachat-par-la-chanson-punk-du-dimanche",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Thierry Henry - par La Chanson Punk du Dimanche",
@@ -1426,8 +1317,7 @@
     "spotifyUrl": "",
     "slug": "thierry-henry-par-la-chanson-punk-du-dimanche",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "OGMan - par Elina",
@@ -1439,8 +1329,7 @@
     "spotifyUrl": "",
     "slug": "ogman-par-elina",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Tu Votes - par mika (et son bébé)",
@@ -1452,8 +1341,7 @@
     "spotifyUrl": "",
     "slug": "tu-votes-par-mika-et-son-bebe",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Bonne Humeur - par Barylu & Chamélia",
@@ -1465,8 +1353,7 @@
     "spotifyUrl": "",
     "slug": "bonne-humeur-par-barylu-&-chamelia",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Ô Barack - by Nana",
@@ -1478,8 +1365,7 @@
     "spotifyUrl": "",
     "slug": "o-barack-by-nana",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Cherche Encore - par Yohan Moignet",
@@ -1491,8 +1377,7 @@
     "spotifyUrl": "",
     "slug": "cherche-encore-par-yohan-moignet",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Pouvoir d'Achat - par Vazqe",
@@ -1504,8 +1389,7 @@
     "spotifyUrl": "",
     "slug": "pouvoir-dachat-par-vazqe",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Bonne Humeur - par Jean-Michel Fayard",
@@ -1517,8 +1401,7 @@
     "spotifyUrl": "",
     "slug": "bonne-humeur-par-jean-michel-fayard",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "8 200 200 - par Javer",
@@ -1530,8 +1413,7 @@
     "spotifyUrl": "",
     "slug": "8-200-200-par-javer",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Piscine Love - par Javer",
@@ -1543,8 +1425,7 @@
     "spotifyUrl": "",
     "slug": "piscine-love-par-javer",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Pouvoir d'Achat - par chanteurdudimanche",
@@ -1556,8 +1437,7 @@
     "spotifyUrl": "",
     "slug": "pouvoir-dachat-par-chanteurdudimanche",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Bonne Humeur - par Les Matous Polonais",
@@ -1569,8 +1449,7 @@
     "spotifyUrl": "",
     "slug": "bonne-humeur-par-les-matous-polonais",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Super Pouvoir d'Achat - par Claude Gelée Musique",
@@ -1582,8 +1461,7 @@
     "spotifyUrl": "",
     "slug": "super-pouvoir-dachat-par-claude-gelee-musique",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Miss France - par MFTLS",
@@ -1595,8 +1473,7 @@
     "spotifyUrl": "",
     "slug": "miss-france-par-mftls",
     "seasonName": "Cover",
-    "seasonOrder": 10,
-    "isHomeFeatured": ""
+    "seasonOrder": 10
   },
   {
     "title": "Baba Bibi Bobo",
@@ -1609,7 +1486,7 @@
     "slug": "baba-bibi-bobo",
     "seasonName": "Spéciale Hiver",
     "seasonOrder": 11,
-    "isHomeFeatured": "checked"
+    "isHomeFeatured": true
   },
   {
     "title": "",
@@ -1621,7 +1498,6 @@
     "spotifyUrl": "",
     "slug": "",
     "seasonName": "",
-    "seasonOrder": "",
-    "isHomeFeatured": ""
+    "seasonOrder": ""
   }
 ]
