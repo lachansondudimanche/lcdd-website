@@ -12,6 +12,7 @@ type Chanson = {
     youtubeUrl: string;
     spotifyUrl: string;
     seasonSlug?: string;
+    seasonName?: string;
 };
 
 export async function generateStaticParams() {
@@ -61,8 +62,6 @@ export default async function ChansonPage({
                         ⏮
                     </Link>
 
-                    <h1>{chanson.title}</h1>
-
                     <Link
                         href={`/chansons/${nextSong.slug}`}
                         className="song-nav-button"
@@ -70,7 +69,14 @@ export default async function ChansonPage({
                     >
                         ⏭
                     </Link>
+
+                    <h1>{chanson.title}</h1>
                 </div>
+
+                {chanson.seasonName && (
+                    <p className="song-season">{chanson.seasonName}</p>
+                )}
+
             </section>
 
             <SongContent

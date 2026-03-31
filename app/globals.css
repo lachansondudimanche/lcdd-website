@@ -306,7 +306,7 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 14px;
+  gap: 8px;
   margin-bottom: 8px;
 }
 
@@ -843,7 +843,7 @@ iframe {
   }
 
   .song-title-row {
-    gap: 10px;
+    gap: 5px;
   }
 
   .song-nav-button {

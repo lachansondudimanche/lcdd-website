@@ -36,8 +36,6 @@ export default async function HomePage() {
                         ⏮
                     </Link>
 
-                    <h1>{chanson.title}</h1>
-
                     <Link
                         href={`/chansons/${nextSong.slug}`}
                         className="song-nav-button"
@@ -45,6 +43,8 @@ export default async function HomePage() {
                     >
                         ⏭
                     </Link>
+
+                    <h1>{chanson.title}</h1>
                 </div>
 
                 {chanson.seasonName && (
