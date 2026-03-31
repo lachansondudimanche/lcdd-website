@@ -33,7 +33,7 @@ export default async function HomePage() {
                         className="song-nav-button"
                         aria-label={`Chanson précédente : ${previousSong.title}`}
                     >
-                        ⏮
+                        ⏮️
                     </Link>
 
                     <Link
@@ -41,7 +41,7 @@ export default async function HomePage() {
                         className="song-nav-button"
                         aria-label={`Chanson suivante : ${nextSong.title}`}
                     >
-                        ⏭
+                        ⏭️
                     </Link>
 
                     <h1>{chanson.title}</h1>

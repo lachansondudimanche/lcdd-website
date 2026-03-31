@@ -52,7 +52,7 @@ export default async function ConcertsPage() {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            Réservez des places
+                                            Plus d'infos ici
                                         </a>
                                     </p>
                                 )}

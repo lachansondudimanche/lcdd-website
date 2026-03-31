@@ -15,13 +15,16 @@ export default async function NextConcertBanner() {
 
             {concert.bookingUrl && (
                 <p>
-                    ➡️ Réservez vos places{" "}
                     <a
                         href={concert.bookingUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="next-concert-link"
                     >
-                        ici
+                        <span className="next-concert-arrow">➡️</span>
+                        <span className="next-concert-text">
+                            Plus d'infos <span className="next-concert-here">ici</span>
+                        </span>
                     </a>
                 </p>
             )}

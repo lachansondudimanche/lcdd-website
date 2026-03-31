@@ -176,6 +176,35 @@ iframe {
   margin-bottom: 0;
 }
 
+.next-concert-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.next-concert-arrow {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* texte normal */
+.next-concert-text {
+  text-decoration: none;
+}
+
+/* "ici" toujours souligné */
+.next-concert-here {
+  text-decoration: underline;
+}
+
+/* hover : souligne tout le texte sauf la flèche */
+/* .next-concert-link:hover .next-concert-text,
+.next-concert-link:focus-visible .next-concert-text {
+  text-decoration: underline;
+} */
+
 /* PAGE CHANSONS */
 
 .songs-page {
@@ -306,12 +335,12 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 8px;
+  gap: 6px;
   margin-bottom: 8px;
 }
 
 .song-title-row h1 {
-  margin: 0;
+  margin: 0 8px;
   font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
@@ -321,16 +350,21 @@ iframe {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  background: var(--color-next-button);
+  min-width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1;
+  /* -webkit-tap-highlight-color: transparent; */
+  /* transform: translateY(-1px); */
 }
 
-.song-nav-button:hover {
-  background: var(--color-next-button-hover);
+.song-nav-button:hover,
+.song-nav-button:active {
+  background: transparent;
 }
 
 .song-season {
@@ -347,7 +381,7 @@ iframe {
 
 .song-play-icon {
   display: inline-block;
-  transform: translateX(1px);
+  /* transform: translateX(1px); */
   font-size: 11px;
 }
 
@@ -667,11 +701,19 @@ iframe {
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* IMPORTANT : underline uniquement sur le texte */
 .contact-email-text {
   text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .contact-email-link:hover .contact-email-text,
@@ -762,6 +804,7 @@ iframe {
 
   .song-title-row h1 {
     font-size: 26px;
+    margin: 0 4px;
   }
 
   .concert-card h3 {
@@ -843,13 +886,14 @@ iframe {
   }
 
   .song-title-row {
-    gap: 5px;
+    gap: 3px;
   }
 
   .song-nav-button {
-    min-width: 32px;
-    height: 32px;
-    font-size: 18px;
+    min-width: 24px;
+    height: 24px;
+    font-size: 20px;
+    background: transparent;
   }
 
   .song-play-button {
@@ -881,6 +925,11 @@ iframe {
   .concert-location,
   .concert-booking {
     font-size: 18px;
+  }
+
+  .concert-top-row {
+    grid-template-columns: 28px 1fr;
+    column-gap: 8px;
   }
 
   .shop-text {
@@ -932,10 +981,20 @@ iframe {
   }
 
   .contact-email-link {
-    font-size: 22px;
+    font-size: 20px;
     gap: 10px;
     text-align: center;
     flex-wrap: wrap;
+    /* ← une seule fois */
     justify-content: center;
+  }
+
+  .contact-email-icon {
+    display: none;
+  }
+
+  .contact-email-text {
+    white-space: normal;
+    word-break: break-word;
   }
 }
