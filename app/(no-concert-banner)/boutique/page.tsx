@@ -66,7 +66,7 @@ export default async function BoutiquePage() {
                             <span className="shop-price">
                                 {formatPrice(offer.price)}&nbsp;€
                             </span>
-                            <span className="shop-separator">—</span>
+                            <span className="shop-separator">-</span>
                             <span className="shop-offer-name">{offer.offer}</span>
                             <span className="shop-emoji">{offer.emoji}</span>
                         </a>

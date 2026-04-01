@@ -953,7 +953,7 @@ iframe {
   }
 
   .shop-row-link {
-    padding: 3px 4px;
+    padding: 3px 0px;
     gap: 2px;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -970,8 +970,8 @@ iframe {
   }
 
   .shop-play-button {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     font-size: 11px;
   }
 
