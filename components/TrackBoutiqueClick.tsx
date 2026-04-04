@@ -26,6 +26,7 @@ export default function TrackBoutiqueClick({
     linkType,
 }: Props) {
     const handleClick = () => {
+        alert("TRACK CLICK OK");
         console.log("CLICK TRACKED", { offerName, price, linkType, href });
 
         if (typeof window !== "undefined" && typeof window.gtag === "function") {
