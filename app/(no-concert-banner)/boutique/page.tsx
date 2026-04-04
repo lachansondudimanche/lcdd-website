@@ -1,4 +1,5 @@
 import { getBoutiqueItems } from "@/lib/site-data";
+import TrackBoutiqueClick from "@/components/TrackBoutiqueClick";
 
 export const revalidate = 3600;
 
@@ -25,19 +26,19 @@ export default async function BoutiquePage() {
             </p>
 
             <div className="shop-kofi-logo-wrap">
-                <a
+                <TrackBoutiqueClick
                     href="https://ko-fi.com/lachansondudimanche"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="shop-kofi-logo-link"
-                    aria-label="Soutenir La Chanson du Dimanche sur Ko-fi"
+                    ariaLabel="Soutenir La Chanson du Dimanche sur Ko-fi"
+                    linkType="hat"
+                    offerName="chapeau"
                 >
                     <img
                         src="/images/chapeau.png"
                         alt="Chapeau La Chanson du Dimanche"
                         className="shop-kofi-logo"
                     />
-                </a>
+                </TrackBoutiqueClick>
             </div>
 
             <div className="shop-box">
@@ -46,22 +47,24 @@ export default async function BoutiquePage() {
                         key={`${offer.offer}-${offer.price}`}
                         className="shop-row"
                     >
-                        <a
+                        <TrackBoutiqueClick
                             href={offer.buyUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
                             className="shop-play-button"
-                            aria-label={`Choisir l'offre ${offer.offer}`}
+                            ariaLabel={`Choisir l'offre ${offer.offer}`}
+                            linkType="button"
+                            offerName={offer.offer}
+                            price={offer.price}
                         >
                             <span className="shop-play-icon">▶</span>
-                        </a>
+                        </TrackBoutiqueClick>
 
-                        <a
+                        <TrackBoutiqueClick
                             href={offer.buyUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
                             className="shop-row-link"
-                            aria-label={`Choisir l'offre ${offer.offer}`}
+                            ariaLabel={`Choisir l'offre ${offer.offer}`}
+                            linkType="row"
+                            offerName={offer.offer}
+                            price={offer.price}
                         >
                             <span className="shop-price">
                                 {formatPrice(offer.price)}&nbsp;€
@@ -69,7 +72,7 @@ export default async function BoutiquePage() {
                             <span className="shop-separator">-</span>
                             <span className="shop-offer-name">{offer.offer}</span>
                             <span className="shop-emoji">{offer.emoji}</span>
-                        </a>
+                        </TrackBoutiqueClick>
                     </div>
                 ))}
             </div>
