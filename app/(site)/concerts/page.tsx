@@ -1,6 +1,7 @@
-export const revalidate = 3600;
-
 import { getConcerts } from "@/lib/site-data";
+import TrackConcertClick from "@/components/TrackConcertClick";
+
+export const revalidate = 3600;
 
 type Concert = {
     title: string;
@@ -47,13 +48,16 @@ export default async function ConcertsPage() {
                                 {concert.bookingUrl && (
                                     <p className="concert-booking">
                                         ➡️{" "}
-                                        <a
+                                        <TrackConcertClick
                                             href={concert.bookingUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                            location="list"
+                                            concertTitle={concert.title}
+                                            concertCity={concert.city}
+                                            concertDate={concert.date}
+                                            ariaLabel={`Plus d'infos pour ${concert.title}`}
                                         >
                                             Plus d'infos ici
-                                        </a>
+                                        </TrackConcertClick>
                                     </p>
                                 )}
                             </div>

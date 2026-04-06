@@ -1,4 +1,5 @@
 import { getHighlightedConcert } from "@/lib/site-data";
+import TrackConcertClick from "@/components/TrackConcertClick";
 
 export default async function NextConcertBanner() {
     const concert = await getHighlightedConcert();
@@ -15,17 +16,20 @@ export default async function NextConcertBanner() {
 
             {concert.bookingUrl && (
                 <p>
-                    <a
+                    <TrackConcertClick
                         href={concert.bookingUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        location="banner"
+                        concertTitle={concert.title}
+                        concertCity={concert.city}
+                        concertDate={concert.date}
                         className="next-concert-link"
+                        ariaLabel={`Plus d'infos pour ${concert.title}`}
                     >
                         <span className="next-concert-arrow">➡️</span>
                         <span className="next-concert-text">
                             Plus d'infos <span className="next-concert-here">ici</span>
                         </span>
-                    </a>
+                    </TrackConcertClick>
                 </p>
             )}
         </section>
