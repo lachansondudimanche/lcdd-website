@@ -5,9 +5,9 @@ type Props = {
     className?: string;
     ariaLabel?: string;
     children: React.ReactNode;
-    offerName?: string;
-    price?: number;
-    linkType: "hat" | "button" | "row";
+    shopOffer?: string;
+    shopPrice?: number;
+    shopSource: "hat" | "button" | "row";
 };
 
 declare global {
@@ -16,22 +16,23 @@ declare global {
     }
 }
 
-export default function TrackBoutiqueClick({
+export default function TrackShopClick({
     href,
     className,
     ariaLabel,
     children,
-    offerName,
-    price,
-    linkType,
+    shopOffer,
+    shopPrice,
+    shopSource,
 }: Props) {
     const handleClick = () => {
         if (typeof window !== "undefined" && typeof window.gtag === "function") {
-            window.gtag("event", "boutique_click", {
-                link_type: linkType,
-                offer_name: offerName ?? "",
-                price: price ?? 0,
+            window.gtag("event", "shop_click", {
                 destination_url: href,
+                shop_offer: shopOffer ?? "",
+                shop_price: shopPrice ?? 0,
+                shop_source: shopSource,
+                page_location: window.location.pathname,
             });
         }
     };

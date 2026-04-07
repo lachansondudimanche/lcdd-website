@@ -19,6 +19,7 @@ NUMERIC_FIELDS = {
 BOOLEAN_FIELDS = {
     "isHighlighted",
     "isHomeFeatured",
+    "isHidden",
 }
 
 OPTIONAL_EMPTY_FIELDS_TO_DROP = {
@@ -185,6 +186,11 @@ def convert_file(csv_filename):
                 converted_row[key] = convert_value(key, value)
 
             converted_row = clean_row(converted_row)
+
+            # filtrage des chansons cachées
+            if csv_filename == "chansons.csv" and converted_row.get("isHidden", False):
+                continue
+
             rows.append(converted_row)
 
     rows = sort_rows(csv_filename, rows)

@@ -32,9 +32,9 @@ export default async function HomePage() {
                         href={`/chansons/${previousSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson précédente : ${previousSong.title}`}
-                        song_title={previousSong.title}
-                        song_slug={previousSong.slug}
-                        source="home"
+                        songTitle={previousSong.title}
+                        songSlug={previousSong.slug}
+                        songSource="home"
                     >
                         ⏮️
                     </TrackSongClick>
@@ -43,9 +43,9 @@ export default async function HomePage() {
                         href={`/chansons/${nextSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson suivante : ${nextSong.title}`}
-                        song_title={nextSong.title}
-                        song_slug={nextSong.slug}
-                        source="home"
+                        songTitle={nextSong.title}
+                        songSlug={nextSong.slug}
+                        songSource="home"
                     >
                         ⏭️
                     </TrackSongClick>
@@ -60,9 +60,11 @@ export default async function HomePage() {
 
             <SongContent
                 title={chanson.title}
+                slug={chanson.slug}
                 lyrics={chanson.lyrics}
                 youtubeUrl={chanson.youtubeUrl}
                 hideTitle
+                source="home"
             />
         </main>
     );

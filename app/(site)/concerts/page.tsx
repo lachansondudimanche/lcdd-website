@@ -50,10 +50,10 @@ export default async function ConcertsPage() {
                                         ➡️{" "}
                                         <TrackConcertClick
                                             href={concert.bookingUrl}
-                                            location="list"
                                             concertTitle={concert.title}
                                             concertCity={concert.city}
                                             concertDate={concert.date}
+                                            concertSource="list"
                                             ariaLabel={`Plus d'infos pour ${concert.title}`}
                                         >
                                             Plus d'infos ici

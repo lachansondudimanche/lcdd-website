@@ -5,7 +5,7 @@ type Props = {
     concertTitle?: string;
     concertCity?: string;
     concertDate?: string;
-    location: "banner" | "list";
+    concertSource: "banner" | "list";
     children: React.ReactNode;
     className?: string;
     ariaLabel?: string;
@@ -22,18 +22,19 @@ export default function TrackConcertClick({
     concertTitle,
     concertCity,
     concertDate,
-    location,
+    concertSource,
     children,
     className,
     ariaLabel,
 }: Props) {
     const handleClick = () => {
         window.gtag?.("event", "concert_click", {
-            location,
+            destination_url: href,
             concert_title: concertTitle ?? "",
             concert_city: concertCity ?? "",
             concert_date: concertDate ?? "",
-            destination_url: href,
+            concert_source: concertSource ?? "",
+            page_location: window.location.pathname,
         });
     };
 

@@ -1,6 +1,5 @@
 export const revalidate = 3600;
 
-import Link from "next/link";
 import { getChansonsGroupedBySeason } from "@/lib/site-data";
 import TrackSongClick from "@/components/TrackSongClick";
 
@@ -42,9 +41,9 @@ export default async function ChansonsPage() {
                                     <TrackSongClick
                                         href={`/chansons/${chanson.slug}`}
                                         className="song-play-button"
-                                        song_title={chanson.title}
-                                        song_slug={chanson.slug}
-                                        source="list"
+                                        songTitle={chanson.title}
+                                        songSlug={chanson.slug}
+                                        songSource="list"
                                     >
                                         <span className="song-play-icon">▶</span>
                                     </TrackSongClick>
@@ -52,9 +51,9 @@ export default async function ChansonsPage() {
                                     <TrackSongClick
                                         href={`/chansons/${chanson.slug}`}
                                         className="songs-link"
-                                        song_title={chanson.title}
-                                        song_slug={chanson.slug}
-                                        source="list"
+                                        songTitle={chanson.title}
+                                        songSlug={chanson.slug}
+                                        songSource="list"
                                     >
                                         {chanson.title}
                                     </TrackSongClick>

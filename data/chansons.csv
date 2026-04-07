@@ -1,4 +1,4 @@
-﻿title,season,episode,date,lyrics,youtubeUrl,spotifyUrl,slug,seasonName,seasonOrder,isHomeFeatured
+﻿title,season,episode,date,lyrics,youtubeUrl,spotifyUrl,slug,seasonName,seasonOrder,isHomeFeatured,isHidden
 Bonne Humeur,Saison 1,1,18/2/2007,"On t'a connu t'étais partant, on t'a connu t'étais battant,
 On t'a connu rêveur, on t'a connu winner,
 On t'a connu t'étais looké, on t'a connu t'étais tatoué,
@@ -29,7 +29,7 @@ T'as par perdu ta bonne humeur, meur, meur, meur, meur
 Toujours le roi des déconneurs, neur, neur, neur, neur
 T'a pas perdu ta bonne humeuuur
 
-Bonne humeur à la piscine, Bonne humeur à la cantine, Bonne humeur chez le proctologue, Bonne humeur à la pétanque, Bonne humeur aux tournois de bridge, Bonne humeur aux enterrements, Bonne humeur dans l'escalier, Bonne humeur dans l'ambulance, Bonne humeur aux Urgences, Bonne humeur au Casino, Bonne humeur au Super U, Bonne humeur chez le boulanger, Bonne humeur devant la télé, Bonne humeur à la messe, Bonne humeur malgré ta toux, Bonne humeur, t'as l'nez bouché et tu t'en fous...",https://www.youtube.com/watch?v=Bk7B0hsk_R0,https://open.spotify.com/track/0wJtWRtWUWJpsWTwpr1H9Z,bonne-humeur,Saison 1,1,
+Bonne humeur à la piscine, Bonne humeur à la cantine, Bonne humeur chez le proctologue, Bonne humeur à la pétanque, Bonne humeur aux tournois de bridge, Bonne humeur aux enterrements, Bonne humeur dans l'escalier, Bonne humeur dans l'ambulance, Bonne humeur aux Urgences, Bonne humeur au Casino, Bonne humeur au Super U, Bonne humeur chez le boulanger, Bonne humeur devant la télé, Bonne humeur à la messe, Bonne humeur malgré ta toux, Bonne humeur, t'as l'nez bouché et tu t'en fous...",https://www.youtube.com/watch?v=Bk7B0hsk_R0,https://open.spotify.com/track/0wJtWRtWUWJpsWTwpr1H9Z,bonne-humeur,Saison 1,1,,
 Bluetooth,Saison 1,2,25/2/2007,"Tu passes ta vie, ton temps, le jour, la nuit assis devant l'écran
 Tu n'as besoin de personne, tu ne parles qu'au téléphone
 Ça gagne du temps
@@ -89,7 +89,7 @@ Tu te transformes en pop-up
 Tu te transformes en excel
 Tu te transformes en 15 pouces
 Tu te transformes en bluetooth
-Et maintenant t'as les dents bleues…",https://www.youtube.com/watch?v=RXYw-Q78iVA,,bluetooth,Saison 1,1,
+Et maintenant t'as les dents bleues…",https://www.youtube.com/watch?v=RXYw-Q78iVA,,bluetooth,Saison 1,1,,
 Sunday Song,Saison 1,3,4/3/2007,"Sunday song, my Sunday song, Sunday song, my Sunday song
 Sunday song, c'est toute l'après-midi
 Sunday song, my Sunday song, Sunday song, my Sunday song
@@ -120,7 +120,7 @@ Qu'est-ce que c'est fun de chanter du nez
 Sunday song à la piscine, Sunday song à la cantine
 Sunday song, c'est toute l'après-midi
 
-Solo…",https://www.youtube.com/watch?v=qAA5bKdQ1EY,,sunday-song,Saison 1,1,
+Solo…",https://www.youtube.com/watch?v=qAA5bKdQ1EY,,sunday-song,Saison 1,1,,
 Comme un Lundi,Saison 1,4,11/3/2007,"Comment ça va ?
 Comme un lundi
 J'sais pas c'que j'ai
@@ -155,7 +155,7 @@ Attention gauche, droite, en haut, en bas
 Tu roules des hanches, tu fais trois pas
 Le pied sur l'œil, l'oreille pliée
 Tu fais un bond, tu tapes du nez
-Tu plies les ailes, tu bats les pattes, t'es déchaînéééé et tu fais",https://www.youtube.com/watch?v=N1cExEillNk,,comme-un-lundi,Saison 1,1,
+Tu plies les ailes, tu bats les pattes, t'es déchaînéééé et tu fais",https://www.youtube.com/watch?v=N1cExEillNk,,comme-un-lundi,Saison 1,1,,
 Plante un arbre,Saison 1,5,18/3/2007,"Plante un arbre, plante un arbre, plante un arbre
 Plante un arbre, c'est la vie, oh yeah
 Plante un arbre, plante un arbre, plante un arbre
@@ -201,7 +201,7 @@ Tu le verras pousser, c'est branché
 Badoubadoumdamdimdoumdoubabadabadoubap, doubap
 Badidoudadoudipdoupdadouwapdouzdadoudop, baaaladipdopdoubop
 Doupdoubidouboudoubou, bdabadadapdap'pdapbadoudap
-Badibouzapdipdeydizep, doupdapboudoubop",https://www.youtube.com/watch?v=OE6Ov7R4RwI&pp=0gcJCcUKAYcqIYzv,,plante-un-arbre,Saison 1,1,
+Badibouzapdipdeydizep, doupdapboudoubop",https://www.youtube.com/watch?v=OE6Ov7R4RwI&pp=0gcJCcUKAYcqIYzv,,plante-un-arbre,Saison 1,1,,
 Cash Money,Saison 1,6,25/3/2007,"L'argent facile, c'est difficile
 Un peu c'est bien mais là c'est trop
 T'as des hôtels, t'as des piscines
@@ -247,7 +247,7 @@ REFRAIN
 Champagne, Caviar, Bijou, Partouche,
 Vuitton, Channel, Gstaad, Gucci,
 Kenzo, Champs Elysées, Hollywood, Dubaï,
-Shangaï, Saint-Barth, la fête, Bravo",https://www.youtube.com/watch?v=f24Nv4FzsfI&pp=0gcJCcUKAYcqIYzv,,cash-money,Saison 1,1,
+Shangaï, Saint-Barth, la fête, Bravo",https://www.youtube.com/watch?v=f24Nv4FzsfI&pp=0gcJCcUKAYcqIYzv,,cash-money,Saison 1,1,,
 T'as pas découvert le feu,Saison 1,7,1/4/2007,"T’as pas découvert le feu (x2)
 T’as pas inventé la pluie (x2)
 Reste où tu es, fais de ton mieux…..hey !
@@ -310,7 +310,7 @@ Clap clap clap…hey !
 
 T’as pas découvert le feu (x2)
 T’as pas inventé la pluie (x2)
-Reste où tu es, fais de ton mieux...",https://www.youtube.com/watch?v=GiHiCmYD8SE,,tas-pas-decouvert-le-feu,Saison 1,1,
+Reste où tu es, fais de ton mieux...",https://www.youtube.com/watch?v=GiHiCmYD8SE,,tas-pas-decouvert-le-feu,Saison 1,1,,
 Dancing all the night,Saison 1,8,8/4/2007,"World is a flower
 You can smell it
 You can touch it
@@ -365,7 +365,7 @@ I'm the tree you're the flower
 I'm the rain you're the sun
 I'm the snow you're the rainbow
 I'm the left hand you're the right hand
-I'm the left eye you're the right eye",https://www.youtube.com/watch?v=etC9Y97O6OM,,dancing-all-the-night,Saison 1,1,
+I'm the left eye you're the right eye",https://www.youtube.com/watch?v=etC9Y97O6OM,,dancing-all-the-night,Saison 1,1,,
 À bas !,Saison 1,9,15/4/2007,"Toi tu crois que tous les gens s'aiment
 Que tous les gens sont sympas
 Toi tu crois que la vie est belle
@@ -410,7 +410,7 @@ Tous les mé-mé les mesquins
 Tous les zé-zé les aigris
 Tous les ron-ron les ronchons
 Tous les bou-bou les bougons
-Tous les ni-ni…",https://www.youtube.com/watch?v=raoIc86HTfI&pp=0gcJCcUKAYcqIYzv,,a-bas,Saison 1,1,
+Tous les ni-ni…",https://www.youtube.com/watch?v=raoIc86HTfI&pp=0gcJCcUKAYcqIYzv,,a-bas,Saison 1,1,,
 Tu votes,Saison 1,10,22/4/2007,"La politique ça t'intéresse, le sort des Français en dépend
 Tu as lu un jour dans la presse un truc très très intéressant
 Et même si tu ne t'en souviens plus, tu es vraiment très convaicant
@@ -453,7 +453,7 @@ Tu votes mémé, tu votes Buffet
 
 Si tu n'as pas le temps de lire alors écoute cette chanson
 La politique ça t'intéresse et même si t'as pas mal aux fesses…
-T'as mal aux urnes…",https://www.youtube.com/watch?v=TZlnJ_HbxEs,,tu-votes,Saison 1,1,
+T'as mal aux urnes…",https://www.youtube.com/watch?v=TZlnJ_HbxEs,,tu-votes,Saison 1,1,,
 Gardien de la paix,Saison 1,11,29/4/2007,"Je sais dire
 Halamalé Halamalé, Halamalékoum, Shalom Alachem, Halekoum Salam, Shalom Alechem
 Je sais dire
@@ -509,7 +509,7 @@ Car je suis
 Gardien de la paix, pas en Palestine, gardien de la paix, plutôt à la piscine
 Gardien de la paix, c'est plus tranquille, gardien de la paix, pas à Jerusalem, gardien de la paix, plutôt dans le 16ième, gardien de la paix, c'est plus tranquille
 Sinon tout le monde se tuerait, si je n'était pas gardien de la paix, du siège de l'UMP, sinon tout le monde se tuerait
-Alors merci",https://www.youtube.com/watch?v=C-nViGKosyE,,gardien-de-la-paix,Saison 1,1,
+Alors merci",https://www.youtube.com/watch?v=C-nViGKosyE,,gardien-de-la-paix,Saison 1,1,,
 Coca light,Saison 1,12,6/5/2007,"Tu n'habites pas dans les quartiers chauds
 Pourtant on dit que t'as le sang chaud
 Tu es l'ami de tous les rachos
@@ -542,7 +542,7 @@ Et ah que il t'invite à faire du ski à Gstaad
 Il faudrait surveiller tes mots de Gstaad
 Sinon tu pourrais prendre la grosse Gstaad
 Il faudrait surveiller tes mots de Gstaad
-Pour te calmer tu devrais prendre du...",https://www.youtube.com/watch?v=ge4ShvBVshA,,coca-light,Saison 1,1,
+Pour te calmer tu devrais prendre du...",https://www.youtube.com/watch?v=ge4ShvBVshA,,coca-light,Saison 1,1,,
 Bon vivant,Saison 1,13,13/5/2007,"Ouh toi, tu vas pas bien ce matin, t'es patraque, mauvaise mine, mal aux intestincs
 T'as du forcer ce week end, attention, tu pourrais avoir des problèmes...
 
@@ -569,7 +569,7 @@ Toi tu dis peut-être mais
 
 Ça dépend de toi, ça dépend de moi, ça dépend de nous, et ça vaut le coup, alors soit bon vivant
 Un bon vivannnnt, de bon appétit, de bonne compagnie, de bonne énergie, bonne alcoolémie,
-T'es un bon vivant, un bon vivant, quand tu vas à la piscine, tu mets ton marcel, tu mets un grand short, un pull sur ton cul de bon vivannt, un bon vivant",https://www.youtube.com/watch?v=X63HBt_q3YY,,bon-vivant,Saison 1,1,
+T'es un bon vivant, un bon vivant, quand tu vas à la piscine, tu mets ton marcel, tu mets un grand short, un pull sur ton cul de bon vivannt, un bon vivant",https://www.youtube.com/watch?v=X63HBt_q3YY,,bon-vivant,Saison 1,1,,
 En quête de buzz,Saison 1,14,20/5/2007,"Tu veux voir ta gueule à la télé, dans les journaux, c'est pas possible à la radio y'a pas d'images
 Alors tu cherches la faille, tu cherches le courage de leur montrer que toi aussi tu vaux quelque chose, que tu sais danser que tu sais chanter que tu sais t'habiller
 Avec des vêtements classe
@@ -612,7 +612,7 @@ Toutes tes amies te quitteront, tu te retrouveras au chômage
 
 Heureusement y'a François Fillon, François Fillon
 Il va te trouver un nouveau métier, François Fillon
-Il va te trouver un nouveau métier, François Fillon",https://www.youtube.com/watch?v=G3MQSwD4OiI,,en-quete-de-buzz,Saison 1,1,
+Il va te trouver un nouveau métier, François Fillon",https://www.youtube.com/watch?v=G3MQSwD4OiI,,en-quete-de-buzz,Saison 1,1,,
 OGMan,Saison 1,15,27/5/2007,"Tu fais de l'eau qui ne mouille pas
 Tu fais des femmes qui ne meurent pas
 Tu fais des hommes qui ne meurent pas non plus
@@ -651,7 +651,7 @@ Ils ont remis un peu de café, ça a redonné du coca
 Ils ont fait s'accoupler tatami et pois chiche, david douillet
 Ils ont fait s'accoupler laurent cabrol avec dolf lundgren
 Ils ont fait s'accoupler un connard et un nain
-Ils ont fait s'accoupler johnny et laëtitia",https://www.youtube.com/watch?v=JxKX8_Gv5x8,,ogman,Saison 1,1,
+Ils ont fait s'accoupler johnny et laëtitia",https://www.youtube.com/watch?v=JxKX8_Gv5x8,,ogman,Saison 1,1,,
 Roland-Garros,Saison 1,16,3/6/2007,"Aujourd'hui c'est la Fête des mères, t'as fait un petit cadeau
 Un disque de Bénabar et deux places pour Roland Garro
 Sur le cours Suzanne Lenglen, Amélie Mauresmo
@@ -684,7 +684,7 @@ Avantage service, égalité, avantage dehors, égalité, quel match !
 
 A Roland Garros on ne s'embête pas comme dirait Carlos à Enrico Macias
 A Roland Garros on ne s'embête pas comme dirait Benabar à Charles Gérard
-A feu Charles Gérard",https://www.youtube.com/watch?v=xraVD8hJO_c,,roland-garros,Saison 1,1,
+A feu Charles Gérard",https://www.youtube.com/watch?v=xraVD8hJO_c,,roland-garros,Saison 1,1,,
 Bac ABCD,Saison 1,17,10/6/2007,"Ça y est tu es prêt, tu as tout révisé
 Devant ta télé, t'as tout là-dedans
 Maths histoire-géo, physique et SVT
@@ -748,7 +748,7 @@ Bac M, N, O, P,
 T'as tout oublié
 Ton cerveau s'est vidé
 T'es aussi con qu'avant,
-Mais t'es diplômé",https://www.youtube.com/watch?v=y4Nw8qE2NCM,,bac-abcd,Saison 1,1,
+Mais t'es diplômé",https://www.youtube.com/watch?v=y4Nw8qE2NCM,,bac-abcd,Saison 1,1,,
 Piscine love,Saison 1,18,17/6/2007,"C'est l'été à San Francisco
 Dans la baie je regarde les bateaux
 S'éloigner vers une île où il fait toujours beau
@@ -791,7 +791,7 @@ Les Chevaliers du Zodiac
 Les Rouleaux de Printemps
 La Maison du Convertible
 Hélène et les Garçons
-L'Académie des 9",https://www.youtube.com/watch?v=DHU8_cLc5tw,,piscine-love,Saison 1,1,
+L'Académie des 9",https://www.youtube.com/watch?v=DHU8_cLc5tw,,piscine-love,Saison 1,1,,
 Back in the business,Saison 2,1,23/9/2007,"C'est la fin des vacances, t'as dansé tout l'été
 T'as perdu 3 kilos et tu es tout bronzé
 Y'en a qui font la gueule toi t'es tout excité
@@ -837,7 +837,7 @@ Nouvelle guerre en Iran, nouvelle guerre en Irak
 Nouveaux Jeux Olympiques, nouvel été pourri
 
 Nouvelles émeutes, nouvelles manifs, nouveau premier ministre
-Nouveaux impôts, nouvelle StarAC, nouveau tsunami, et Beaujolais nouveau !!!",https://www.youtube.com/watch?v=pr2teZ-xSo4&pp=0gcJCcUKAYcqIYzv,,back-in-the-business,Saison 2,2,
+Nouveaux impôts, nouvelle StarAC, nouveau tsunami, et Beaujolais nouveau !!!",https://www.youtube.com/watch?v=pr2teZ-xSo4&pp=0gcJCcUKAYcqIYzv,,back-in-the-business,Saison 2,2,,
 Danse de l'info,Saison 2,2,30/9/2007,"T'as lu l'Huma, t'as lu Libé, t'as lu le Canard Enchaîné
 T'as lu les rapports de Kouchner, le nouveau livre de Sullitzer
 T'as lu la lettre de Guy Môquet
@@ -876,7 +876,7 @@ La chaîne de l'achat
 La chaîne du poker
 La chaîne du bowling
 La chaîne des Bretons
-La chaîne de Cauet",https://www.youtube.com/watch?v=QRfwihEnCbE,,danse-de-linfo,Saison 2,2,
+La chaîne de Cauet",https://www.youtube.com/watch?v=QRfwihEnCbE,,danse-de-linfo,Saison 2,2,,
 Horoscope,Saison 2,3,7/10/2007,"Dans ton horoscope il y a des taureaux,
 Dans ton horoscope il y a des gémeaux
 Des béliers
@@ -919,7 +919,7 @@ Horoscope de Bertrand Cantat
 D'après mes calculs, il devrait sortir bientôt
 
 Et ça tu l'as pas dans ton horoscope, tu l'as pas dans ton horoscope
-Moi je l'ai dans mon horoscope, moi je l'ai dans mon horoscope",https://www.youtube.com/watch?v=T2-sS73HG0U,,horoscope,Saison 2,2,
+Moi je l'ai dans mon horoscope, moi je l'ai dans mon horoscope",https://www.youtube.com/watch?v=T2-sS73HG0U,,horoscope,Saison 2,2,,
 Allez la France !,Saison 2,4,14/10/2007,"Coupe du monde, coupe du monde
 C'est l'effet coupe du monde
 Coupe du monde, la Terre est ronde
@@ -975,7 +975,7 @@ Comme un ballon... de rugby
 Oooooooooooh hisse, Hortefeux
 Sarko, si t'es champion, tour de stade, tour de stade,
 Sarko, si t'es champion, tour de stade sans pantalon, en vélib
-Oooooooooooh hisse, Hortefeux",https://www.youtube.com/watch?v=CwQa1coljiY,,allez-la-france,Saison 2,2,
+Oooooooooooh hisse, Hortefeux",https://www.youtube.com/watch?v=CwQa1coljiY,,allez-la-france,Saison 2,2,,
 Petit cheminot,Saison 2,5,21/10/2007,"J'arrive à Paris à l'aéroport
 Je prends le train, c'est pas possible
 J'arrive à Paris à l'aéroport
@@ -1025,7 +1025,7 @@ Je veux camionneur, pas possible
 Je veux l'éclusier, pas possible,
 Je veux le pute, ça c'est possible
 
-Tout le monde a la grève...",https://www.youtube.com/watch?v=33ovVKiV6e0,,petit-cheminot,Saison 2,2,
+Tout le monde a la grève...",https://www.youtube.com/watch?v=33ovVKiV6e0,,petit-cheminot,Saison 2,2,,
 Vite vite vite,Saison 2,6,28/10/2007,"Toi, tu n'aimes pas les gens lents
 Qui parlent lentement
 Qui te font perdre du temps
@@ -1054,7 +1054,7 @@ Parce que toi, tu cours vite, tu roules vite,
 Tu parles vite, tu penses vite,
 Tu manges vite, tu bois vite, tu meurs…
 
-Vite, vite, vite, tu meurs...",https://www.youtube.com/watch?v=pUATJE58Y-Q&pp=0gcJCcUKAYcqIYzv,,vite-vite-vite,Saison 2,2,
+Vite, vite, vite, tu meurs...",https://www.youtube.com/watch?v=pUATJE58Y-Q&pp=0gcJCcUKAYcqIYzv,,vite-vite-vite,Saison 2,2,,
 Go Go Gringo !,Saison 2,7,4/11/2007,"Tu parcours la terre entière pour sauver l'humanité
 C'est un projet vraiment super, qui pourrait t'en empêcher ?
 Peut-être Mahmoud Ahmadinejad
@@ -1089,7 +1089,7 @@ Des tyrans
 
 Go, go, go, go, go, go, go gringo
 Go, go, go, go gringo
-Force de l'ONU",https://www.youtube.com/watch?v=C1DSO0pN-TU,,go-go-gringo,Saison 2,2,
+Force de l'ONU",https://www.youtube.com/watch?v=C1DSO0pN-TU,,go-go-gringo,Saison 2,2,,
 Pauvres Pêcheurs,Saison 2,8,11/11/2007,"Le matin dans ton chalutier
 Même si la mer est très agitée
 Tu mets tes bottes, tu mets ton ciré
@@ -1137,7 +1137,7 @@ Et tu pêches pour Exxon, et tu pêches pour BP
 Et tu pêches pour Chevron, et tu pêches pour Agip,
 Et tu pêches pour Mobil, et tu pêches pour Shell
 
-Je veux chanter pour Shell qui chont loin de chez elles Oh, oh, oh",https://www.youtube.com/watch?v=DkoldNQ4OkI,,pauvres-pecheurs,Saison 2,2,
+Je veux chanter pour Shell qui chont loin de chez elles Oh, oh, oh",https://www.youtube.com/watch?v=DkoldNQ4OkI,,pauvres-pecheurs,Saison 2,2,,
 Le Beaujo en Vélib,Saison 2,9,18/11/2007,"On s’était donné rendez-vous
 Comme chaque année place des Gros Nez
 On s’était dit « Modération ! »
@@ -1186,7 +1186,7 @@ Le Beaujolais
 
 Concours de nez rouge
 Si t’es fier de ta couperose tape dans tes mains
-Qui ne trinque pas n’est pas français !",https://www.youtube.com/watch?v=ouPmDvo35xE&pp=0gcJCcUKAYcqIYzv,,le-beaujo-en-velib,Saison 2,2,
+Qui ne trinque pas n’est pas français !",https://www.youtube.com/watch?v=ouPmDvo35xE&pp=0gcJCcUKAYcqIYzv,,le-beaujo-en-velib,Saison 2,2,,
 Nicolas et Rachida,Saison 2,10,25/11/2007,"Ils m’ont traînée dans la boue
 C’est pas vrai !
 Si, ils ont déchiré mon CV
@@ -1257,7 +1257,7 @@ De François Hollande, le fromage de Hollande
 
 Serre-moi contre toi, Nicolas, Rachida
 J’ai besoin de toi, Nicolas, Rachida
-Vas-y Nico, c’est bon, Vas-y Nico, c’est bon, bon, bon...",https://www.youtube.com/watch?v=60be7uKpcjg,,nicolas-et-rachida,Saison 2,2,
+Vas-y Nico, c’est bon, Vas-y Nico, c’est bon, bon, bon...",https://www.youtube.com/watch?v=60be7uKpcjg,,nicolas-et-rachida,Saison 2,2,,
 Super pouvoir d'achat,Saison 2,11,2/12/2007,"Si j’avais le pouvoir d’achat
 Aaaaaaah
 J’achèterais plein d’objets sans fil
@@ -1302,7 +1302,7 @@ Faire enlever mes verrues, je roulerais des heures en vélib
 J’achèterais un barbecue, j’achèterais un rottweiler
 Pour protéger mon barbecue
 
-Puis je placerais 1000 euros à l’excellent taux de 4% (à intérêt simple), ce qui me fera, au bout de dix ans, la coquette somme de 400 euros. 400 euros, c’est très important, je pourrai m’acheter une brosse à dent, du jus d’ananas, et un téléphone pour pouvoir raquer encore un peu plus…",https://www.youtube.com/watch?v=RqzR-KwjlrI,,super-pouvoir-dachat,Saison 2,2,
+Puis je placerais 1000 euros à l’excellent taux de 4% (à intérêt simple), ce qui me fera, au bout de dix ans, la coquette somme de 400 euros. 400 euros, c’est très important, je pourrai m’acheter une brosse à dent, du jus d’ananas, et un téléphone pour pouvoir raquer encore un peu plus…",https://www.youtube.com/watch?v=RqzR-KwjlrI,,super-pouvoir-dachat,Saison 2,2,,
 Miss France,Saison 2,12,9/12/2007,"Ce soir c’est l’élection de Miss France
 Devant ta télé tu vas choisir
 La plus belle Miss de France
@@ -1344,7 +1344,7 @@ Miss France
 Tu parles en silence
 Miss France
 Bienvenue au Grenelle
-De la Beauté",https://www.youtube.com/watch?v=HgmI2lsnxfk&pp=0gcJCcUKAYcqIYzv,,miss-france,Saison 2,2,
+De la Beauté",https://www.youtube.com/watch?v=HgmI2lsnxfk&pp=0gcJCcUKAYcqIYzv,,miss-france,Saison 2,2,,
 Standing Ovation,Saison 2,13,16/12/2007,"My name is Mouammar, Mouammar
 I have a big project militar
 I want to buy, want to buy, want to buy, want to buy, want to buy
@@ -1386,7 +1386,7 @@ I wanna buy, i wanna buy, my name is Colonel Kadhafi
 I wanna buy
 
 Tiens voilà Poutine qui arrive en limousine
-Si on allait au Bon Marché",https://www.youtube.com/watch?v=c0--LDTPszY,,standing-ovation,Saison 2,2,
+Si on allait au Bon Marché",https://www.youtube.com/watch?v=c0--LDTPszY,,standing-ovation,Saison 2,2,,
 La Marulanda,Saison 2,14,23/12/2007,"Tu as les cheveux un peu gras
 Tu as l’écharpe en Angora
 Tu descends les Champs-Elysées
@@ -1423,7 +1423,7 @@ Je te souhaite la paix, la paix du rentier
 Nicoléo Nicoléa
 Tu montres la queue du Mickey à Carla
 Nicoléo Nicoléa
-Petite pensée pour les gens qui meurent de froid",https://www.youtube.com/watch?v=qRqxirzUc4Q,,la-marulanda,Saison 2,2,
+Petite pensée pour les gens qui meurent de froid",https://www.youtube.com/watch?v=qRqxirzUc4Q,,la-marulanda,Saison 2,2,,
 MMM-UI-UI-M,Saison 3,1,23/3/2008,"De l’hiver tu tournes la page car maintenant,
 C’est le Printemps !
 C’est l’heure du remaniement, du grand ménage
@@ -1490,7 +1490,7 @@ Il me pince les fesses
 Et ça me fait quelque chose
 
 MMMMMMUIUIMMMMMMUIUIMMMMMMUIUIM
-MMMMMMUIUIMMMMMMUIUIMMMMMMUIUIM",https://www.youtube.com/watch?v=FQP3WPyXX4Y,,mmm-ui-ui-m,Saison 3,3,
+MMMMMMUIUIMMMMMMUIUIMMMMMMUIUIM",https://www.youtube.com/watch?v=FQP3WPyXX4Y,,mmm-ui-ui-m,Saison 3,3,,
 Au pays d'Élisabeth,Saison 3,2,30/3/2008,"Au pays d’Elisabeth, so british
 Où l’on pète dans la soie, so british
 Une jolie souricette, so british
@@ -1542,7 +1542,7 @@ Ah, ah, ah, you’re the king of bling
 
 Qui sera le prochain petit prince de Carla ?
 Qui sera le prochain petit prince de Carla ?
-Le prochain petit prince de Carla ?",https://www.youtube.com/watch?v=jk1ebta0is8,,au-pays-delisabeth,Saison 3,3,
+Le prochain petit prince de Carla ?",https://www.youtube.com/watch?v=jk1ebta0is8,,au-pays-delisabeth,Saison 3,3,,
 Je ne ressemble pas,Saison 3,3,6/4/2008,"Je ne ressemble pas
 À tous ceux qui se font piquer leurs billes dans la cour de récré
 Et qui se vengent après en piquant nos billets
@@ -1602,7 +1602,7 @@ Je ne ressemble pas
 À ce monde égoïste
 Qui tourne autour de moi
 
-Je ne ressemble pas…",https://www.youtube.com/watch?v=uKJY6dSb6G0,,je-ne-ressemble-pas,Saison 3,3,
+Je ne ressemble pas…",https://www.youtube.com/watch?v=uKJY6dSb6G0,,je-ne-ressemble-pas,Saison 3,3,,
 Les JO du péquin,Saison 3,4,13/4/2008,"Tu te lèves le matin,
 Oh noooooon
 La table n’est pas débarrassée
@@ -1673,7 +1673,7 @@ C’est du soir au matin
 Les plus forts c’est les sans-papiers
 Les JO du Péquin
 Aujourd’hui et demain
-Les plus forts c’est les sans-papiers",https://www.youtube.com/watch?v=F9MHvV7TMY0,,les-jo-du-pequin,Saison 3,3,
+Les plus forts c’est les sans-papiers",https://www.youtube.com/watch?v=F9MHvV7TMY0,,les-jo-du-pequin,Saison 3,3,,
 Mazerfacker,Saison 3,5,20/4/2008,"Tu ne veux de tort à personne
 Tu veux simplement faire ton métier, ton métier
 Tu es chargé de calculer
@@ -1715,7 +1715,7 @@ Hey, ton compte est bon!
 Aqui se queda la Carla
 La intraniable transparencia
 De tu querida presencia
-Sous-commandante Xavier Darcos",https://www.youtube.com/watch?v=v002WfRoZgk,,mazerfacker,Saison 3,3,
+Sous-commandante Xavier Darcos",https://www.youtube.com/watch?v=v002WfRoZgk,,mazerfacker,Saison 3,3,,
 I Got,Saison 3,6,27/4/2008,"Toi le sans-terre
 Toi pauvre erre
 Toi qui cherches un toit
@@ -1762,7 +1762,7 @@ I got another house, another locataire
 I’m just a flyfucker, I’m a proprietaire
 
 Profiter de, profiter de toi, ououh
-Profiter de, profiter de toi, ououh",https://www.youtube.com/watch?v=XwHzXPkIMHk,,i-got,Saison 3,3,
+Profiter de, profiter de toi, ououh",https://www.youtube.com/watch?v=XwHzXPkIMHk,,i-got,Saison 3,3,,
 Je suis un aventurier,Saison 3,7,4/5/2008,"Prostré dans une citadelle de l’occident
 Tu rêves d’un nouveau départ
 De girafes et d’éléphants
@@ -1811,7 +1811,7 @@ Les Dragons du Komodo
 Les Nasiks de New Dehli
 Les Nasiks de l’Elysée
 Les babouins de Tokyo
-Les babouins de la place Beauvau",https://www.youtube.com/watch?v=CJkfPCA7dD4,,je-suis-un-aventurier,Saison 3,3,
+Les babouins de la place Beauvau",https://www.youtube.com/watch?v=CJkfPCA7dD4,,je-suis-un-aventurier,Saison 3,3,,
 Avancé-Collé,Saison 3,8,11/5/2008,"En chemin
 J’ai rencontré le besoin
 M’a demandé la monnaie
@@ -1842,7 +1842,7 @@ On va avancer, avancer, avancé-serré
 
 Palapapapalapapa, yéhé
 
-Car la vie c’est compliquée",https://www.youtube.com/watch?v=pP78nLBBmKs,,avance-colle,Saison 3,3,
+Car la vie c’est compliquée",https://www.youtube.com/watch?v=pP78nLBBmKs,,avance-colle,Saison 3,3,,
 Réformez ma vie,Saison 3,9,18/5/2008,"Tu n’as plus vraiment le temps de vivre
 C’est la vie
 C’est comme ça
@@ -1896,7 +1896,7 @@ Réformez Le Monde, réformez Libé
 Reformez les Clash, reformez l’espoir,
 Reformez Carla, reformez l’amour
 
-Lalalalalala....",https://www.youtube.com/watch?v=n5_XJkB4Mpw,,reformez-ma-vie,Saison 3,3,
+Lalalalalala....",https://www.youtube.com/watch?v=n5_XJkB4Mpw,,reformez-ma-vie,Saison 3,3,,
 Festival,Saison 3,10,25/5/2008,"Ils ont scénarisé la terre
 Ils ont scénarisé la guerre
 Ils ont scénarisé ta mère
@@ -1936,7 +1936,7 @@ Festival de costards
 C’est une comédie
 Même si ça n’est pas drôle
 De jouer le second rôle
-Dans le film de sa vie",https://www.youtube.com/watch?v=K_TdfU8YoNk&pp=0gcJCcUKAYcqIYzv,,festival,Saison 3,3,
+Dans le film de sa vie",https://www.youtube.com/watch?v=K_TdfU8YoNk&pp=0gcJCcUKAYcqIYzv,,festival,Saison 3,3,,
 8 200 200,Saison 3,11,1/6/2008,"Tu es jeune et tu ressens un vide
 Tu ne sais même plus écrire ton nom
 Tu aurais vraiment besoin d’un guide
@@ -1987,7 +1987,7 @@ Si tu veux savoir si ta copine est vierge, envoie HYMEN au 8 200 200
 Si tu veux savoir le prix d’un char Leclerc, envoie ANGOLA au 8 200 200
 Si tu veux chatter avec Monique Olivier, envoie FOURNIRET au 8 200 200
 Si tu veux faire une bonne blague à ton ami, envoie FISC au 8 200 200
-Si t’as un truc à dire, envoie-le au 8 200 200",https://www.youtube.com/watch?v=QfAKhu34sCc&pp=0gcJCcUKAYcqIYzv,,8-200-200,Saison 3,3,
+Si t’as un truc à dire, envoie-le au 8 200 200",https://www.youtube.com/watch?v=QfAKhu34sCc&pp=0gcJCcUKAYcqIYzv,,8-200-200,Saison 3,3,,
 Ô Barack,Saison 3,12,8/6/2008,"Ô Barack Obama
 Tu veux casser la baraque
 Du Maroc à l’Amérique
@@ -2025,7 +2025,7 @@ Les bombes tombent sur le Liban, c’est bientôt l’heure du bilan des morts a
 
 Te fais pas de bile Harry, il est pas tout clean Tone, fais moi un bisou sur la bouche Georges
 Sous sa douche Bush met du Obao fraîcheur fresh fraîcheur sèche, sèche tes larmes Hillary,
-Il a ri, tu l’as déjà dit ça…",https://www.youtube.com/watch?v=fxYeWzF82uY,,o-barack,Saison 3,3,
+Il a ri, tu l’as déjà dit ça…",https://www.youtube.com/watch?v=fxYeWzF82uY,,o-barack,Saison 3,3,,
 L'Euro de l'apéro,Saison 3,13,15/6/2008,"Tu nous escagasses avec ton Euro million, tu nous escagasses
 Tu nous escagasses avec ton Eurovision, tu nous escagasses
 Tu nous escagasses avec ton Eurotunnel, tu nous escagasses
@@ -2054,7 +2054,7 @@ Mais la Turquie c’est dans l’Euro ?
 
 C’est dans l’Euro de l’apéro avec tes copains dans le jardin
 Euro pastis, Euro porto, Euro ouzo, Euro Ricard,
-Euro Guinness, Euro saucisse, et y’a Francis à la guitare",https://www.youtube.com/watch?v=1ys7bn37zFo,,leuro-de-lapero,Saison 3,3,
+Euro Guinness, Euro saucisse, et y’a Francis à la guitare",https://www.youtube.com/watch?v=1ys7bn37zFo,,leuro-de-lapero,Saison 3,3,,
 Aaaah Chiche,Saison 3,14,22/6/2008,"Avant que l’usure du temps ne nous sépare
 Avant que nos rêves se transforment en cauchemars
 Avant que ne sonne la fin de notre histoire
@@ -2096,7 +2096,7 @@ Mon âmour incurvé vers le ciel enflammé d’un été turgescent
 Aaaah chiche, chiche, chiche ce soir
 Aaaah chiche, chiche, chiche on part
 Aaaah chiche, chiche, chiche ce soir
-Aaaah chiche, chiche, chiche on part",https://www.youtube.com/watch?v=OwvNx5jNeDE,,aaaah-chiche,Saison 3,3,
+Aaaah chiche, chiche, chiche on part",https://www.youtube.com/watch?v=OwvNx5jNeDE,,aaaah-chiche,Saison 3,3,,
 Capitaine Madoff,Saison 4,1,4/1/2009,"On a passé le Cap de Bonne Espérance,
 Finie l’insouciance,
 Voici venir le mauvais temps
@@ -2132,7 +2132,7 @@ On part tous à la dérive.
 Capitaine Madoff !
 Quelqu'un m'a dit « c'est la crise »
 Capitaine Madoff !
-Y a plus d'eau dans les banquises",https://www.youtube.com/watch?v=Df74RYasseo,,capitaine-madoff,Saison 4,4,
+Y a plus d'eau dans les banquises",https://www.youtube.com/watch?v=Df74RYasseo,,capitaine-madoff,Saison 4,4,,
 Enfant d'Ibiza,Saison 4,2,11/1/2009,"Tu vis au soleil
 Tu ne le vois pas
 Entouré de bombes
@@ -2163,7 +2163,7 @@ Enfant d'Ibiza
 Ecoute ma voix
 Enfant d'Ibiza
 Enfant des Guetta
-Danse avec moi",https://www.youtube.com/watch?v=NitsV_1Lw-0,,enfant-dibiza,Saison 4,4,
+Danse avec moi",https://www.youtube.com/watch?v=NitsV_1Lw-0,,enfant-dibiza,Saison 4,4,,
 Jeu de Loi,Saison 4,3,18/1/2009,"Attention c’est parti le jeu de loi peut commencer
 Dis-moi quel pion tu choisis le jaune, le noir, le basané ?
 Le noir perd tout le temps et le blanc ne peut pas jouer
@@ -2193,7 +2193,7 @@ Et laisses le soin aux autres d’avoir Hortefeux aux fesses
 Tu ne vis pas
 Tu ne dors pas
 Tu ne rêves pas
-Tu ne sens pas pieds",https://www.youtube.com/watch?v=9aWs159o9H8,,jeu-de-loi,Saison 4,4,
+Tu ne sens pas pieds",https://www.youtube.com/watch?v=9aWs159o9H8,,jeu-de-loi,Saison 4,4,,
 Seul dans mon coin,Saison 4,4,25/1/2009,"René des cendres de Babylone
 Dernier prophète de l’Occident
 Jure sur la Bible de Lincoln
@@ -2242,7 +2242,7 @@ Barack O. m’a dit que oui on pouvait !
 Segolo m’a dit qu’elle avait tout dit à Barack O.
 Et Martine Au. m’a dit la même chose que l’an dernier
 Elle va contre attaquer, aïe aïe aïe ça va chauffer
-Et je me suis endormi, le marchand de sable est passé",https://www.youtube.com/watch?v=U_x13ueDNJQ,,seul-dans-mon-coin,Saison 4,4,
+Et je me suis endormi, le marchand de sable est passé",https://www.youtube.com/watch?v=U_x13ueDNJQ,,seul-dans-mon-coin,Saison 4,4,,
 La Gigue des gueux,Saison 4,5,1/2/2009,"En l'an de grâce deux mil, ô gué, tempête fut venue
 Récolte fut maigre, ô gué, et famine au menu
 
@@ -2276,7 +2276,7 @@ Sainte Ségolène, Mère des Gueux,
 Priez pour nous, pauvres gueux !
 
 Enfourche ta bourrique et tire-lui la queue
-Jette un sou en l'air et fais un voeu",https://www.youtube.com/watch?v=aTB4lzY0qIs,,la-gigue-des-gueux,Saison 4,4,
+Jette un sou en l'air et fais un voeu",https://www.youtube.com/watch?v=aTB4lzY0qIs,,la-gigue-des-gueux,Saison 4,4,,
 La Dolce Vita,Saison 4,6,8/2/2009,"Les colères, les ennuis
 Les misères, les soucis
 Les faillites, les échecs
@@ -2324,7 +2324,7 @@ Dans ma pastasciutta, na na na na na
 Avec la Cicciolina, na na na na na
 Et Forza Italia, na na na na na
 C'est comme au cinéma, na na na na na
-Dans la dolce vita, na na na na na",https://www.youtube.com/watch?v=efTZw2ysWiI,,la-dolce-vita,Saison 4,4,
+Dans la dolce vita, na na na na na",https://www.youtube.com/watch?v=efTZw2ysWiI,,la-dolce-vita,Saison 4,4,,
 Un Ti Colon,Saison 4,7,15/2/2009,"On est parti
 Observer dans les îles
 Une espèce de fossile
@@ -2380,7 +2380,7 @@ Un ti peu trop
 Un ti peu cher mon ti colon
 Un ti peu cher faire attention
 Un ti peu cher, un ti peu dur
-Un ti peu trop",https://www.youtube.com/watch?v=-9fiRanRUAg,,un-ti-colon,Saison 4,4,
+Un ti peu trop",https://www.youtube.com/watch?v=-9fiRanRUAg,,un-ti-colon,Saison 4,4,,
 Samoussa,Saison 4,8,22/2/2009,"Dans une forêt au fond des ravines
 Se pressant à la réunion
 Les petits chefs viennent faire leur cuisine
@@ -2427,7 +2427,7 @@ Samoussa oh samoussa
 Sa-Sa ça va manger le
 Mou-Mou ça va manger le
 Sa-Sa ça va manger le
-Samoussa oh samoussa",https://www.youtube.com/watch?v=h5G0VdZDe_U,,samoussa,Saison 4,4,
+Samoussa oh samoussa",https://www.youtube.com/watch?v=h5G0VdZDe_U,,samoussa,Saison 4,4,,
 Bienvenue Chez Les Chiants,Saison 4,9,1/3/2009,"Sous les yeux artificieux des projecteurs
 Où brillent les faux teints qui masquent les laideurs
 Une élite se presse pour célébrer dûment
@@ -2487,7 +2487,7 @@ Qui je suis...
 Je suis Dany, Dany Boon
 Dany, Dany Boon
 Super Dany, Dany Boon
-Super Dany, Dany Boon",https://www.youtube.com/watch?v=QJm4rehBi90,,bienvenue-chez-les-chiants,Saison 4,4,
+Super Dany, Dany Boon",https://www.youtube.com/watch?v=QJm4rehBi90,,bienvenue-chez-les-chiants,Saison 4,4,,
 Je suis une femme,Saison 4,10,8/3/2009,"Ni de chambre, ni de ménage
 Ni d’affaires, ni sage
 Ni fatale, ni mondaine
@@ -2541,7 +2541,7 @@ Comme un manouche sans guitare
 Comme Tintin sans Milou
 Comme Carlos Santana
 Comme Milan-San Remo
-Comme Véronique Sanson",https://www.youtube.com/watch?v=MwjqINJ_2lw,,je-suis-une-femme,Saison 4,4,
+Comme Véronique Sanson",https://www.youtube.com/watch?v=MwjqINJ_2lw,,je-suis-une-femme,Saison 4,4,,
 Mort aux vaches,Saison 4,11,15/3/2009,"Broute, broute, broute dans les champs
 Jolie vache
 Paisse, paisse, paisse en paix dans le vent
@@ -2577,7 +2577,7 @@ Car tu es avec moi
 Vache amour qui transforme l'herbe en lait
 Vache qu'on trait et finit en filet
 Vache qu'on jette en pâture dans les prés
-Vache amère qui devient enragée",https://www.youtube.com/watch?v=il5nhXT2Y_I,,mort-aux-vaches,Saison 4,4,
+Vache amère qui devient enragée",https://www.youtube.com/watch?v=il5nhXT2Y_I,,mort-aux-vaches,Saison 4,4,,
 J'assume à fond,Saison 4,12,22/3/2009,"Je n’ai pas peur du qu’en dira-t-on
 J’ai le courage de mes opinions
 Je suis un être de convictions
@@ -2626,7 +2626,7 @@ Pour les stock options et j’assume à fond
 Pour le bouclier et j’assume à fond
 Vraiment complètement con, ouais mais
 J’assume à fond ouais, j’assume à fond ouais,
-J’assume à fond ouais, j’assume à fond",https://www.youtube.com/watch?v=t5iM4OJaZTs,,jassume-a-fond,Saison 4,4,
+J’assume à fond ouais, j’assume à fond",https://www.youtube.com/watch?v=t5iM4OJaZTs,,jassume-a-fond,Saison 4,4,,
 Cherche encore,Saison 4,13,29/3/2009,"Au tout début des temps
 Il était une fois
 Une bulle de néant
@@ -2724,7 +2724,7 @@ Avec un air pourri
 Et des paroles pourries
 Comment faire croire aux gens
 N'importe quelle connerie
-En tapant dans les mains",https://www.youtube.com/watch?v=rSUV7i9FZfw,,cherche-encore,Saison 4,4,
+En tapant dans les mains",https://www.youtube.com/watch?v=rSUV7i9FZfw,,cherche-encore,Saison 4,4,,
 Dans ma maison,Saison 4,14,5/4/2009,"Quand l'hiver automnal de l'été printanier
 Aura plombé le galbe de mes ischio-jambiers
 Quand l'orgie bacchanale de trop m'aura plongé
@@ -2764,7 +2764,7 @@ Dans ma maison
 Dans ma maison
 Dans ma maison de quartier
 
-Avec toi ou sans toi",https://www.youtube.com/watch?v=keTD4k8IGh4,,dans-ma-maison,Saison 4,4,
+Avec toi ou sans toi",https://www.youtube.com/watch?v=keTD4k8IGh4,,dans-ma-maison,Saison 4,4,,
 Être Français,Saison de l'Avent,1,8/11/2009,"Être honnête et courageux
 C′est être français
 Être sage et généreux
@@ -2799,7 +2799,7 @@ C'est être ricain
 Être saoul comme un cochon
 C'est être breton
 Avoir du poil sur le torse
-C′est ça, être corse",https://www.youtube.com/watch?v=1_sCblqZAEI&list=RD1_sCblqZAEI&start_radio=1,,etre-francais,Saison de l'Avent,6,
+C′est ça, être corse",https://www.youtube.com/watch?v=1_sCblqZAEI&list=RD1_sCblqZAEI&start_radio=1,,etre-francais,Saison de l'Avent,6,,
 Jacques Chirac,Saison de l'Avent,2,15/11/2009,"Jacques Chirac est allé en Afrique hier
 Et devine donc un peu ce qu′il a découvert ?
 Eh ben là-bas il paraît qu'y′a pas d'gâteau au dessert
@@ -2847,7 +2847,7 @@ Que chaque pas doit être un but dans la vie
 
 Que croyez-vous
 Que Jacques a fait ?
-Il n'a rien fait comme la plupart des Français",https://www.youtube.com/watch?v=0EJmpO8uscw&list=RD0EJmpO8uscw&start_radio=1,,jacques-chirac,Saison de l'Avent,6,
+Il n'a rien fait comme la plupart des Français",https://www.youtube.com/watch?v=0EJmpO8uscw&list=RD0EJmpO8uscw&start_radio=1,,jacques-chirac,Saison de l'Avent,6,,
 Thierry Henry,Saison de l'Avent,3,22/11/2009,"Pour mes 15 ans j'ai fait le voyage à Paris
 C'était la première fois je quittais mon pays
 J'ai chanté, j'ai dansé sur le pont du Ferry
@@ -2874,7 +2874,7 @@ Va jouer la Coupe du monde de la cleptomanie
 Thierry, Thierry Henry
 Soit le Français en pleure soit le Thierry en rit
 
-This is the Hand, my only friend the Hand",https://www.youtube.com/watch?v=BBubZiKVmWc,,thierry-henry,Saison de l'Avent,6,
+This is the Hand, my only friend the Hand",https://www.youtube.com/watch?v=BBubZiKVmWc,,thierry-henry,Saison de l'Avent,6,,
 Valeur ajoutée,Saison de l'Avent,4,29/11/2009,"Palapapa papa pala
 (P-A-L-A-P-A-P-A-P-A-L-A)
 Palapapa papa pala
@@ -2930,7 +2930,7 @@ J'ai envie de rêver avec toi
  Palapapa papa pala
 (P-A-L-A-P-A-P-A-P-A-L-A)
  Palapapa papa pala
- J'la paierai pas, ta TVA",https://www.youtube.com/watch?v=95Ely9j2kCw&t=58s,,valeur-ajoutee,Saison de l'Avent,6,
+ J'la paierai pas, ta TVA",https://www.youtube.com/watch?v=95Ely9j2kCw&t=58s,,valeur-ajoutee,Saison de l'Avent,6,,
 C'est une Américaine,Saison de l'Avent,5,6/12/2009,"Bonsoir et bienvenue en direct du plus Grand Minaret du Monde
 L’émission qui redonne le droit au respect et à la dignité
 Et comme chaque semaine c’est vous public qui allez rétablir la justice
@@ -2952,7 +2952,7 @@ Vous avez le choix, envoyez 1 pour USA, 2 pour reste du monde, attention, c’es
 
 C’est une Américaine qui s’en va cette semaine
 C’est une Américaine qui s’en va cette semaine
-C’est une Américaine qui s’en va cette semaine",https://www.youtube.com/watch?v=ImAOmJzqWIM,,cest-une-americaine,Saison de l'Avent,6,
+C’est une Américaine qui s’en va cette semaine",https://www.youtube.com/watch?v=ImAOmJzqWIM,,cest-une-americaine,Saison de l'Avent,6,,
 COpenhague,Saison de l'Avent,6,13/12/2009,"Convoqués à Copenhague
 Pour couper court au CO
 Un cortège de comptables
@@ -2994,7 +2994,7 @@ Allez bonne continuation ! 
 Spécial COuCOu à notre COllègue Johnny qui a COntracté une COxalgie à la Con au COurs d'un COcktail, il a été COntraint de COnsulter, ça nous a COmme vous pouvez le COnstater et le COncevoir COntrariés mais on est de tout COeur avec notre Copain (avec qui on le COncède on COnvoîte de COllaborer en tant que COmpositeur, nan ça c'est une COnnerie), et on est COntents car la COntagion s'est COnfinée dans la COlonne, il n'a pas eu de COnvulsions ni de COntaminations du COrtex, il est sous COrtisone, sous sa COuverture, COuché dans un COma COntrôlé. COmisération mon COCO et COurage COw-boy. COrdialement, bonne COntinuation.
 
 
-Force est de Constater la Consternation de nos Compatriotes face à toutes ces Controverses Conçues Comme autant de Conspirations et de Coups Contractés par la Constitution Contre leur Consentement et leur Concertation",https://www.youtube.com/watch?v=AzbGStth_90,,copenhague,Saison de l'Avent,6,
+Force est de Constater la Consternation de nos Compatriotes face à toutes ces Controverses Conçues Comme autant de Conspirations et de Coups Contractés par la Constitution Contre leur Consentement et leur Concertation",https://www.youtube.com/watch?v=AzbGStth_90,,copenhague,Saison de l'Avent,6,,
 2010 hors service,Saison de l'Avent,7,20/12/2009,"Ensemble arrêtons le temps
 Pour vivre éternellement
 Ensemble arrêtons le temps
@@ -3019,7 +3019,7 @@ Ensemble arrêtons le temps
 Halte et sus au jour de l'an
 Mais pour arrêter le temps
 Ensemble il faut dire
-2010, hors service",https://www.youtube.com/watch?v=vUjstMsLIhg,,2010-hors-service,Saison de l'Avent,6,
+2010, hors service",https://www.youtube.com/watch?v=vUjstMsLIhg,,2010-hors-service,Saison de l'Avent,6,,
 Le Govuzela,Coupe du Monde 2010,1,13/6/2010,"DoménékéDoménékéDoménéké
 DoménékéDoménékéDoménéké
 
@@ -3051,7 +3051,7 @@ Encore 30 ans de zéro-zéro !
 Allez les vieux, on est tous ensemble !
 On n’est pas morts, la France et Govou !
 Notre prostate toujours nous rassemble !
-Allez les vieux, on est tous avec vous !",https://www.youtube.com/watch?v=krkuFagvugU,,le-govuzela,Coupe du Monde 2010,7,
+Allez les vieux, on est tous avec vous !",https://www.youtube.com/watch?v=krkuFagvugU,,le-govuzela,Coupe du Monde 2010,7,,
 RayMan,Coupe du Monde 2010,2,20/6/2012,"J’envoie un SOS à tous les Français dans la tristesse de jeudi, voilà ce que je dis
 J’envoie un SMS à Hugo, à Patrice, à Henry, à Nico, Ribéry, c’est pas fini
 J’appelle l’Alain Giresse, le Michel Platini, le Zizou qui sommeillent dans ton cœur endormi
@@ -3086,7 +3086,7 @@ Mais RayMan, j’ai le 7 ! C’est Sydney qui a le numéro 10 !
 RayMan, RayMan tu es si seul ce soir 
 - J’ai fait couler la pluie dans vos cœurs
 RayMan, RayMan tu es si seul ce soir
-- J’ai fait couler la pluie dans les yeux de Patrice Evra",https://www.youtube.com/watch?v=WlqpmdqHGxg,,rayman,Coupe du Monde 2010,7,
+- J’ai fait couler la pluie dans les yeux de Patrice Evra",https://www.youtube.com/watch?v=WlqpmdqHGxg,,rayman,Coupe du Monde 2010,7,,
 Chez Raymonde,Coupe du Monde 2010,3,27/6/2010,"Quand le peuple est dans la rue
 Créant pagaille et cohue
 Où passer une soirée entre amis ?
@@ -3124,7 +3124,7 @@ Bienvenue chez Raymonde
 Toute la nuit on ne s’ennuie pas une seconde
 Les artistes font diversion et tout le monde applaudit
 
-Écoutons Roselyne la Pétomane...",https://www.youtube.com/watch?v=telJpWvRPGM,,chez-raymonde,Coupe du Monde 2010,7,
+Écoutons Roselyne la Pétomane...",https://www.youtube.com/watch?v=telJpWvRPGM,,chez-raymonde,Coupe du Monde 2010,7,,
 Jeunesse,Hors Saison,1,16/1/2011,"Hommage au soldat d'hiver
 
 À l'hiver 2011 bien trop longtemps privée
@@ -3166,7 +3166,7 @@ Jeunesse prête au combat devant le rideau de fer
 Jeunesse en marche debout les poings serrés
 Jeunesse qui crie sa rage prête à tout liquider
 Jeunesse prête au combat devant le rideau de fer
-Pour les soldes d’hiver",https://www.youtube.com/watch?v=nRF_M5YjR0A,,jeunesse,Hors Saison,8,
+Pour les soldes d’hiver",https://www.youtube.com/watch?v=nRF_M5YjR0A,,jeunesse,Hors Saison,8,,
 "Hu, Ho, et la fleur de jasmin",Hors Saison,2,23/1/2011,"Toutes les 400 lunes
 Le grand Maître d’Orient (Hu Jintao)
 Vient dépenser sa fortune
@@ -3201,7 +3201,7 @@ Pour 900 milliards de Yuan, je vais prendre le Wyoming
 Hu peut acheter le monde
 Hu peut acheter la paix
 Mais Hu ne hume pas le parfum
-De la fleur de jasmin",https://www.youtube.com/watch?v=D3Fevil6nsg,,hu-ho-et-la-fleur-de-jasmin,Hors Saison,8,
+De la fleur de jasmin",https://www.youtube.com/watch?v=D3Fevil6nsg,,hu-ho-et-la-fleur-de-jasmin,Hors Saison,8,,
 Jeunesse II,Hors Saison,3,30/1/2011,"Bien trop longtemps privée,
 Trop longtemps attendu,
 Une deuxième vague de jeunes, affamée,
@@ -3243,9 +3243,9 @@ Jeunesse prête au combat, devant le rideau de fer
 Jeunesse en marche, debout, les poings serrés,
 Jeunesse qui crie sa rage, prête à tout liquider,
 Jeunesse prête au combat, devant le rideau de fer,
-Pour les soldes d’hiver.",https://www.youtube.com/watch?v=ER7dYlciXTA,,jeunesse-ii,Hors Saison,8,
-Michèle dort sous la pluie,Hors Saison,4,6/2/2011,,https://www.youtube.com/watch?v=dbTBDGZWW_I,,michele-dort-sous-la-pluie,Hors Saison,8,
-Il y a de l'écho,Hors Saison,5,13/2/2011,,https://www.youtube.com/watch?v=bMlhlV9p6eE,,il-y-a-de-lecho,Hors Saison,8,
+Pour les soldes d’hiver.",https://www.youtube.com/watch?v=ER7dYlciXTA,,jeunesse-ii,Hors Saison,8,,
+Michèle dort sous la pluie,Hors Saison,4,6/2/2011,,https://www.youtube.com/watch?v=dbTBDGZWW_I,,michele-dort-sous-la-pluie,Hors Saison,8,,
+Il y a de l'écho,Hors Saison,5,13/2/2011,,https://www.youtube.com/watch?v=bMlhlV9p6eE,,il-y-a-de-lecho,Hors Saison,8,,
 Luc,Hors Saison,6,30/11/2008,"Luc avait tout pour que l’on dise
 Que Luc était un étalon,
 Un de ces maris que l’on prise
@@ -3289,7 +3289,7 @@ Et ce non pas qu’en Avignon…
 Alors s’il vous plaît, please,
 Humblement tolérons
 Que des inconnus de nous puisent
-Leur bonheur ailleurs que nous l’on.",https://www.youtube.com/watch?v=JZLWem_uU80,,luc,Hors Saison,8,
+Leur bonheur ailleurs que nous l’on.",https://www.youtube.com/watch?v=JZLWem_uU80,,luc,Hors Saison,8,,
 Dur dur d'être bien né,Hors Saison,7,18/10/2009,"Jean m’a dit que, par-dessus les ans,
 Il m’a dit qu’il était un infant,
 Écoutez cette histoire de Jean et de l’infant,
@@ -3331,8 +3331,8 @@ S’il y a une morale, un adage
 S’il y a une leçon à tirer
 Comme disait Jordy à son âge
 C’est qu’il est dur d’être bien né
-Oh oui dur dur d’être bien né",https://www.youtube.com/watch?v=_Dr2QaP9BXo,,dur-dur-detre-bien-ne,Hors Saison,8,
-Jérôme Kerviel,Hors Saison,8,13/10/2010,,https://www.youtube.com/watch?v=IulYMdyfLu4,,jerome-kerviel,Hors Saison,8,
+Oh oui dur dur d’être bien né",https://www.youtube.com/watch?v=_Dr2QaP9BXo,,dur-dur-detre-bien-ne,Hors Saison,8,,
+Jérôme Kerviel,Hors Saison,8,13/10/2010,,https://www.youtube.com/watch?v=IulYMdyfLu4,,jerome-kerviel,Hors Saison,8,,
 Saint-Valentin,Hors Saison,9,27/1/2008,"Si je t’aimais comme aiment les papillons
 Je déploierais mes ailes de papillon
 Je viendrais respirer tes effluves
@@ -3375,10 +3375,10 @@ Alors n’y pensons plus
 Alors n’y pensons plus
 
 Mon Dieu que tu sens bon
-Soyons fous, soyons fous",https://www.youtube.com/watch?v=Geg5TRO4WuI,,saint-valentin,Hors Saison,8,
-Matmut,Hors Saison,10,6/9/2009,,https://www.youtube.com/watch?v=EOxUIZUll1A,,matmut,Hors Saison,8,
-Martin Kazinski,Hors Saison,11,1/1/2011,,https://www.dailymotion.com/video/k3oJUXBhpD19f928Unv,,martin-kazinski,Hors Saison,8,
-Au Cinéma,Hors Saison,14,7/5/2010,"Je rentre chez moi, je sais pas quoi faire ce soir,
+Soyons fous, soyons fous",https://www.youtube.com/watch?v=Geg5TRO4WuI,,saint-valentin,Hors Saison,8,,
+Matmut,Hors Saison,10,6/9/2009,,https://www.youtube.com/watch?v=EOxUIZUll1A,,matmut,Hors Saison,8,,
+Martin Kazinski,Hors Saison,11,1/1/2011,,https://www.dailymotion.com/video/k3oJUXBhpD19f928Unv,,martin-kazinski,Hors Saison,8,,checked
+Au Cinéma,Hors Saison,12,7/5/2010,"Je rentre chez moi, je sais pas quoi faire ce soir,
 Envie de rêver, besoin d'une histoire
 J'allume la télé, Jean-Marie Bigard,
 J'éteins la télé, j'enfile mon costard,
@@ -3400,17 +3400,213 @@ I'd like to see a good movie
 Just you and me at UGC
 J'aimerais voir un film ce soir
 Juste toi et moi au cinéma
-Pour rêver, pour pleurer, voyager et s'aimer !",https://www.youtube.com/watch?v=alrP1vuPVUU,,au-cinema,Hors Saison,8,
-Les Invincibles,Hors Saison,15,16/2/2010,,https://www.youtube.com/watch?v=ThAgh85BapM,,les-invincibles,Hors Saison,8,
-France forte,Saison 5,1,19/2/2012,,https://www.youtube.com/watch?v=tg3kBHy11Jk,,france-forte,Saison 5,5,
-En quinquennale,Saison 5,2,26/2/2012,,https://www.youtube.com/watch?v=BZiltDsccIg,,en-quinquennale,Saison 5,5,
-Peuple de l'argent,Saison 5,3,4/3/2012,,https://www.youtube.com/watch?v=R2INyq79m3c,,peuple-de-largent,Saison 5,5,
-Blabla halal,Saison 5,4,11/3/2012,,https://www.youtube.com/watch?v=O6RhVS78DUo,,blabla-halal,Saison 5,5,
-Les CRS tous avec nous,Saison 5,5,18/3/2012,,https://www.youtube.com/watch?v=jelLL8wfIkc,,les-crs-tous-avec-nous,Saison 5,5,
-Les Souris et les Chats,Saison 5,6,25/3/2012,,https://www.youtube.com/watch?v=edfcxOE-84s,,les-souris-et-les-chats,Saison 5,5,
-Super Chenille,Saison 5,7,1/4/2012,,https://www.youtube.com/watch?v=aRsJ5TT4C-Q,,super-chenille,Saison 5,5,
-Lettre à France 2,Saison 5,8,8/4/2012,,https://www.youtube.com/watch?v=cEEpjebwTtg,,lettre-a-france-2,Saison 5,5,
-Franz-O le perruquier,Saison 5,9,15/4/2012,,https://www.youtube.com/watch?v=455i4xOTQbM,,franz-o-le-perruquier,Saison 5,5,
+Pour rêver, pour pleurer, voyager et s'aimer !",https://www.youtube.com/watch?v=alrP1vuPVUU,,au-cinema,Hors Saison,8,,
+Les Invincibles,Hors Saison,13,16/2/2010,,https://www.youtube.com/watch?v=ThAgh85BapM,,les-invincibles,Hors Saison,8,,
+France forte,Saison 5,1,19/2/2012,,https://www.youtube.com/watch?v=tg3kBHy11Jk,,france-forte,Saison 5,5,,
+En quinquennale,Saison 5,2,26/2/2012,,https://www.youtube.com/watch?v=BZiltDsccIg,,en-quinquennale,Saison 5,5,,
+Peuple de l'argent,Saison 5,3,4/3/2012,"Ce matin je l’ai vu partir, ô mon amour,
+Suivre l’exode des martyrs, pour toujours,
+Embarquer sur un bateau blanc
+Plein de vedettes et de talents
+De footballeurs en mini shorts
+Un boat-people en quelque sorte
+
+Je t’en prie reviens-moi, ô peuple de l’argent !
+J’ai tant besoin de toi, de tes bons sentiments.
+Comment vivre sans toi, ô peuple de l’argent ?
+Que ferai-je entouré de tous ces pauvres gens ?
+Et de mon temps... libre
+
+Il y a Jallet qui joue au foot sur la plage,
+A l’open bar Hallyday doute, courage !
+Il n’y a plus de Kinder Bueno,
+Ça c’est encore un coup à Jo !
+Les malheureux payés en brut
+Ne peuvent plus se payer de... Kinder Bueno
+
+Je t’en prie reviens-moi, ô peuple de l’argent !
+J’ai tant besoin de toi de tes bons sentiments,
+Comment vivre sans toi, ô peuple de l’argent ?
+Que ferai-je entouré de tous ces pauvres gens ?
+Et de mon temps... libre
+
+Ce soir les banquiers donnent une m.e.s,
+Par solidarité avec la grèce,
+Car plus les gens sont solidaires,
+Plus les banquiers sont milliardaires !
+Mon dieu que la vie est magique
+Lorsqu’on vit de la dette publique
+
+Je te retrouve enfin, ô peuple de l’argent,
+Où étais-tu passé ? aux Îles Caïmans !
+Je veux te rassurer, ô peuple de l’argent,
+Je ne ferai jamais les 75 %
+Pour te dédommager, ô peuple de l’argent,
+J’ai emprunté hier au peuple de l’argent,
+Un paquet de monnaie, ô peuple de l’argent,
+À des taux d’intérêt, ô peuple de l’argent,
+Qui vont te satisfaire, ô peuple de l’argent,
+Oui ça devrait te plaire, ô peuple de l’argent,
+Tu as encore gagné, ô peuple de l’argent...",https://www.youtube.com/watch?v=R2INyq79m3c,,peuple-de-largent,Saison 5,5,,
+Blabla halal,Saison 5,4,11/3/2012,"Blabla halal tes blablabla halal
+Blabla halal tes blabla halal
+
+Aujourd’hui j’ai décidé de m’informer,
+Je surfe sur Yahoo et j’allume la télé.
+On m’apprend que François a la braguette ouverte,
+Que si Nicolas perd il part à la retraite,
+
+Blabla halal tes blablabla halal
+Blabla halal tes blabla halal
+
+Souffle avec moi sur le feu
+Contre les vents dominants !
+Souffle et détourne les yeux
+De tous ces flashs aveuglants !
+
+Fuis cette voix qui dit d’avoir peur !
+Cette petite voix vient de l’intérieur
+Sors de ce puits sans fonds débiteur !
+Car tout l’intérêt est à l’extérieur
+
+Blabla halal tes blablabla halal
+Blabla halal tes blabla halal
+
+Désolé d’interrompre votre déjeuner
+Une alerte AFP vient juste de tomber
+La neige sera lourde et collante cette année,
+Je m’en vais de ce pouce vous le re-twitter
+
+Blabla halal tes blablabla halal
+Blabla halal tes blabla halal
+
+Souffle avec moi sur le feu
+Contre les vents dominants !
+Souffle et détourne les yeux
+De tous ces flashs aveuglants !
+
+Fuis cette voix qui dit d’avoir peur !
+Cette petite voix vient de l’intérieur.
+Sors de ce puits sans fonds débiteur !
+Car tout l’intérêt est à l’extérieur
+
+Solo goldman sax
+
+Souffle avec moi sur le feu
+Contre les vents dominants !
+Souffle et détourne les yeux
+De tous ces flashs aveuglants !
+
+Fuis cette voix qui dit d’avoir peur !
+Cette petite voix vient de l’intérieur.
+Sors de ce puits sans fonds débiteur !
+Car tout l’intérêt est à l’extérieur",https://www.youtube.com/watch?v=O6RhVS78DUo,,blabla-halal,Saison 5,5,,
+Les CRS tous avec nous,Saison 5,5,18/3/2012,"On était jeunes, on était fous
+On serait allés jusqu’au bout
+Pour la france
+En 47 tous communistes
+En 58 plutôt gaullistes
+Obédience
+Jusque-là ça avait un sens
+Le sens de la résistance
+Mais en 62 y’a Charonne
+A partir de là ça déconne
+
+Les crs, tous avec nous !
+Les crs, embrassez-vous !
+Les crs, main dans la main,
+Les crs, on est copains !
+Les crs ont un banquier,
+Les crs sont endettés,
+Les crs sont comme nous,
+Les crs sont des humains !
+Les crs vont à l’hosto,
+Les crs ont des gamins,
+Les crs ont un loyer,
+Les crs vont à l’école,
+Enfin, plus ou moins...
+
+On s’en est fait des sans-papiers
+Des enseignants, des ouvriers
+À Gandrange
+On s’en est farcis des jeunots
+Des syndicats, des metallos
+De Florange
+Et depuis la guerre d’Algérie
+Jusqu’au conflit de l’aciérie
+On se serait bien fait un communard
+Mais on est arrivés trop tard
+
+Les crs, tous avec nous !
+Les crs, embrassez-vous !
+Les crs, main dans la main,
+Les crs, on est copains !
+Les crs ont un banquier,
+Les crs sont endettés,
+Les crs sont comme nous,
+Les crs sont des humains !
+Les crs vont à l’hosto,
+Les crs ont des gamins,
+Les crs ont un loyer,
+Les crs vont à l’école,
+Enfin, plus ou moins...
+
+Matraque en haut, matraque en bas
+Bouclier gauche, bouclier droite
+Visière levée, visière baissée
+Et on gaze, on gaze, on gaze, on gaze, on gaze...",https://www.youtube.com/watch?v=jelLL8wfIkc,,les-crs-tous-avec-nous,Saison 5,5,,
+Les Souris et les Chats,Saison 5,6,25/3/2012,"Il était une fois des souris
+Qui avaient élu à leur tête
+Une bande de chats tout gris
+Qui avaient l’air plutôt honnêtes
+
+La première loi des chats tout gris
+Fut d’élargir les souricières
+Pour pouvoir choper les souris
+Sans se salir les pattes arrière
+
+Et les souris ne comprenaient pas
+Pourquoi la vie était devenue un enfer
+Non les souris ne comprenaient pas
+Pourquoi la vie était devenue un combat
+
+Les souris toutes rabougries
+Voulurent chasser les chats tout gris
+Alors elles votèrent massivement
+Pour une bande de chats tout blancs
+
+La première loi des chats tout blancs
+Qui avaient promis du changement
+Fut d’élargir les souricières
+Pour soulager leurs pattes avant
+
+Et les souris ne comprenaient pas
+Pourquoi la vie était devenue un enfer
+Non les souris ne comprenaient pas
+Pourquoi la vie était devenue un combat
+
+Les souris élurent pour changer
+Des chats moitié gris, moitié blancs
+Elles appelèrent ça « cohabiter »
+Quand une souris sortit du rang
+
+""Pourquoi dit-elle élire des chats ?
+On devrait élire des souris !""
+Les autres lui dirent : ""Scélérat !
+Sale communiste ! Va t’en d’ici !""
+
+Et les souris ne comprenaient pas
+Pourquoi la vie était devenue un enfer
+Non les souris ne comprenaient pas
+Pourquoi la vie était devenue un combat
+
+Et les souris ne comprenaient pas
+Pourquoi la vie était devenue un enfer
+Non les souris ne comprenaient pas
+Qu’elles se f’raient manger tant qu’elles vot’raient pour des chats !",https://www.youtube.com/watch?v=edfcxOE-84s,,les-souris-et-les-chats,Saison 5,5,,
+Super Chenille,Saison 5,7,1/4/2012,,https://www.youtube.com/watch?v=aRsJ5TT4C-Q,,super-chenille,Saison 5,5,,
+Lettre à France 2,Saison 5,8,8/4/2012,,https://www.youtube.com/watch?v=cEEpjebwTtg,,lettre-a-france-2,Saison 5,5,,
+Franz-O le perruquier,Saison 5,9,15/4/2012,,https://www.youtube.com/watch?v=455i4xOTQbM,,franz-o-le-perruquier,Saison 5,5,,
 Zeitgeist,Saison 5,10,22/4/2012,"The time has come, the game is over
 It’s coming on deeper and deeper
 
@@ -3459,19 +3655,94 @@ Is this left or is this right
 Says the Reaper to the Knight
 Pick and play your little pawn
 Soon it will be dawn
-Soon it will be dawn",https://www.youtube.com/watch?v=ecUwh70g95k,,zeitgeist,Saison 5,5,
-SWAP,Saison 5,11,29/4/2012,,https://www.youtube.com/watch?v=uqhWZqUbaWM,,swap,Saison 5,5,
-Angela,Saison 5,12,6/5/2012,,https://www.youtube.com/watch?v=s1c5bioUaZs,,angela,Saison 5,5,
-Dormirocho,Saison 5,13,13/5/2012,,https://www.youtube.com/watch?v=DE9ieLHXzKY,,dormirocho,Saison 5,5,
-Hippy End,Saison 5,14,20/5/2012,,https://www.youtube.com/watch?v=-6PRomm-_FE,,hippy-end,Saison 5,5,
-Bonne humeur en confinement,Saison du Confinement,1,22/3/2020,,https://www.youtube.com/watch?v=-dZwyWFQodI,,bonne-humeur-en-confinement,Saison du Confinement,9,
-Bluetousse,Saison du Confinement,2,29/3/2020,,https://www.youtube.com/watch?v=sFiNd3dYZAg&t=13s,,bluetousse,Saison du Confinement,9,
-"L'important dans tout ça, c'est la Dolce Vita",Saison du Confinement,3,5/4/2020,,https://www.youtube.com/watch?v=msIrjD0Cjac,,limportant-dans-tout-ca-cest-la-dolce-vita,Saison du Confinement,9,
-La Chenille du confinement,Saison du Confinement,4,12/4/2020,,https://www.youtube.com/watch?v=ch1XW5siyyA,,la-chenille-du-confinement,Saison du Confinement,9,
-Go Gringo !,Saison du Confinement,5,19/4/2020,,https://www.youtube.com/watch?v=hxaKWseF1UQ,,go-gringo,Saison du Confinement,9,
-"Si t'es content, envoie 8 200 200 !",Saison du Confinement,6,26/4/2020,,https://www.youtube.com/watch?v=cHDI1jEXTNk&t=23s,,si-tes-content-envoie-8-200-200,Saison du Confinement,9,
-Piscine Love à tous,Saison du Confinement,7,3/5/2020,,https://www.youtube.com/watch?v=2pWFFVg4hYs,,piscine-love-a-tous,Saison du Confinement,9,
-Le super-pouvoir de pouvoir marcher,Saison du Confinement,8,10/5/2020,,https://www.youtube.com/watch?v=w5Z9de8qlys,,le-super-pouvoir-de-pouvoir-marcher,Saison du Confinement,9,
+Soon it will be dawn",https://www.youtube.com/watch?v=ecUwh70g95k,,zeitgeist,Saison 5,5,,
+SWAP,Saison 5,11,29/4/2012,,https://www.youtube.com/watch?v=uqhWZqUbaWM,,swap,Saison 5,5,,
+Angela,Saison 5,12,6/5/2012,,https://www.youtube.com/watch?v=s1c5bioUaZs,,angela,Saison 5,5,,
+Dormirocho,Saison 5,13,13/5/2012,,https://www.youtube.com/watch?v=DE9ieLHXzKY,,dormirocho,Saison 5,5,,
+Hippy End,Saison 5,14,20/5/2012,"Braver les tempêtes et les orages
+Vaincre la foudre et le mauvais temps
+Prendre un bain de houle, mouiller sur la plage
+Recoiffer ses cheveux dans le vent
+Rappeler mon fabuleux voyage
+Dire à la mer quel est mon tourment
+Sourire à mon tour quand tout l'équipage
+Valse au bris du flot sur le safran
+
+Ailleurs
+Tout au bout de la route
+Arriver repartir
+Ailleurs
+Passer entre les gouttes
+Et se dire qu il y a pire
+Ailleurs
+Écoper dans la soute
+Penser à l'avenir
+Ailleurs ailleurs
+
+Hippy hippy hippy hippy hippy end (dirty old men)
+Hippy hippy hippy hippy hippy end (dirty old men)
+Hippy hippy hippy hippy hippy end (dirty old men)
+
+Louvoyer à la vue des nuages
+Suivre les pas d'un vieux cormoran
+Voir un nain courir le long du rivage
+Et brouter au loin les éléphants
+Qu'il en faut des larmes et du courage
+Pour défier la colère du trident
+Tant de Salonique, de Fès et Carthage
+Allument le phare de l'Occident
+
+Ailleurs
+Tout au bout de la route
+Arriver repartir
+Ailleurs
+Passer entre les gouttes
+Et se dire qu il y a pire
+Ailleurs
+Écoper dans la soute
+Penser à l'avenir
+Ailleurs ailleurs
+
+Hippy hippy hippy hippy hippy end (dirty old men)
+Hippy hippy hippy hippy hippy end (dirty old men)
+Hippy hippy hippy hippy hippy end (dirty old men)
+
+Laisser le passé dans le sillage
+Ainsi va l'eau belle dans l'océan
+Surfer sur les sites de piratage
+Y file y pète y suit le courant
+Taubira pas ce bon vieil adage
+Quand arrive Le Foll de Bassan
+La mer monte au bourg ça sent le naufrage
+À Moscou ici c'est le printemps
+
+Ailleurs
+Tout au bout de la route
+Arriver repartir
+Ailleurs
+Passer entre les gouttes
+Et se dire qu il y a pire
+Ailleurs
+Écoper dans la soute
+Penser à l'avenir
+Ailleurs ailleurs
+
+Hippy hippy hippy hippy hippy end (dirty old men)
+Hippy hippy hippy hippy hippy end (dirty old men)
+Hippy hippy hippy hippy hippy end (dirty old men)
+
+Braver les tempêtes et les orages
+Un reste de cheveux dans le vent
+Se dire qu'il est temps de tourner la page
+Cap aux quarantenaires rugissants !",https://www.youtube.com/watch?v=-6PRomm-_FE,,hippy-end,Saison 5,5,,
+Bonne humeur en confinement,Saison du Confinement,1,22/3/2020,,https://www.youtube.com/watch?v=-dZwyWFQodI,,bonne-humeur-en-confinement,Saison du Confinement,9,,
+Bluetousse,Saison du Confinement,2,29/3/2020,,https://www.youtube.com/watch?v=sFiNd3dYZAg&t=13s,,bluetousse,Saison du Confinement,9,,
+"L'important dans tout ça, c'est la Dolce Vita",Saison du Confinement,3,5/4/2020,,https://www.youtube.com/watch?v=msIrjD0Cjac,,limportant-dans-tout-ca-cest-la-dolce-vita,Saison du Confinement,9,,
+La Chenille du confinement,Saison du Confinement,4,12/4/2020,,https://www.youtube.com/watch?v=ch1XW5siyyA,,la-chenille-du-confinement,Saison du Confinement,9,,
+Go Gringo !,Saison du Confinement,5,19/4/2020,,https://www.youtube.com/watch?v=hxaKWseF1UQ,,go-gringo,Saison du Confinement,9,,
+"Si t'es content, envoie 8 200 200 !",Saison du Confinement,6,26/4/2020,,https://www.youtube.com/watch?v=cHDI1jEXTNk&t=23s,,si-tes-content-envoie-8-200-200,Saison du Confinement,9,,
+Piscine Love à tous,Saison du Confinement,7,3/5/2020,,https://www.youtube.com/watch?v=2pWFFVg4hYs,,piscine-love-a-tous,Saison du Confinement,9,,
+Le super-pouvoir de pouvoir marcher,Saison du Confinement,8,10/5/2020,,https://www.youtube.com/watch?v=w5Z9de8qlys,,le-super-pouvoir-de-pouvoir-marcher,Saison du Confinement,9,,
 Au Cinéma - chorale du Collège REVERDY (Sablé sur Sarthe - Marc Leroy),Cover,1,,"Je rentre chez moi, je sais pas quoi faire ce soir,
 Envie de rêver, besoin d'une histoire
 J'allume la télé, Jean-Marie Bigard,
@@ -3494,7 +3765,7 @@ I'd like to see a good movie
 Just you and me at UGC
 J'aimerais voir un film ce soir
 Juste toi et moi au cinéma
-Pour rêver, pour pleurer, voyager et s'aimer !",https://www.youtube.com/watch?v=5Wnna9CPakw,,au-cinema-chorale-du-college-reverdy-sable-sur-sarthe-marc-leroy,Cover,10,
+Pour rêver, pour pleurer, voyager et s'aimer !",https://www.youtube.com/watch?v=5Wnna9CPakw,,au-cinema-chorale-du-college-reverdy-sable-sur-sarthe-marc-leroy,Cover,10,,
 Bonne Humeur - par Nawak,Cover,2,,"On t'a connu t'étais partant, on t'a connu t'étais battant,
 On t'a connu rêveur, on t'a connu winner,
 On t'a connu t'étais looké, on t'a connu t'étais tatoué,
@@ -3525,22 +3796,22 @@ T'as par perdu ta bonne humeur, meur, meur, meur, meur
 Toujours le roi des déconneurs, neur, neur, neur, neur
 T'a pas perdu ta bonne humeuuur
 
-Bonne humeur à la piscine, Bonne humeur à la cantine, Bonne humeur chez le proctologue, Bonne humeur à la pétanque, Bonne humeur aux tournois de bridge, Bonne humeur aux enterrements, Bonne humeur dans l'escalier, Bonne humeur dans l'ambulance, Bonne humeur aux Urgences, Bonne humeur au Casino, Bonne humeur au Super U, Bonne humeur chez le boulanger, Bonne humeur devant la télé, Bonne humeur à la messe, Bonne humeur malgré ta toux, Bonne humeur, t'as l'nez bouché et tu t'en fous...",https://www.youtube.com/watch?v=-WtIZf7SQxQ,,bonne-humeur-par-nawak,Cover,10,
-Petit Cheminot - par La Chanson Punk du Dimanche,Cover,3,,,https://www.youtube.com/watch?v=YMve0eT8C4k,,petit-cheminot-par-la-chanson-punk-du-dimanche,Cover,10,
-Super Pouvoir d'Achat - par La Chanson Punk du Dimanche,Cover,4,,,https://www.youtube.com/watch?v=3NC2Hk9fpt8,,super-pouvoir-dachat-par-la-chanson-punk-du-dimanche,Cover,10,
-Thierry Henry - par La Chanson Punk du Dimanche,Cover,5,,,https://www.youtube.com/watch?v=idmT1Dg6QfQ,,thierry-henry-par-la-chanson-punk-du-dimanche,Cover,10,
-OGMan - par Elina,Cover,6,,,https://www.youtube.com/watch?v=wRq2xS1OXOU,,ogman-par-elina,Cover,10,
-Tu Votes - par mika (et son bébé),Cover,7,,,https://www.youtube.com/watch?v=yne0xCbEKJo,,tu-votes-par-mika-et-son-bebe,Cover,10,
-Bonne Humeur - par Barylu & Chamélia,Cover,8,,,https://www.youtube.com/watch?v=29FvjlSCkZc,,bonne-humeur-par-barylu-&-chamelia,Cover,10,
-Ô Barack - by Nana,Cover,9,,,https://www.youtube.com/watch?v=2sf11OvCJOA,,o-barack-by-nana,Cover,10,
-Cherche Encore - par Yohan Moignet,Cover,10,,,https://www.youtube.com/watch?v=F5_cBjmntRg,,cherche-encore-par-yohan-moignet,Cover,10,
-Pouvoir d'Achat - par Vazqe,Cover,11,,,https://www.youtube.com/watch?v=cduEZHaHGa4,,pouvoir-dachat-par-vazqe,Cover,10,
-Bonne Humeur - par Jean-Michel Fayard,Cover,12,,,https://www.youtube.com/watch?v=YqIv4e9RyF4,,bonne-humeur-par-jean-michel-fayard,Cover,10,
-8 200 200 - par Javer,Cover,13,,,https://www.youtube.com/watch?v=Cz2QFrSI2Lk,,8-200-200-par-javer,Cover,10,
-Piscine Love - par Javer,Cover,14,,,https://www.youtube.com/watch?v=CF6RfJRQf5o,,piscine-love-par-javer,Cover,10,
-Pouvoir d'Achat - par chanteurdudimanche,Cover,15,,,https://www.youtube.com/watch?v=DpuMI0Ff7Ts,,pouvoir-dachat-par-chanteurdudimanche,Cover,10,
-Bonne Humeur - par Les Matous Polonais,Cover,16,,,https://www.youtube.com/watch?v=beb5ZnzJUfE,,bonne-humeur-par-les-matous-polonais,Cover,10,
-Super Pouvoir d'Achat - par Claude Gelée Musique,Cover,17,,,https://www.youtube.com/watch?v=iR7s3rulkZY,,super-pouvoir-dachat-par-claude-gelee-musique,Cover,10,
+Bonne humeur à la piscine, Bonne humeur à la cantine, Bonne humeur chez le proctologue, Bonne humeur à la pétanque, Bonne humeur aux tournois de bridge, Bonne humeur aux enterrements, Bonne humeur dans l'escalier, Bonne humeur dans l'ambulance, Bonne humeur aux Urgences, Bonne humeur au Casino, Bonne humeur au Super U, Bonne humeur chez le boulanger, Bonne humeur devant la télé, Bonne humeur à la messe, Bonne humeur malgré ta toux, Bonne humeur, t'as l'nez bouché et tu t'en fous...",https://www.youtube.com/watch?v=-WtIZf7SQxQ,,bonne-humeur-par-nawak,Cover,10,,
+Petit Cheminot - par La Chanson Punk du Dimanche,Cover,3,,,https://www.youtube.com/watch?v=YMve0eT8C4k,,petit-cheminot-par-la-chanson-punk-du-dimanche,Cover,10,,
+Super Pouvoir d'Achat - par La Chanson Punk du Dimanche,Cover,4,,,https://www.youtube.com/watch?v=3NC2Hk9fpt8,,super-pouvoir-dachat-par-la-chanson-punk-du-dimanche,Cover,10,,
+Thierry Henry - par La Chanson Punk du Dimanche,Cover,5,,,https://www.youtube.com/watch?v=idmT1Dg6QfQ,,thierry-henry-par-la-chanson-punk-du-dimanche,Cover,10,,
+OGMan - par Elina,Cover,6,,,https://www.youtube.com/watch?v=wRq2xS1OXOU,,ogman-par-elina,Cover,10,,
+Tu Votes - par mika (et son bébé),Cover,7,,,https://www.youtube.com/watch?v=yne0xCbEKJo,,tu-votes-par-mika-et-son-bebe,Cover,10,,
+Bonne Humeur - par Barylu & Chamélia,Cover,8,,,https://www.youtube.com/watch?v=29FvjlSCkZc,,bonne-humeur-par-barylu-&-chamelia,Cover,10,,
+Ô Barack - by Nana,Cover,9,,,https://www.youtube.com/watch?v=2sf11OvCJOA,,o-barack-by-nana,Cover,10,,
+Cherche Encore - par Yohan Moignet,Cover,10,,,https://www.youtube.com/watch?v=F5_cBjmntRg,,cherche-encore-par-yohan-moignet,Cover,10,,
+Pouvoir d'Achat - par Vazqe,Cover,11,,,https://www.youtube.com/watch?v=cduEZHaHGa4,,pouvoir-dachat-par-vazqe,Cover,10,,
+Bonne Humeur - par Jean-Michel Fayard,Cover,12,,,https://www.youtube.com/watch?v=YqIv4e9RyF4,,bonne-humeur-par-jean-michel-fayard,Cover,10,,
+8 200 200 - par Javer,Cover,13,,,https://www.youtube.com/watch?v=Cz2QFrSI2Lk,,8-200-200-par-javer,Cover,10,,
+Piscine Love - par Javer,Cover,14,,,https://www.youtube.com/watch?v=CF6RfJRQf5o,,piscine-love-par-javer,Cover,10,,
+Pouvoir d'Achat - par chanteurdudimanche,Cover,15,,,https://www.youtube.com/watch?v=DpuMI0Ff7Ts,,pouvoir-dachat-par-chanteurdudimanche,Cover,10,,
+Bonne Humeur - par Les Matous Polonais,Cover,16,,,https://www.youtube.com/watch?v=beb5ZnzJUfE,,bonne-humeur-par-les-matous-polonais,Cover,10,,
+Super Pouvoir d'Achat - par Claude Gelée Musique,Cover,17,,,https://www.youtube.com/watch?v=iR7s3rulkZY,,super-pouvoir-dachat-par-claude-gelee-musique,Cover,10,,
 Miss France - par MFTLS,Cover,18,,"Ce soir c’est l’élection de Miss France
 Devant ta télé tu vas choisir
 La plus belle Miss de France
@@ -3582,7 +3853,7 @@ Miss France
 Tu parles en silence
 Miss France
 Bienvenue au Grenelle
-De la Beauté",https://www.youtube.com/watch?v=REgbkZ-N5lQ,,miss-france-par-mftls,Cover,10,
+De la Beauté",https://www.youtube.com/watch?v=REgbkZ-N5lQ,,miss-france-par-mftls,Cover,10,,
 Baba Bibi Bobo,Spéciale Hiver,1,23/6/2024,"Tous les cent ans ils nous reviennent
 Semant la haine et le chaos
 Le Roi des Morts et ses sirènes
@@ -3631,5 +3902,5 @@ Quand elle pleure, là dans le cœur des électeurs
 L G B T Q R S T
 Y'a rien de plus beau
 Que d'aimer tout haut
-Et qu'en paix de vivre",https://www.youtube.com/watch?v=dKDsGKh0-1c,,baba-bibi-bobo,Spéciale Hiver,11,checked
-,,,,,,,,,,
+Et qu'en paix de vivre",https://www.youtube.com/watch?v=dKDsGKh0-1c,,baba-bibi-bobo,Spéciale Hiver,11,checked,
+,,,,,,,,,,,

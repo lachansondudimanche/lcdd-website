@@ -18,10 +18,10 @@ export default async function NextConcertBanner() {
                 <p>
                     <TrackConcertClick
                         href={concert.bookingUrl}
-                        location="banner"
                         concertTitle={concert.title}
                         concertCity={concert.city}
                         concertDate={concert.date}
+                        concertSource="banner"
                         className="next-concert-link"
                         ariaLabel={`Plus d'infos pour ${concert.title}`}
                     >

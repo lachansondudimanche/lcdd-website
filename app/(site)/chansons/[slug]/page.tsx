@@ -1,6 +1,5 @@
 export const revalidate = 3600;
 
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import SongContent from "@/components/SongContent";
 import { getChansons } from "@/lib/site-data";
@@ -59,9 +58,9 @@ export default async function ChansonPage({
                         href={`/chansons/${previousSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson précédente : ${previousSong.title}`}
-                        song_title={previousSong.title}
-                        song_slug={previousSong.slug}
-                        source="navigation"
+                        songTitle={previousSong.title}
+                        songSlug={previousSong.slug}
+                        songSource="navigation"
                     >
                         ⏮️
                     </TrackSongClick>
@@ -70,9 +69,9 @@ export default async function ChansonPage({
                         href={`/chansons/${nextSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson suivante : ${nextSong.title}`}
-                        song_title={nextSong.title}
-                        song_slug={nextSong.slug}
-                        source="navigation"
+                        songTitle={nextSong.title}
+                        songSlug={nextSong.slug}
+                        songSource="navigation"
                     >
                         ⏭️
                     </TrackSongClick>
@@ -88,9 +87,11 @@ export default async function ChansonPage({
 
             <SongContent
                 title={chanson.title}
+                slug={chanson.slug}
                 lyrics={chanson.lyrics}
                 youtubeUrl={chanson.youtubeUrl}
                 hideTitle
+                source="song_page"
             />
         </main>
     );
