@@ -24,6 +24,7 @@ export default function TrackSongClick({
                 song_title,
                 song_slug,
                 source,
+                page_location: window.location.pathname,
             });
         }
     };
