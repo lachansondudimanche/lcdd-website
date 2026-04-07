@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SongContent from "@/components/SongContent";
 import { getChansons } from "@/lib/site-data";
+import TrackSongClick from "@/components/TrackSongClick";
 
 type Chanson = {
     slug: string;
@@ -54,21 +55,27 @@ export default async function ChansonPage({
         <main className="song-page">
             <section className="song-header-block">
                 <div className="song-title-row">
-                    <Link
+                    <TrackSongClick
                         href={`/chansons/${previousSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson précédente : ${previousSong.title}`}
+                        song_title={previousSong.title}
+                        song_slug={previousSong.slug}
+                        source="navigation"
                     >
                         ⏮️
-                    </Link>
+                    </TrackSongClick>
 
-                    <Link
+                    <TrackSongClick
                         href={`/chansons/${nextSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson suivante : ${nextSong.title}`}
+                        song_title={nextSong.title}
+                        song_slug={nextSong.slug}
+                        source="navigation"
                     >
                         ⏭️
-                    </Link>
+                    </TrackSongClick>
 
                     <h1>{chanson.title}</h1>
                 </div>

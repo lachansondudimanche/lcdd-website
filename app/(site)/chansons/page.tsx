@@ -2,6 +2,7 @@ export const revalidate = 3600;
 
 import Link from "next/link";
 import { getChansonsGroupedBySeason } from "@/lib/site-data";
+import TrackSongClick from "@/components/TrackSongClick";
 
 type Chanson = {
     slug: string;
@@ -38,19 +39,25 @@ export default async function ChansonsPage() {
                         <ul className="songs-list">
                             {group.songs.map((chanson) => (
                                 <li key={chanson.slug} className="songs-item">
-                                    <Link
+                                    <TrackSongClick
                                         href={`/chansons/${chanson.slug}`}
                                         className="song-play-button"
+                                        song_title={chanson.title}
+                                        song_slug={chanson.slug}
+                                        source="list"
                                     >
                                         <span className="song-play-icon">▶</span>
-                                    </Link>
+                                    </TrackSongClick>
 
-                                    <Link
+                                    <TrackSongClick
                                         href={`/chansons/${chanson.slug}`}
                                         className="songs-link"
+                                        song_title={chanson.title}
+                                        song_slug={chanson.slug}
+                                        source="list"
                                     >
                                         {chanson.title}
-                                    </Link>
+                                    </TrackSongClick>
                                 </li>
                             ))}
                         </ul>

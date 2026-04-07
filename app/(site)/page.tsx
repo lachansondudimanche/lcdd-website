@@ -1,8 +1,8 @@
 export const revalidate = 3600;
 
-import Link from "next/link";
 import SongContent from "@/components/SongContent";
 import { getChansons } from "@/lib/site-data";
+import TrackSongClick from "@/components/TrackSongClick";
 
 export default async function HomePage() {
     const chansons = await getChansons();
@@ -28,21 +28,27 @@ export default async function HomePage() {
         <main className="home-page">
             <section className="song-header-block">
                 <div className="song-title-row">
-                    <Link
+                    <TrackSongClick
                         href={`/chansons/${previousSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson précédente : ${previousSong.title}`}
+                        song_title={previousSong.title}
+                        song_slug={previousSong.slug}
+                        source="home"
                     >
                         ⏮️
-                    </Link>
+                    </TrackSongClick>
 
-                    <Link
+                    <TrackSongClick
                         href={`/chansons/${nextSong.slug}`}
                         className="song-nav-button"
                         aria-label={`Chanson suivante : ${nextSong.title}`}
+                        song_title={nextSong.title}
+                        song_slug={nextSong.slug}
+                        source="home"
                     >
                         ⏭️
-                    </Link>
+                    </TrackSongClick>
 
                     <h1>{chanson.title}</h1>
                 </div>
