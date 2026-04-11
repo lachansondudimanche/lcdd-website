@@ -12,7 +12,7 @@
     "buy_URL": "https://buy.stripe.com/test_aFadR91xUgGRf8H1Hlgw001"
   },
   {
-    "offer": "Producteur.rice du dimanche",
+    "offer": "La Bonne Humeur",
     "emoji": "👑",
     "price": "€25",
     "buy_URL": "https://buy.stripe.com/test_aFa28ra4q4Y93pZ2Lpgw002"
@@ -28,12 +28,6 @@
     "emoji": "🥳",
     "price": "€100",
     "buy_URL": "https://buy.stripe.com/test_14AeVd4K676he4D1Hlgw005"
-  },
-  {
-    "offer": "Une chanson collector",
-    "emoji": "🎥",
-    "price": "€1000",
-    "buy_URL": "https://buy.stripe.com/test_eVqdR9foK76h9On2Lpgw004"
   },
   {
     "offer": "Un concert privé",
