@@ -4,7 +4,22 @@ import TrackShopClick from "@/components/TrackShopClick";
 export const revalidate = 3600;
 
 function formatPrice(price: number) {
-    return new Intl.NumberFormat("fr-FR").format(price);
+    if (Number.isInteger(price)) {
+        return new Intl.NumberFormat("fr-FR").format(price);
+    }
+
+    const oneDecimal = Math.round(price * 10) === price * 10;
+
+    if (oneDecimal) {
+        return new Intl.NumberFormat("fr-FR", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+        }).format(price);
+    }
+
+    return new Intl.NumberFormat("fr-FR", {
+        maximumFractionDigits: 2,
+    }).format(price);
 }
 
 type BoutiqueItem = {

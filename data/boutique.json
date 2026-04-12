@@ -6,33 +6,27 @@
     "buy_URL": "https://buy.stripe.com/test_7sY9ATgsO3U54u30Dhgw000"
   },
   {
-    "offer": "La Pêche",
-    "emoji": "🍑",
+    "offer": "La Bonne Humeur",
+    "emoji": "🥳",
     "price": "€10",
     "buy_URL": "https://buy.stripe.com/test_aFadR91xUgGRf8H1Hlgw001"
   },
   {
-    "offer": "La Bonne Humeur",
-    "emoji": "👑",
-    "price": "€25",
-    "buy_URL": "https://buy.stripe.com/test_aFa28ra4q4Y93pZ2Lpgw002"
+    "offer": "La Pêche éternelle",
+    "emoji": "🍑",
+    "price": "€29.90",
+    "buy_URL": "https://buy.stripe.com/test_dRmbJ190mbmxd0zeu7gw006"
   },
   {
-    "offer": "Votre mot dans une chanson",
-    "emoji": "🎶",
-    "price": "€50",
-    "buy_URL": "https://buy.stripe.com/test_8x2bJ1dgCait3pZ4Txgw003"
-  },
-  {
-    "offer": "Un Joyeux anniversaire personnalisé",
-    "emoji": "🥳",
-    "price": "€100",
-    "buy_URL": "https://buy.stripe.com/test_14AeVd4K676he4D1Hlgw005"
+    "offer": "C'est très important",
+    "emoji": "🪥🦷",
+    "price": "€400",
+    "buy_URL": "https://buy.stripe.com/test_bJe7sLfoK9ep8Kjeu7gw007"
   },
   {
     "offer": "Un concert privé",
     "emoji": "🎹",
-    "price": "€10000",
+    "price": "€100000",
     "buy_URL": "https://ko-fi.com/lachansondudimanche"
   },
   {
