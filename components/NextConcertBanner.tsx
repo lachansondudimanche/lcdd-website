@@ -11,7 +11,7 @@ export default async function NextConcertBanner() {
     return (
         <section className="next-concert">
             <p>
-                Prochain concert le {concert.dateLabel} à {concert.city} ({concert.title})
+                Prochain concert le <strong>{concert.dateLabel}</strong> à <strong>{concert.city}</strong> ({concert.title})
             </p>
 
             {concert.bookingUrl && (
