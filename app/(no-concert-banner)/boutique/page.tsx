@@ -37,7 +37,7 @@ export default async function BoutiquePage() {
     return (
         <main className="shop-page">
             <p className="shop-text">
-                🎵 Bienvenue sur la boutique officielle de la Chanson du Dimanche ! Si une chanson vous a fait sourire, n'hésitez pas à faire passer le chapeau pour la <strong>Saison des 20 ans</strong>&nbsp;:
+                🎵 Bienvenue dans la boutique officielle de la Chanson du Dimanche ! Si une chanson vous a fait sourire, n'hésitez pas à faire passer le chapeau pour la <strong>Saison des 20 ans</strong>&nbsp;:
             </p>
 
             <div className="shop-kofi-logo-wrap">
