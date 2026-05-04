@@ -55,42 +55,6 @@ export default async function BoutiquePage() {
                     />
                 </TrackShopClick>
             </div>
-
-            <div className="shop-box">
-                {offers.map((offer) => (
-                    <div
-                        key={`${offer.offer}-${offer.price}`}
-                        className="shop-row"
-                    >
-                        <TrackShopClick
-                            href={offer.buyUrl}
-                            className="shop-play-button"
-                            ariaLabel={`Choisir l'offre ${offer.offer}`}
-                            shopOffer={offer.offer}
-                            shopPrice={offer.price}
-                            shopSource="button"
-                        >
-                            <span className="shop-play-icon">▶</span>
-                        </TrackShopClick>
-
-                        <TrackShopClick
-                            href={offer.buyUrl}
-                            className="shop-row-link"
-                            ariaLabel={`Choisir l'offre ${offer.offer}`}
-                            shopOffer={offer.offer}
-                            shopPrice={offer.price}
-                            shopSource="row"
-                        >
-                            <span className="shop-price">
-                                {formatPrice(offer.price)}&nbsp;€
-                            </span>
-                            <span className="shop-separator">-</span>
-                            <span className="shop-offer-name">{offer.offer}</span>
-                            <span className="shop-emoji">{offer.emoji}</span>
-                        </TrackShopClick>
-                    </div>
-                ))}
-            </div>
         </main>
     );
 }
