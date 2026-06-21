@@ -1,20 +1,15 @@
+import TouringContact from "@/components/TouringContact";
+
 export default function ContactPage() {
     return (
         <main className="contact-page">
             <section className="contact-content">
-                <p className="contact-text">
-                    Pour toute demande de concert, émission, interview, partenariat,
-                    chanson, message de pêche&nbsp;:
-                </p>
+                <TouringContact />
 
-                <p className="contact-email-line">
-                    <a
-                        href="mailto:lachansondudimanche@gmail.com"
-                        className="contact-email-link"
-                        aria-label="Envoyer un email à lachansondudimanche@gmail.com"
-                    >
-                        <span className="contact-email-icon">✉️</span>
-                        <span className="contact-email-text">lachansondudimanche@gmail.com</span>
+                <p className="touring-contact">
+                    Pour tout le reste&nbsp;:{" "}
+                    <a href="mailto:lachansondudimanche@gmail.com">
+                        lachansondudimanche@gmail.com
                     </a>
                 </p>
 

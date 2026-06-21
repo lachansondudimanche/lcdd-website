@@ -1,18 +1,22 @@
-import Image from "next/image";
+import TrackAdClick from "@/components/TrackAdClick";
 
 export default function AdBanner970() {
     return (
         <section className="ad-slot">
-            <div className="ad-slot-inner">
-                {/* Emplacement publicité 970 × 250 */}
+            <TrackAdClick
+                href="/concerts"
+                className="ad-slot-inner"
+                ariaLabel="Voir les concerts"
+                adName="tournee-autopromo"
+            >
                 <img
                     src="/images/lheureuxtour.jpg"
-                    alt="Bannière"
+                    alt="Bannière tournée — voir les concerts"
                     width={970}
                     height={250}
                     style={{ width: "100%", height: "auto" }}
                 />
-            </div>
+            </TrackAdClick>
         </section>
     );
 }

@@ -199,6 +199,12 @@ iframe {
   text-decoration: underline;
 }
 
+.touring-contact {
+  margin: 16px 0 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 /* hover : souligne tout le texte sauf la flèche */
 /* .next-concert-link:hover .next-concert-text,
 .next-concert-link:focus-visible .next-concert-text {
