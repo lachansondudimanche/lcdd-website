@@ -1473,19 +1473,20 @@
     "spotifyUrl": "",
     "slug": "baba-bibi-bobo",
     "seasonName": "Spéciale Hiver",
-    "seasonOrder": 11,
-    "isHomeFeatured": true
+    "seasonOrder": 11
   },
   {
-    "title": "",
+    "title": "L'Heureux Tour 2027",
     "season": "",
     "episode": "",
     "date": "",
     "lyrics": "",
-    "youtubeUrl": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mhpk_XdwFgQ",
     "spotifyUrl": "",
-    "slug": "",
+    "slug": "lheureux-tour-2027",
     "seasonName": "",
-    "seasonOrder": ""
+    "seasonOrder": "",
+    "isHomeFeatured": true,
+    "isTeaser": true
   }
 ]

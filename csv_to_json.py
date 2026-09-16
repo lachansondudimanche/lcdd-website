@@ -20,6 +20,7 @@ BOOLEAN_FIELDS = {
     "isHighlighted",
     "isHomeFeatured",
     "isHidden",
+    "isTeaser",
 }
 
 OPTIONAL_EMPTY_FIELDS_TO_DROP = {
@@ -189,6 +190,14 @@ def convert_file(csv_filename):
 
             # filtrage des chansons cachées
             if csv_filename == "chansons.csv" and converted_row.get("isHidden", False):
+                # isHidden retire complètement la ligne du JSON : on le
+                # signale explicitement pour éviter qu'une case cochée par
+                # erreur (ex: en même temps que isHomeFeatured/isTeaser)
+                # ne fasse disparaître une chanson en silence.
+                print(
+                    f"  ATTENTION: '{converted_row.get('title') or '(sans titre)'}' "
+                    f"a isHidden coché -> exclue de {json_filename}"
+                )
                 continue
 
             rows.append(converted_row)

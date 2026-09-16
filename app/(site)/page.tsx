@@ -13,42 +13,59 @@ export default async function HomePage() {
         return <p>Aucune chanson mise en avant pour l’accueil.</p>;
     }
 
-    const index = chansonsAvecSlug.findIndex((c) => c.slug === chanson.slug);
+    // Les teasers ne font pas partie du cycle précédent/suivant : on les
+    // exclut de la liste utilisée pour naviguer.
+    const chansonsNavigables = chansonsAvecSlug.filter((c) => !c.isTeaser);
 
-    const previousIndex =
-        index === 0 ? chansonsAvecSlug.length - 1 : index - 1;
+    let previousSong = null;
+    let nextSong = null;
 
-    const nextIndex =
-        index === chansonsAvecSlug.length - 1 ? 0 : index + 1;
+    if (!chanson.isTeaser) {
+        const index = chansonsNavigables.findIndex(
+            (c) => c.slug === chanson.slug
+        );
 
-    const previousSong = chansonsAvecSlug[previousIndex];
-    const nextSong = chansonsAvecSlug[nextIndex];
+        if (index !== -1) {
+            const previousIndex =
+                index === 0 ? chansonsNavigables.length - 1 : index - 1;
+
+            const nextIndex =
+                index === chansonsNavigables.length - 1 ? 0 : index + 1;
+
+            previousSong = chansonsNavigables[previousIndex];
+            nextSong = chansonsNavigables[nextIndex];
+        }
+    }
 
     return (
         <main className="home-page">
             <section className="song-header-block">
                 <div className="song-title-row">
-                    <TrackSongClick
-                        href={`/chansons/${previousSong.slug}`}
-                        className="song-nav-button"
-                        aria-label={`Chanson précédente : ${previousSong.title}`}
-                        songTitle={previousSong.title}
-                        songSlug={previousSong.slug}
-                        songSource="home"
-                    >
-                        ⏮️
-                    </TrackSongClick>
+                    {previousSong && nextSong && (
+                        <>
+                            <TrackSongClick
+                                href={`/chansons/${previousSong.slug}`}
+                                className="song-nav-button"
+                                aria-label={`Chanson précédente : ${previousSong.title}`}
+                                songTitle={previousSong.title}
+                                songSlug={previousSong.slug}
+                                songSource="home"
+                            >
+                                ⏮️
+                            </TrackSongClick>
 
-                    <TrackSongClick
-                        href={`/chansons/${nextSong.slug}`}
-                        className="song-nav-button"
-                        aria-label={`Chanson suivante : ${nextSong.title}`}
-                        songTitle={nextSong.title}
-                        songSlug={nextSong.slug}
-                        songSource="home"
-                    >
-                        ⏭️
-                    </TrackSongClick>
+                            <TrackSongClick
+                                href={`/chansons/${nextSong.slug}`}
+                                className="song-nav-button"
+                                aria-label={`Chanson suivante : ${nextSong.title}`}
+                                songTitle={nextSong.title}
+                                songSlug={nextSong.slug}
+                                songSource="home"
+                            >
+                                ⏭️
+                            </TrackSongClick>
+                        </>
+                    )}
 
                     <h1>{chanson.title}</h1>
                 </div>
