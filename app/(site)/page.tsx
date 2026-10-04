@@ -8,7 +8,11 @@ import TrackSongClick from "@/components/TrackSongClick";
 // direction donnée (+1 ou -1), en sautant par-dessus les teasers et en
 // bouclant sur la liste. Fonctionne que `chanson` lui-même soit un teaser
 // ou une vraie chanson.
-function findAdjacentNavigableSong(allSongs, fromIndex, direction) {
+function findAdjacentNavigableSong<T extends { isTeaser?: boolean }>(
+    allSongs: T[],
+    fromIndex: number,
+    direction: 1 | -1
+): T | null {
     const total = allSongs.length;
 
     for (let steps = 1; steps <= total; steps += 1) {
