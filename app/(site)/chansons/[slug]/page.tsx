@@ -16,6 +16,27 @@ type Chanson = {
     isTeaser?: boolean;
 };
 
+// Depuis `fromIndex`, cherche la chanson navigable la plus proche dans la
+// direction donnée (+1 ou -1), en sautant par-dessus les teasers et en
+// bouclant sur la liste. Fonctionne que la chanson courante soit elle-même
+// un teaser ou une vraie chanson.
+function findAdjacentNavigableSong(
+    allSongs: Chanson[],
+    fromIndex: number,
+    direction: 1 | -1
+): Chanson | null {
+    const total = allSongs.length;
+
+    for (let steps = 1; steps <= total; steps += 1) {
+        const index = (fromIndex + direction * steps + total) % total;
+        if (!allSongs[index].isTeaser) {
+            return allSongs[index];
+        }
+    }
+
+    return null;
+}
+
 export async function generateStaticParams() {
     const chansons: Chanson[] = await getChansons();
 
@@ -45,30 +66,8 @@ export default async function ChansonPage({
 
     const chanson = chansons[index];
 
-    // Les teasers ne font pas partie du cycle précédent/suivant : on les
-    // exclut de la liste utilisée pour naviguer, et on n'affiche pas les
-    // flèches quand la page courante est elle-même un teaser.
-    const chansonsNavigables = chansons.filter((c) => !c.isTeaser);
-
-    let previousSong = null;
-    let nextSong = null;
-
-    if (!chanson.isTeaser) {
-        const navIndex = chansonsNavigables.findIndex(
-            (item) => item.slug === slug
-        );
-
-        if (navIndex !== -1) {
-            const previousIndex =
-                navIndex === 0 ? chansonsNavigables.length - 1 : navIndex - 1;
-
-            const nextIndex =
-                navIndex === chansonsNavigables.length - 1 ? 0 : navIndex + 1;
-
-            previousSong = chansonsNavigables[previousIndex];
-            nextSong = chansonsNavigables[nextIndex];
-        }
-    }
+    const previousSong = findAdjacentNavigableSong(chansons, index, -1);
+    const nextSong = findAdjacentNavigableSong(chansons, index, 1);
 
     return (
         <main className="song-page">
@@ -103,7 +102,7 @@ export default async function ChansonPage({
                     <h1>{chanson.title}</h1>
                 </div>
 
-                {chanson.seasonName && (
+                {chanson.seasonName && !chanson.isTeaser && (
                     <p className="song-season">{chanson.seasonName}</p>
                 )}
 

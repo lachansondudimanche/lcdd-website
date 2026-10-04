@@ -4,6 +4,23 @@ import SongContent from "@/components/SongContent";
 import { getChansons } from "@/lib/site-data";
 import TrackSongClick from "@/components/TrackSongClick";
 
+// Depuis `fromIndex`, cherche la chanson navigable la plus proche dans la
+// direction donnée (+1 ou -1), en sautant par-dessus les teasers et en
+// bouclant sur la liste. Fonctionne que `chanson` lui-même soit un teaser
+// ou une vraie chanson.
+function findAdjacentNavigableSong(allSongs, fromIndex, direction) {
+    const total = allSongs.length;
+
+    for (let steps = 1; steps <= total; steps += 1) {
+        const index = (fromIndex + direction * steps + total) % total;
+        if (!allSongs[index].isTeaser) {
+            return allSongs[index];
+        }
+    }
+
+    return null;
+}
+
 export default async function HomePage() {
     const chansons = await getChansons();
     const chansonsAvecSlug = chansons.filter((c) => c.slug);
@@ -13,29 +30,14 @@ export default async function HomePage() {
         return <p>Aucune chanson mise en avant pour l’accueil.</p>;
     }
 
-    // Les teasers ne font pas partie du cycle précédent/suivant : on les
-    // exclut de la liste utilisée pour naviguer.
-    const chansonsNavigables = chansonsAvecSlug.filter((c) => !c.isTeaser);
+    const index = chansonsAvecSlug.findIndex((c) => c.slug === chanson.slug);
 
-    let previousSong = null;
-    let nextSong = null;
-
-    if (!chanson.isTeaser) {
-        const index = chansonsNavigables.findIndex(
-            (c) => c.slug === chanson.slug
-        );
-
-        if (index !== -1) {
-            const previousIndex =
-                index === 0 ? chansonsNavigables.length - 1 : index - 1;
-
-            const nextIndex =
-                index === chansonsNavigables.length - 1 ? 0 : index + 1;
-
-            previousSong = chansonsNavigables[previousIndex];
-            nextSong = chansonsNavigables[nextIndex];
-        }
-    }
+    const previousSong = findAdjacentNavigableSong(
+        chansonsAvecSlug,
+        index,
+        -1
+    );
+    const nextSong = findAdjacentNavigableSong(chansonsAvecSlug, index, 1);
 
     return (
         <main className="home-page">
@@ -70,7 +72,7 @@ export default async function HomePage() {
                     <h1>{chanson.title}</h1>
                 </div>
 
-                {chanson.seasonName && (
+                {chanson.seasonName && !chanson.isTeaser && (
                     <p className="song-season">{chanson.seasonName}</p>
                 )}
             </section>
